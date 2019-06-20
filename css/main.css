@@ -15,24 +15,15 @@ body {
 }
 
 #title_image {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100px;
+  background-size: 200px;
   background-image: url('../icons/logo.png');
-}
-
-.rotating {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 120px;
-    height: 120px;
-    margin:-60px 0 0 -60px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
