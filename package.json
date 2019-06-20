@@ -21,7 +21,9 @@
     "electron": "^5.0.4"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "list.js": "^1.5.0"
+    "ejs-electron": "^2.0.3",
+    "fs": "0.0.1-security",
+    "list.js": "^1.5.0",
+    "request": "^2.88.0"
   }
 }
