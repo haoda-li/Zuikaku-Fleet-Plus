@@ -1,0 +1,23 @@
+{
+  "name": "kancolle-fleet-plus",
+  "version": "1.0.0",
+  "description": "Electron based KanColle Wiki app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihd1003/KanColle-Fleet-Plus.git"
+  },
+  "author": "yurina!",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lihd1003/KanColle-Fleet-Plus/issues"
+  },
+  "homepage": "https://github.com/lihd1003/KanColle-Fleet-Plus#readme",
+  "devDependencies": {
+    "electron": "^5.0.4"
+  }
+}
