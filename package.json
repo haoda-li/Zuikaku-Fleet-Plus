@@ -19,5 +19,9 @@
   "homepage": "https://github.com/lihd1003/KanColle-Fleet-Plus#readme",
   "devDependencies": {
     "electron": "^5.0.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "list.js": "^1.5.0"
   }
 }
