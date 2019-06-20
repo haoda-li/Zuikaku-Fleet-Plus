@@ -8,9 +8,18 @@
 }
 
 .subtitle {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 400;
   line-height: 1em;
   letter-spacing: 1.5;
   color: orange;
+}
+
+.white-text {
+  color: white;
+}
+
+.demo-card-square.mdl-card {
+  width: 480px;
+  height: 320px;
 }
