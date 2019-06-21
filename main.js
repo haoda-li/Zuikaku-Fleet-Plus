@@ -15,7 +15,7 @@ function createWindow() {
 
   win.maximize()
   win.removeMenu()
-  win.loadFile('index.html')
+  win.loadFile('./page/index.html')
 
   win.on('closed', () => {
     win = null

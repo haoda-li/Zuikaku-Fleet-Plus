@@ -1,3 +1,10 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url("https://images7.alphacoders.com/729/thumb-1920-729345.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+
 .title {
   font-family: Roboto;
   font-weight: 700;
@@ -22,4 +29,8 @@
 .grid-space {
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.mdl-layout__header--transparent {
+  color: white;
 }
