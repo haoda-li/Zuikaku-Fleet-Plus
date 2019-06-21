@@ -63,7 +63,7 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  background-color: rgba(255,255,255, 0.5);
+  background-color: rgba(255,255,255, 0.7);
 }
 .demo-card-image > .mdl-card__actions {
   padding: 16px;
