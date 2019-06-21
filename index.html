@@ -17,22 +17,27 @@
 </head>
 
 <body>
-  <script>
-    getBackground()
-  </script>
   <div class="mdl-layout mdl-js-layout">
     <main class="mdl-layout__content">
-      <div class="mdl-grid">
+
+      <!-- HEADER -->
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title title-text">ZUIKAKU FLEET PLUS</span>
+        </div>
+      </header>
+
+
+      <div class="mdl-grid mdl-grid--no-spacing">
         <div class="mdl-cell mdl-cell--1-col"></div>
         <div class="mdl-cell--middle mdl-cell mdl-cell--10-col" id="main-div">
           <div id="title_div">
-            <div id="title_image" class="rotating"></div>
-            <span class="title">舰Colle，始まる！</span>
-            <span class="subtitle">KanColle Fleet +</span>
+            <center><div id="title_image" class="rotating"></div></center>
           </div>
         </div>
         <div class="mdl-cell mdl-cell--1-col"></div>
       </div>
+      <!--/ HEADER -->
 
       <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--1-col"></div>
@@ -60,6 +65,7 @@
   <div id="bg-button">
     <span class="white-text">Powered By Wallpaper Abyss</span>
     <button class="mdl-button mdl-js-button white-text" onclick="getBackground()">
+      <i class="material-icons">filter</i>
       更换壁纸
     </button>
 
