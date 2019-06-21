@@ -1,6 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url("https://images7.alphacoders.com/729/thumb-1920-729345.jpg");
   background-position: top center;
   background-size: cover;
@@ -9,35 +8,12 @@ body {
 #title_image {
   display: inline-block;
   margin: 20px;
-  height: 100px;
-  width: 100px;
+  height: 210px;
+  width: 510px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url('../icons/logo.png');
-  -webkit-animation: spin 8s linear infinite;
-  -moz-animation: spin 8s linear infinite;
-  animation: spin 8s linear infinite;
-
-}
-
-@-moz-keyframes spin {
-  100% {
-    -moz-transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+  background-image: url('../icons/logo-text.png');
 }
 
 #bg-button {

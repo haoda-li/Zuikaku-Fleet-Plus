@@ -16,8 +16,7 @@ const getBackground = () => {
       image_url = data.wallpapers[Math.floor(Math.random() * 30)].url_image;
       $("#bg-link").attr("href", image_url)
       $('body').css("background-image",
-                    'linear-gradient(rgba(0, 0, 0, 0.5),' +
-                    ' rgba(0, 0, 0, 0.7)), ' +
+                    'linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),' +
                     'url(' + image_url + ')')
     }
   )
