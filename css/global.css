@@ -19,7 +19,7 @@
   color: white;
 }
 
-.demo-card-square.mdl-card {
-  width: 480px;
-  height: 320px;
+.grid-space {
+  margin-left: 100px;
+  margin-right: 100px;
 }

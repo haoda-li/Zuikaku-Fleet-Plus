@@ -1,34 +1,43 @@
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.7)),
+      rgba(0, 0, 0, 0.7)),
     url("https://images7.alphacoders.com/729/thumb-1920-729345.jpg");
   background-position: top center;
   background-size: cover;
 }
 
-#main-div {
-  margin-top: 50px;
-}
-
-#title_div {
-  align-items: baseline;
-}
-
 #title_image {
+  display: inline-block;
+  margin: 20px;
   height: 200px;
   width: 200px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200px;
   background-image: url('../icons/logo.png');
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
+  -webkit-animation: spin 8s linear infinite;
+  -moz-animation: spin 8s linear infinite;
+  animation: spin 8s linear infinite;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 #bg-button {
   position: fixed;
@@ -39,4 +48,43 @@ body {
 
 .title-text {
   letter-spacing: 0;
+}
+
+.demo-card-image.mdl-card {
+  margin: 15px;
+  display: inline-block;
+  width: 96%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: rgba(255,255,255, 0.5);
+}
+.demo-card-image > .mdl-card__actions {
+  padding: 16px;
+  background: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+.mdl-card__title {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 3;
+}
+
+.section-text {
+  margin-left: 100px;
+}
+
+.section-icon {
+  width: 100px;
 }
