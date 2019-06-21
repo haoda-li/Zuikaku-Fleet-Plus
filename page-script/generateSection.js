@@ -17,3 +17,5 @@ const generateSection = (name, image) => {
 
 generateSection("装备图鉴", "arma")
 generateSection("舰娘图鉴", "fleet")
+generateSection("任务列表", "mission")
+generateSection("远征列表", "expedition")

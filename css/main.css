@@ -9,15 +9,16 @@ body {
 #title_image {
   display: inline-block;
   margin: 20px;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 200px;
+  background-size: cover;
   background-image: url('../icons/logo.png');
   -webkit-animation: spin 8s linear infinite;
   -moz-animation: spin 8s linear infinite;
   animation: spin 8s linear infinite;
+
 }
 
 @-moz-keyframes spin {
@@ -48,6 +49,10 @@ body {
 
 .title-text {
   letter-spacing: 0;
+  display: inline-block;
+  color: white;
+  position: relative;
+  top: -40px;
 }
 
 .demo-card-image.mdl-card {
