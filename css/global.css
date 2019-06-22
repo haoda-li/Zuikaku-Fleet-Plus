@@ -1,6 +1,6 @@
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
-    url("https://images7.alphacoders.com/729/thumb-1920-729345.jpg");
+    url("../assets/bgDefault.jpg");
   background-position: top center;
   background-size: cover;
 }

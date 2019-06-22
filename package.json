@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "ejs-electron": "^2.0.3",
+    "electron-download-manager": "^2.3.0",
     "fs": "0.0.1-security",
     "list.js": "^1.5.0",
     "request": "^2.88.0"

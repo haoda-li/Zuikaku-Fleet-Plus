@@ -16,8 +16,6 @@
   <!-- Addtional -->
   <link rel="stylesheet" href="../css/global.css" />
   <link rel="stylesheet" href="../css/main.css" />
-  <script src="../page-script/index.js"></script>
-
 </head>
 
 <body>
@@ -44,10 +42,18 @@
     <a href="./about.html" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
       <i class="white-text material-icons">color_lens</i>
     </a>
+    <button onclick="saveBackground()" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+      <i class="white-text material-icons">save_alt</i>
+    </butoon>
     <button onclick="getBackground()" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
       <i class="white-text material-icons">refresh</i>
     </button>
   </div>
+  <script src="../page-script/global.js"></script>
+  <script type="text/javascript">
+    generateToast()
+  </script>
+  <script src="../page-script/wallpaperManage.js"></script>
 </body>
 
 </html>

@@ -1,8 +1,10 @@
 const { app, BrowserWindow } = require('electron');
+const DownloadManager = require("electron-download-manager");
 
 // get global variables
 global.wallpaper = require('./electron-module/authManage.js').getWallpaperAuth();
-
+DownloadManager.register({
+  downloadFolder: "./wallpapers"});
 let win;
 
 function createWindow() {
@@ -15,7 +17,7 @@ function createWindow() {
   })
 
   win.maximize()
-  win.removeMenu()
+  // win.removeMenu()
   win.loadFile('./page/index.html')
 
   win.on('closed', () => {

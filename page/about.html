@@ -11,20 +11,14 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-orange.min.css" />
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <script src="https://kit.fontawesome.com/98fa07784c.js"></script>
 
   <!-- Addtional -->
   <link rel="stylesheet" href="../css/global.css" />
+  <script src="../page-script/global.js"></script>
 </head>
 
 <body>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
-    <script src="../page-script/generateHeader.js"></script>
-    <script type="text/javascript">
-      generateHeader("About")
-    </script>
-
     <main class="mdl-layout__content">
       <div class="mdl-grid">
         <div class="grid-space mdl-cell--middle mdl-cell mdl-cell--12-col" id="main-div">
@@ -34,13 +28,14 @@
       <!--/ HEADER -->
 
       <div class="mdl-grid grid-space" id="sections">
-        
-
-
       </div>
 
     </main>
   </div>
+  <script type="text/javascript">
+    generateHeader("Setting")
+    generateToast()
+  </script>
 </body>
 
 </html>
