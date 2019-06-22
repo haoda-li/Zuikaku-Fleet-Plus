@@ -10,12 +10,7 @@ const updateBGSettings = (property, value) => {
     }
   }
   info.wallpaper[property] = value;
-  try {
-    fs.writeFileSync("./settings/settings.json", JSON.stringify(info));
-  } catch (error) {
-    fs.mkdir("./settings");
-    fs.writeFileSync("./settings/settings.json", JSON.stringify(info));
-  }
+  fs.writeFileSync("./settings/settings.json", JSON.stringify(info));
 }
 
 const getBGSettings = () => {

@@ -3,9 +3,22 @@ const {
   BrowserWindow
 } = require('electron');
 const DownloadManager = require("electron-download-manager");
-
+const fs = require('fs')
 // get global variables
 global.wallpaperAuth = require('./electron-module/authManage.js').getWallpaperAuth();
+
+// make necessary folders
+try {
+  fs.readdirSync("./settings");
+} catch {
+  fs.mkdirSync("./settings");
+}
+
+try {
+  fs.readdirSync("./wallpapers");
+} catch {
+  fs.mkdirSync("./wallpapers");
+}
 
 DownloadManager.register({
   downloadFolder: "./wallpapers"
