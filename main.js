@@ -1,10 +1,16 @@
-const { app, BrowserWindow } = require('electron');
+const {
+  app,
+  BrowserWindow
+} = require('electron');
 const DownloadManager = require("electron-download-manager");
 
 // get global variables
-global.wallpaper = require('./electron-module/authManage.js').getWallpaperAuth();
+global.wallpaperAuth = require('./electron-module/authManage.js').getWallpaperAuth();
+
 DownloadManager.register({
-  downloadFolder: "./wallpapers"});
+  downloadFolder: "./wallpapers"
+});
+
 let win;
 
 function createWindow() {

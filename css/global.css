@@ -1,3 +1,4 @@
+/* Background */
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9),
                                     rgba(0, 0, 0, 0.8),
@@ -7,6 +8,8 @@ body {
   background-size: cover;
 }
 
+
+/* Text */
 .title {
   font-family: Roboto;
   font-weight: 700;
@@ -28,15 +31,23 @@ body {
   color: white;
 }
 
-.grid-space {
-  margin-left: 100px;
-  margin-right: 100px;
+.grey-text {
+  color: dimgrey;
 }
 
+
+/* MDL components */
 .mdl-layout__header--transparent {
   color: white;
 }
 
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
   color: dimgrey;
+}
+
+
+/* Others */
+.grid-space {
+  margin-left: 100px;
+  margin-right: 100px;
 }

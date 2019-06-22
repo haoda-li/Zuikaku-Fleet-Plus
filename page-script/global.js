@@ -1,3 +1,5 @@
+const shell = require('electron').shell;
+
 const generateHeader = (name) => {
   const header = $(
     '<header class="mdl-layout__header mdl-layout__header--transparent">' +
@@ -29,4 +31,8 @@ const generateToast = () => {
       '</div>'
     )
   )
+}
+
+const externalLink = (url) => {
+  shell.openExternal(url);
 }

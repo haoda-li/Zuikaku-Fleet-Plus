@@ -14,34 +14,56 @@
 
   <!-- Addtional -->
   <link rel="stylesheet" href="../css/global.css" />
-  <script src="../page-script/global.js"></script>
+  <link rel="stylesheet" href="../css/settings.css" />
 </head>
 
 <body>
+  <script src="../page-script/global-start.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <main class="mdl-layout__content">
       <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
         <div class="mdl-tabs__tab-bar">
-          <a href="#bg-panel" class="mdl-tabs__tab is-active white-text">替换壁纸 | Background</a>
+          <a href="#bg-panel" class="mdl-tabs__tab is-active white-text">壁纸 | Background</a>
           <a href="#about-panel" class="mdl-tabs__tab white-text">关于 | About</a>
 
         </div>
 
         <div class="mdl-tabs__panel is-active" id="bg-panel">
           <div class="mdl-grid grid-space" id="sections">
-            <div class="mdl-cell mdl-cell--4-col">
-              <h2 class="white-text">选项</h2>
-              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="bg-random">
-                <input type="checkbox" id="bg-random" class="mdl-checkbox__input" checked>
-                <span class="white-text mdl-checkbox__label">使用随机壁纸</span>
-              </label>
+            <div class="mdl-cell mdl-cell--3-col">
+              <h4 class="white-text">在线壁纸</h4>
               <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="bg-online">
-                <input type="checkbox" id="bg-online" class="mdl-checkbox__input" checked>
+                <input type="checkbox" id="bg-online" class="mdl-checkbox__input" onclick="setOffline()">
                 <span class="white-text mdl-checkbox__label">使用网络源获取壁纸</span>
               </label>
+              <br><br>
+              <p class="white-text">在线壁纸由 The Wallpaper Abyss API 提供</p>
+              <p class="white-text">Random Wallpaper powered By
+                <button class="mdl-button mdl-js-button mdl-button--accent" onclick="externalLink('https://wall.alphacoders.com')">
+                  Wallpaper Abyss<i class="material-icons">link</i>
+                </button>
+              </p>
+              <p class="white-text">获取
+                <button class="mdl-button mdl-js-button mdl-button--accent" onclick="externalLink('https://wall.alphacoders.com/api.php')">
+                  API KEY<i class="material-icons">link</i>
+                </button>
+
+              </p>
+              <p class="white-text">
+                当前 API KEY ： <span class="grey-text" id="current_id"></span>
+              </p>
+              <p class="white-text">更换API KEY</p>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input white-text" type="text" id="new_API">
+                <label class="mdl-textfield__label grey-text" for="new_API">New API Key</label>
+              </div>
+              <button onclick="updateAuth()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                确认
+              </button>
             </div>
-            <div class="mdl-cell mdl-cell--8-col">
-              <h2 class="white-text">选择壁纸</h2>
+            <div class="mdl-cell mdl-cell--9-col" id="local-wallpapers">
+              <h4 class="white-text">本地壁纸</h4>
+
             </div>
           </div>
 
@@ -54,10 +76,18 @@
 
     </main>
   </div>
+  <script src="../page-script/global.js"></script>
+
   <script type="text/javascript">
     generateHeader("Settings")
-    generateToast()
+    generateToast();
+    $('#current_id').text(require('electron')
+                            .remote.require('./electron-module/authManage.js')
+                            .getWallpaperAuth()
+                          );
   </script>
+  <script src="../page-script/settings.js"></script>
+
 </body>
 
 </html>

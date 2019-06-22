@@ -1,0 +1,11 @@
+.card-image {
+  cursor: pointer;
+  margin: 15px;
+  display: inline-block;
+  width: 384px;
+  height: 216px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: rgba(255,255,255, 0.7);
+}
