@@ -8,7 +8,15 @@ const updateWallpaperAuth = (s) => {
     info = {}
   }
   info.wallpaper = s;
-  fs.writeFileSync("./settings/auth.json", JSON.stringify(info))
+
+  try {
+    fs.writeFileSync("./settings/auth.json", JSON.stringify(info));
+  } catch (error) {
+    fs.mkdir("./settings");
+    fs.writeFileSync("./settings/auth.json", JSON.stringify(info));
+  }
+
+
 }
 
 const getWallpaperAuth = () => {
