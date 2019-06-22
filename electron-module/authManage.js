@@ -3,7 +3,7 @@ const fs =require("fs")
 const updateWallpaperAuth = (s) => {
   let info;
   try {
-    info = JSON.parse(fs.readFileSync("./auth.json"))
+    info = JSON.parse(fs.readFileSync("../settings/auth.json"))
   } catch (error) {
     info = {}
   }
@@ -13,7 +13,7 @@ const updateWallpaperAuth = (s) => {
 
 const getWallpaperAuth = () => {
   try {
-    return JSON.parse(fs.readFileSync("./auth.json")).wallpaper;
+    return JSON.parse(fs.readFileSync("./settings/auth.json")).wallpaper;
   } catch (error) {
     return null;
   }
