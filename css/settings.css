@@ -19,3 +19,8 @@
   border-radius: 50%;
   cursor:pointer;
 }
+
+.link-div {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
