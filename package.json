@@ -1,6 +1,6 @@
 {
-  "name": "kancolle-fleet-plus",
-  "version": "1.0.0",
+  "name": "zuikaku-fleet-plus",
+  "version": "0.0.9",
   "description": "Electron based KanColle Wiki app",
   "main": "main.js",
   "scripts": {
@@ -14,19 +14,21 @@
   "author": "yurina!",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lihd1003/KanColle-Fleet-Plus/issues"
+    "url": "https://github.com/lihd1003/Zuikaku-Fleet-Plus/issues"
   },
-  "homepage": "https://github.com/lihd1003/KanColle-Fleet-Plus#readme",
+  "homepage": "https://github.com/lihd1003/Zuikaku-Fleet-Plus",
   "devDependencies": {
     "electron": "^5.0.4"
   },
   "dependencies": {
-    "bootstrap-table": "^1.15.0",
     "ejs-electron": "^2.0.3",
     "electron-download-manager": "^2.3.0",
     "fs": "0.0.1-security",
     "jquery": "^3.4.1",
     "list.js": "^1.5.0",
     "request": "^2.88.0"
-  }
+  },
+  "keywords": [
+    "electron"
+  ]
 }
