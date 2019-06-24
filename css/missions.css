@@ -1,0 +1,20 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+li {
+  display: inline-block;
+}
+
+.mission-card {
+  width: 400px;
+  margin: 10px;
+  height: 300px;
+  background-color: rgba(255,255,255, 0.5)
+}
+
+.mdl-card__supporting-text {
+  overflow: scroll;
+}
