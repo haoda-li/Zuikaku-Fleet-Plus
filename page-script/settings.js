@@ -46,6 +46,9 @@ const loadLocalWallPaper = () => {
     const htmlContent = $(
       '<div class="card-image mdl-card mdl-shadow--2dp"' +
       'style=\"background-image: url(../wallpapers/' + img + ')\">' +
+        '<button class="delete-button mdl-button mdl-js-button mdl-button--icon">' +
+          '<i class="material-icons">close</i>' +
+        '</button>' +
       '</div>'
     )
     local.append(htmlContent);
@@ -55,6 +58,29 @@ const loadLocalWallPaper = () => {
 loadLocalWallPaper();
 
 $(".card-image").click((e) => {
+  if ($(e.target).hasClass("delete-button") || $(e.target).hasClass("material-icons")) {
+    let removeButton = $(e.target);
+    if (removeButton.hasClass("material-icons")) {
+      removeButton = removeButton.parent();
+    }
+    const bgDiv = removeButton.parent();
+    const bg = bgDiv.css("background-image")
+                .replace(/.*\s?url\([\'\"]?/, '')
+                .replace(/[\'\"]?\).*/, '');
+    remote.require('fs').unlinkSync(bg.replace('file:///', ''));
+    bgDiv.remove();
+    notification.MaterialSnackbar.showSnackbar({
+      message: bg + ' removed'
+    })
+    if (bgSettings.getBGSettings().url === bg) {
+      bgSettings.updateBGSettings('url', '../assets/bgDefault.jpg');
+      $('body').css("background-image",
+        'linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),' +
+        'url("../assets/bgDefault.jpg")')
+    }
+
+    return;
+  }
   const bg = $(e.target).css("background-image")
               .replace(/.*\s?url\([\'\"]?/, '')
               .replace(/[\'\"]?\).*/, '')
