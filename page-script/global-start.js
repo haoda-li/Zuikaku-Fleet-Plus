@@ -1,3 +1,5 @@
+const $ = require("jquery");
+
 const updateBG = () => {
   const bg = require('electron').remote.require('./electron-module/wallpaper.js').getBGSettings();
   $('body').css("background-image",
