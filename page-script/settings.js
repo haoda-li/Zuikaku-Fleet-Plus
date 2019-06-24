@@ -67,10 +67,10 @@ $(".card-image").click((e) => {
     const bg = bgDiv.css("background-image")
                 .replace(/.*\s?url\([\'\"]?/, '')
                 .replace(/[\'\"]?\).*/, '');
-    remote.require('fs').unlinkSync(bg.replace('file:///', ''));
+    remote.require('fs').unlinkSync("." + bg.slice(bg.lastIndexOf('/wallpapers')));
     bgDiv.remove();
     notification.MaterialSnackbar.showSnackbar({
-      message: bg + ' removed'
+      message: bg.slice(bg.lastIndexOf('/wallpapers') + 1) + ' removed'
     })
     if (bgSettings.getBGSettings().url === bg) {
       bgSettings.updateBGSettings('url', '../assets/bgDefault.jpg');
