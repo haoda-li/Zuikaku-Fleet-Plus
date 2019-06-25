@@ -13,6 +13,7 @@ def extract_table(t, interval='bubble_chart'):
 			obj = {}
 			obj['id'] = cell[i].get_text().replace('\n', '')
 			obj['prerequisite'] = [a.get_text() for a in cell[i + 1].find_all('a')]
+			obj['prerequisite'] = list(filter(lambda x: x != "待验证", obj['prerequisite']))
 			obj['name_ja'] = cell[i + 2].find('span',{'lang': "ja"}).get_text()
 			obj['name'] =  cell[i + 2].find('span',{'style': "font-weight:bold"}).get_text()
 			obj['description_ja'] = cell[i + 3].find('span',{'lang': "ja"}).get_text()
@@ -40,8 +41,6 @@ def extract_table(t, interval='bubble_chart'):
 				br.replace_with(", ")
 			obj['reward'] = cell[i + 8].get_text().replace('\n', '')
 			obj['tips'] = cell[i + 9].get_text().replace('\n', '')
-			obj['memo'] = []
-			obj['status'] = 0
 			obj['interval'] = interval
 			i += 10
 			dic[obj['id']] = obj
