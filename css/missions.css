@@ -1,9 +1,58 @@
 ul {
   list-style-type: none;
   padding: 0;
-  margin-left: 100px;
-  margin-right: 100px;
 }
+
 li {
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px 20px 20px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+.id {
+  font-weight: 600;
+}
+
+.name {
+  font-weight: 600;
+  color: #ff8f00;
+}
+
+.name_ja {
+  font-weight: 100;
+  color: grey;
+}
+
+.mission_dis {
+  font-size: 10px;
+  color: orange;
+  font-weight: 100;
+}
+
+.mission_pre {
+  position: relative;
+  float: right;
   display: inline-block;
+}
+
+.prerequisite {
+  font-size: 16px;
+  color: #ff8f00;
+  font-weight: 600;
+}
+
+.description_ja {
+  font-weight: 100;
+}
+
+
+.resources_icon {
+  text-shadow:1px 1px 10px #fff;
+}
+
+.resources_div {
+  margin: 10px;
 }

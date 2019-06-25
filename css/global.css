@@ -67,3 +67,9 @@ body {
   margin-left: 100px;
   margin-right: 100px;
 }
+@media screen and (max-width: 1200px) {
+  .grid-space {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
