@@ -64,8 +64,8 @@ body {
 
 /* Others */
 .grid-space {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 64px;
+  margin-right: 64px;
 }
 @media screen and (max-width: 1200px) {
   .grid-space {
