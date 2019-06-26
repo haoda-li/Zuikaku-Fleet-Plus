@@ -28,7 +28,7 @@ let win;
 
 function createWindow() {
   win = new BrowserWindow({
-    icon: 'icons/logo.png',
+    icon: './icons/logo.png',
     title: 'Zuikaku Fleet +',
     webPreferences: {
       nodeIntegration: true
