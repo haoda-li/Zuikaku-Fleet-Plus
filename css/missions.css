@@ -1,18 +1,42 @@
+.mdl-layout__drawer>.mdl-layout-title {
+  color: white;
+  padding: 10px;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: white;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  color: black;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
 }
 
+.mdl-layout__drawer-button {
+  display: none;
+}
+
+.mdl-textfield__label{
+    color: grey;
+}
+
+.mdl-textfield__input{
+    border-bottom: 1px solid #fff;
+}
 .list li {
   margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.4);
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
   padding: 10px 20px 20px 20px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 
 .mdl-layout__drawer {
-  background-color: rgba(100, 100, 100, 0.4);
+  background-color: rgba(100, 100, 100, 0.8);
   border: 0;
 }
 
@@ -26,8 +50,9 @@ ul {
 }
 
 .mission_dis {
-  font-size: 10px;
-  font-weight: 100;
+  font-size: 12px;
+  color: orange;
+  margin-right: 20px;
 }
 
 .mission_pre {
@@ -45,11 +70,12 @@ ul {
   font-weight: 100;
 }
 
-
-.resources_icon {
-  text-shadow:1px 1px 10px #fff;
+.resources span {
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.resources_div {
+.mdl-chip {
   margin: 10px;
 }

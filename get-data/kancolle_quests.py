@@ -1,7 +1,11 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 import requests
 import json
 from bs4 import BeautifulSoup
 from collections import Counter
+
 
 def extract_table(t, interval='bubble_chart'):
 	cell = t.find_all('td')
@@ -42,6 +46,7 @@ def extract_table(t, interval='bubble_chart'):
 			obj['reward'] = cell[i + 8].get_text().replace('\n', '')
 			obj['tips'] = cell[i + 9].get_text().replace('\n', '')
 			obj['interval'] = interval
+			obj['status'] = 0
 			i += 10
 			dic[obj['id']] = obj
 	return dic

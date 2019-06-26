@@ -18,51 +18,116 @@
 <body>
   <script src="../page-script/global-start.js"></script>
 
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+              mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">
+          Page <span id="currentPage">1</span>
+          <button onclick="page(-1)" class="mdl-button mdl-js-button mdl-button--icon mdl-color-text--amber-700">
+            <i class="material-icons">chevron_left</i>
+          </button>
+
+          <button onclick="page(1)" class="mdl-button mdl-js-button mdl-button--icon mdl-color-text--amber-700">
+            <i class="material-icons">chevron_right</i>
+          </button>
+        </span>
+
+        <div class="mdl-layout-spacer"></div>
 
 
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="sample1">
+          <label class="mdl-textfield__label" for="sample1">ID, NAME</label>
+        </div>
+        <i class="material-icons">search</i>
 
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+      </div>
+    </header>
+
     <div class="mdl-layout__drawer">
       <span class="mdl-layout-title">
         <a href="./index.html" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
           <i class="material-icons">chevron_left</i>
-        </a>任务列表
+        </a>
+        任务列表
       </span>
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link">
-          Page <span id="currentPage">1</span>
-          <button onclick="page(-1)" class="mdl-button mdl-js-button mdl-button--icon mdl-color-text--amber-700">
-            <i class="material-icons">arrow_back</i>
-          </button>
-          <button onclick="page(1)" class="mdl-button mdl-js-button mdl-button--icon mdl-color-text--amber-700">
-            <i class="material-icons">arrow_forward</i>
-          </button>
+          <i class="material-icons mdl-color-text--green-A400">done</i>
+          已完成
+        </a>
+        <br>
+        <a class="mdl-navigation__link">
+          <i class="material-icons mdl-color-text--green-400">spellcheck</i>
+          编成任务
         </a>
         <a class="mdl-navigation__link">
-          <span class="mdl-chip mdl-chip--contact">
-              <span class="mdl-chip__contact mdl-color--amber-700 mdl-color-text--white">A</span>
-              <span class="mdl-chip__text">编队任务</span>
-          </span>
+          <i class="material-icons mdl-color-text--red-A200">waves</i>
+          出击任务
         </a>
-        <a class="mdl-navigation__link">Link</a>
-        <a class="mdl-navigation__link">Link</a>
+        <a class="mdl-navigation__link">
+          <i class="material-icons  mdl-color-text--light-blue-400">explore</i>
+          远征任务
+        </a>
+        <a class="mdl-navigation__link">
+          <i class="material-icons  mdl-color-text--brown-400">build</i>
+          工厂任务
+        </a>
+        <a class="mdl-navigation__link">
+          <i class="material-icons  mdl-color-text--amber-500">more_horiz</i>
+          其他任务
+        </a>
+
+        <br>
+
+        <a class="mdl-navigation__link">
+          <i class="material-icons mdl-color-text--amber-700">
+            bubble_chart
+          </i>
+          单次任务
+        </a>
+
+        <a class="mdl-navigation__link">
+          <i class="material-icons mdl-color-text--amber-700">
+            filter_1
+          </i>
+          日常任务
+        </a>
+
+        <a class="mdl-navigation__link">
+          <i class="material-icons mdl-color-text--amber-700">
+            filter_7
+          </i>
+          周常任务
+        </a>
+
+        <a class="mdl-navigation__link">
+          <i class="material-icons mdl-color-text--amber-700">
+            replay_30
+          </i>
+          月常任务
+        </a>
+
+        <a class="mdl-navigation__link">
+          <i class="material-icons mdl-color-text--amber-700">
+            looks_4
+          </i>
+          季常任务
+        </a>
+
       </nav>
     </div>
 
     <main class="mdl-layout__content">
 
-      <div class="mdl-grid grid-space">
+      <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--12-col">
           <div id="mission_ul">
             <ul class="list"></ul>
           </div>
         </div>
       </div>
-
-
-
-
-
     </main>
   </div>
 
@@ -81,46 +146,47 @@
         </span>
       </div>
 
+      <div class="mission_pre mission_dis mdl-color-text--amber-700">
+        <div class="mdl-chip">
+          <span class="mdl-chip__text">
+            任务前置 <span class="prerequisite mdl-color-text--amber-700"></span>
+          </span>
+        </div>
 
-      <div class="resources_div">
-        <i class="material-icons resources_icon" style="color: green">
-          radio_button_checked
-        </i>
-        <span class="fuel white-text"></span>
-        <i class="material-icons resources_icon" style="color: brown">
-          radio_button_checked
-        </i>
-        <span class="arma white-text"></span>
-        <i class="material-icons resources_icon" style="color: grey">
-          radio_button_checked
-        </i>
-        <span class="steal white-text"></span>
-        <i class="material-icons resources_icon" style="color: orange">
-          radio_button_checked
-        </i>
-        <span class="al white-text"></span>
-
-        <div class="mission_pre mission_dis mdl-color-text--amber-700">
-          任务前置 <span class="prerequisite mdl-color-text--amber-700"></span></div>
       </div>
       <p>
         <span class="mission_dis">任务描述： </span>
         <span class="description white-text"></span>
 
       </p>
-      <p class="description_ja"></p>
       <p>
-        <span class="mission_dis">TIPS: </span>
-        <span class="tips white-text"></span>
-      </p>
-      <p>
-        <span class="mission_dis">任务奖励: </span>
+        <span class="mission_dis">任务原文： </span>
+        <span class="description_ja mdl-color-text--amber-200"></span>
+        <p>
+          <span class="mission_dis">TIPS: </span>
+          <span class="tips white-text"></span>
+        </p>
+
+
+        <span class="mission_dis">任务奖励:
+        </span>
+
+        <span class="mdl-chip">
+          <span class="mdl-chip__text resources">
+            <span class="fuel" style="color: green"></span>
+            <span class="arma" style="color: brown"></span>
+            <span class="steal" style="color: grey"></span>
+            <span class="al" style="color: orange"></span>
+          </span>
+        </span>
         <span class="reward white-text"></span>
-      </p>
-      <hr>
-      <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored mdl-color-text--green-A400">
-        <i class="material-icons">done</i>
-      </button>
+
+
+
+        <hr>
+        <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored mdl-color-text--green-A400">
+          <i class="material-icons">done</i>
+        </button>
 
     </li>
   </div>
