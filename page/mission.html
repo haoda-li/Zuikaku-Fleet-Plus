@@ -19,8 +19,38 @@
   <script src="../page-script/global-start.js"></script>
 
 
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">
+        <a href="./index.html" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+          <i class="material-icons">chevron_left</i>
+        </a>任务列表
+      </span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link">
+          Page <span id="currentPage">1</span>
+          <button onclick="page(-1)" class="mdl-button mdl-js-button mdl-button--icon mdl-color-text--amber-700">
+            <i class="material-icons">arrow_back</i>
+          </button>
+          <button onclick="page(1)" class="mdl-button mdl-js-button mdl-button--icon mdl-color-text--amber-700">
+            <i class="material-icons">arrow_forward</i>
+          </button>
+        </a>
+        <a class="mdl-navigation__link">
+          <span class="mdl-chip mdl-chip--contact">
+              <span class="mdl-chip__contact mdl-color--amber-700 mdl-color-text--white">A</span>
+              <span class="mdl-chip__text">编队任务</span>
+          </span>
+        </a>
+        <a class="mdl-navigation__link">Link</a>
+        <a class="mdl-navigation__link">Link</a>
+      </nav>
+    </div>
+
     <main class="mdl-layout__content">
+
       <div class="mdl-grid grid-space">
         <div class="mdl-cell mdl-cell--12-col">
           <div id="mission_ul">
@@ -40,13 +70,13 @@
 
   <div style="display:none;">
     <li id="li_template">
-      <i class="material-icons resources_icon interval orange-text">
+      <i class="material-icons resources_icon interval mdl-color-text--amber-700">
       </i>
 
       <div class="mdl-chip">
         <span class="mdl-chip__text">
           <span class="id"></span>
-          <span class="name"></span>
+          <span class="name mdl-color-text--amber-700"></span>
           <span class="name_ja"></span>
         </span>
       </div>
@@ -70,8 +100,8 @@
         </i>
         <span class="al white-text"></span>
 
-        <div class="mission_pre mission_dis">
-          任务前置 <span class="prerequisite"></span></div>
+        <div class="mission_pre mission_dis mdl-color-text--amber-700">
+          任务前置 <span class="prerequisite mdl-color-text--amber-700"></span></div>
       </div>
       <p>
         <span class="mission_dis">任务描述： </span>
@@ -88,7 +118,7 @@
         <span class="reward white-text"></span>
       </p>
       <hr>
-      <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+      <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored mdl-color-text--green-A400">
         <i class="material-icons">done</i>
       </button>
 
@@ -96,9 +126,9 @@
   </div>
   <script src="../page-script/global.js"></script>
   <script src="../page-script/load-missions.js"></script>
+  <script src="../page-script/missions-event.js"></script>
 
   <script type="text/javascript">
-    generateHeader("任务列表")
     generateToast();
   </script>
 </body>
