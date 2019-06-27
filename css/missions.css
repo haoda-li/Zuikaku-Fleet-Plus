@@ -17,16 +17,18 @@ ul {
 }
 
 .mdl-layout__drawer-button {
-  display: none;
+  opacity: 0;
+}
+@media screen and (max-width: 960px) {
+  .mdl-layout__drawer-button {
+    opacity: 1;
+  }
 }
 
 .mdl-textfield__label{
     color: grey;
 }
 
-.mdl-textfield__input{
-    border-bottom: 1px solid #fff;
-}
 .list li {
   margin-top: 20px;
   margin-left: 10px;
