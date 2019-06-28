@@ -46,7 +46,8 @@ def extract_table(t, interval='bubble_chart'):
 			obj['reward'] = cell[i + 8].get_text().replace('\n', '')
 			obj['tips'] = cell[i + 9].get_text().replace('\n', '')
 			obj['interval'] = interval
-			obj['status'] = 0
+			obj['status'] = "f"
+			obj['memo'] = ""
 			i += 10
 			dic[obj['id']] = obj
 	return dic

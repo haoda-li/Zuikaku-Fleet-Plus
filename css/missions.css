@@ -81,3 +81,7 @@ ul {
 .mdl-chip {
   margin: 10px;
 }
+
+.button_fix {
+  padding: 0px;
+}

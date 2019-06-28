@@ -8,5 +8,8 @@ const page = (next) => {
     mList.show(currentPage, mList.page)
     pageNumber += next;
     $("#currentPage").text(pageNumber)
+    $(".finishButton").click(e => {
+      finishMission(e)
+    })
   }
 }
