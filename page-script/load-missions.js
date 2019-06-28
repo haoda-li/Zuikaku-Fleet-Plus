@@ -10,11 +10,7 @@ const options = {
     'description_ja', 'description',
     'fuel', 'arma', 'steal', 'al',
     'tips', 'reward',
-    'memo',
-    {
-      name: 'status',
-      attr: 'src'
-    }
+    'memo', 'status'
   ]
 };
 
