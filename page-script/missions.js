@@ -41,7 +41,12 @@ const mList = new List('mission_ul', options, mEdit.getMissions());
 mList.filter((i) => {
   return i.values().status != 't'
 })
+
 $("#itemsize").text(mList.matchingItems.length)
+
+$(".finishButton").click(e => {
+  finishMission(e)
+})
 
 // Events
 const finishMission = (e) => {
@@ -52,16 +57,11 @@ const finishMission = (e) => {
   const id = targetButton.parent().find($('.id')).text()
   mEdit.updateMissions(id, 'status', 't');
   targetButton.attr("data-status", "t");
-  targetButton.remove()
+  const updating = mList.get('id', id)[0]
+  updating._values.status = "t"
+  console.log(updating.values())
+  applyFilter()
 }
-
-
-
-$(".finishButton").click(e => {
-  finishMission(e)
-})
-
-
 
 const search = () => {
   mList.search($("#search_input").val())
@@ -150,4 +150,8 @@ const applyFilter = () => {
 
 mList.on("updated", () => {
   $("#itemsize").text(mList.matchingItems.length)
+
+  $(".finishButton").click(e => {
+    finishMission(e)
+  })
 })

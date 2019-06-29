@@ -355,7 +355,7 @@
 		"reward": "间宫*1",
 		"tips": "潜水艇，潜水空母均可",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A28",
@@ -373,7 +373,7 @@
 		"reward": "间宫*1",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A29",
@@ -391,7 +391,7 @@
 		"reward": "高速修复材*3",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A3",
@@ -409,7 +409,7 @@
 		"reward": "开发资材*1",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A30",
@@ -427,7 +427,7 @@
 		"reward": "应急修理要员*1",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A31",
@@ -445,7 +445,7 @@
 		"reward": "开发资材*3",
 		"tips": "只配置任务要求的舰娘",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A32",
@@ -463,7 +463,7 @@
 		"reward": "开发资材*1 应急修理要员*1",
 		"tips": "只配置任务要求的舰娘",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A33",
@@ -481,7 +481,7 @@
 		"reward": "高速修复材*2 应急修理要员*1",
 		"tips": "只配置任务要求的舰娘",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A34",
@@ -499,7 +499,7 @@
 		"reward": "开发资材*3",
 		"tips": "只配置任务要求的舰娘",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A35",
@@ -535,7 +535,7 @@
 		"reward": "开发资材*2 高速修复材*2",
 		"tips": "飞龙改二必须为旗舰",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A37",
@@ -553,7 +553,7 @@
 		"reward": "开发资材*3",
 		"tips": "大鲸必须为旗舰",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A38",
