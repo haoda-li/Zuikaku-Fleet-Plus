@@ -85,3 +85,7 @@ ul {
 .button_fix {
   padding: 0px;
 }
+
+.mdl-navigation__link {
+  cursor: pointer;
+}

@@ -25,24 +25,29 @@
     <header class="mdl-layout__header mdl-layout__header--transparent">
       <div class="mdl-layout__header-row">
         <span class="mdl-layout-title">
-          Page <span id="currentPage">1</span>
+
           <button onclick="page(-1)" class="mdl-button mdl-js-button mdl-button--icon mdl-color-text--amber-700">
             <i class="material-icons">chevron_left</i>
           </button>
-
           <button onclick="page(1)" class="mdl-button mdl-js-button mdl-button--icon mdl-color-text--amber-700">
             <i class="material-icons">chevron_right</i>
           </button>
+
+          <span class="mission_dis"> PAGE</span> <span id="currentPage">1</span>
+          <span class="mission_dis" style="margin-left: 40px"> TOTAL MISSIONS</span> <span id="itemsize"></span>
+
         </span>
 
         <div class="mdl-layout-spacer"></div>
 
 
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="sample1">
-          <label class="mdl-textfield__label" for="sample1">ID, NAME</label>
+          <input class="mdl-textfield__input" type="text" id="search_input">
+          <label class="mdl-textfield__label" for="search_input">Search for ...</label>
         </div>
-        <i class="material-icons mdl-color-text--amber-700">search</i>
+        <button onclick="search()" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+          <i class="material-icons">search</i>
+        </button>
 
       </div>
     </header>
@@ -55,63 +60,63 @@
         任务列表
       </span>
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link">
+        <a class="mdl-navigation__link" id="m_finished">
           <i class="material-icons mdl-color-text--green-A400">done</i>
           已完成
         </a>
         <br>
-        <a class="mdl-navigation__link">
-          <i class="material-icons mdl-color-text--green-400">spellcheck</i>
+        <a class="mdl-navigation__link m_type" id="mA">
+          <i class="material-icons mdl-color-text--green-400" data-text="spellcheck">spellcheck</i>
           编成任务
         </a>
-        <a class="mdl-navigation__link">
-          <i class="material-icons mdl-color-text--red-A200">waves</i>
+        <a class="mdl-navigation__link m_type" id="mB">
+          <i class="material-icons mdl-color-text--red-A200" data-text="waves">waves</i>
           出击任务
         </a>
-        <a class="mdl-navigation__link">
-          <i class="material-icons  mdl-color-text--light-blue-400">explore</i>
+        <a class="mdl-navigation__link m_type" id ="mD">
+          <i class="material-icons  mdl-color-text--light-blue-400" data-text="explore">explore</i>
           远征任务
         </a>
-        <a class="mdl-navigation__link">
-          <i class="material-icons  mdl-color-text--brown-400">build</i>
+        <a class="mdl-navigation__link m_type" id="mF">
+          <i class="material-icons  mdl-color-text--brown-400" data-text="build">build</i>
           工厂任务
         </a>
-        <a class="mdl-navigation__link">
-          <i class="material-icons  mdl-color-text--amber-500">more_horiz</i>
+        <a class="mdl-navigation__link m_type" id="mO">
+          <i class="material-icons  mdl-color-text--amber-500" data-text="more_horiz">more_horiz</i>
           其他任务
         </a>
 
         <br>
 
-        <a class="mdl-navigation__link">
+        <a class="mdl-navigation__link m_interval" id="bubble_chart">
           <i class="material-icons mdl-color-text--amber-700">
             bubble_chart
           </i>
           单次任务
         </a>
 
-        <a class="mdl-navigation__link">
+        <a class="mdl-navigation__link m_interval" id="filter_1">
           <i class="material-icons mdl-color-text--amber-700">
             filter_1
           </i>
           日常任务
         </a>
 
-        <a class="mdl-navigation__link">
+        <a class="mdl-navigation__link m_interval" id="filter_7">
           <i class="material-icons mdl-color-text--amber-700">
             filter_7
           </i>
           周常任务
         </a>
 
-        <a class="mdl-navigation__link">
+        <a class="mdl-navigation__link m_interval" id="replay_30">
           <i class="material-icons mdl-color-text--amber-700">
             replay_30
           </i>
           月常任务
         </a>
 
-        <a class="mdl-navigation__link">
+        <a class="mdl-navigation__link m_interval" id="looks_4">
           <i class="material-icons mdl-color-text--amber-700">
             looks_4
           </i>
@@ -181,13 +186,12 @@
       </span>
       <span class="reward white-text"></span>
       <br>
-      <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colore mdl-color-text--green-A400 finishButton status" data-status>
+      <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored mdl-color-text--green-A400 finishButton status" data-status>
         <i class="material-icons">done</i>
       </button>
   </div>
   <script src="../page-script/global.js"></script>
-  <script src="../page-script/load-missions.js"></script>
-  <script src="../page-script/missions-event.js"></script>
+  <script src="../page-script/missions.js"></script>
 
   <script type="text/javascript">
     generateToast();

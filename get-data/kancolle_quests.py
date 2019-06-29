@@ -66,7 +66,7 @@ if __name__ == "__main__":
 			all_data.update(extract_table(table, 'filter_7'))
 		if table.find('td').get_text() == "Bm1\n":
 			all_data.update(extract_table(table, 'replay_30'))
-		if table.find('td').get_text() == "Bq1\n":
+		if table.find('td').get_text() == "C29\n":
 			all_data.update(extract_table(table, 'looks_4'))
 	try:
 		with open('../data/missions.json', 'r', encoding='utf-8') as file:
