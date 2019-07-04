@@ -8,9 +8,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="../css/material.min.css">
   <script src="../page-script/material.min.js"></script>
+  <script src="../page-script/list.min.js"></script>
 
   <!-- Addtional -->
   <link rel="stylesheet" href="../css/global.css" />
+  <link rel="stylesheet" href="../css/expedition.css" />
 </head>
 
 <body>
@@ -18,10 +20,76 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <main class="mdl-layout__content">
 
+      <div class="mdl-grid grid-space">
+        <div id="expd_list" class="mdl-cell mdl-cell--12-col">
+          <ul class="list"></ul>
+        </div>
+      </div>
 
     </main>
   </div>
+
+  <div style="display:none;">
+    <li id="li_template">
+      <i class="material-icons resources_icon interval mdl-color-text--amber-700">
+      </i>
+
+      <div class="mdl-chip">
+        <span class="mdl-chip__text">
+          <span class="id"></span>
+          <span class="name mdl-color-text--amber-700"></span>
+          <span class="name_ja"></span>
+          <b><span class="time"></span></b>
+        </span>
+      </div>
+      <hr>
+
+      <span class="mission_dis">舰队/旗舰 等级：</span>
+      <span class="fleet_level white-text"></span>
+      <span class="white-text">/</span>
+      <span class="flag_level white-text"></span>
+      <br>
+      <span class="mission_dis">舰队需求：</span>
+      <span class="white-text">最少需要
+        <span class="min_number"></span>船，
+        <span class="required"></span>
+        <span class="required_arma"></span>
+      </span>
+      <br>
+      <span class="mission_dis">资源消耗（格）: </span>
+      <span class="mdl-chip">
+        <span class="mdl-chip__text resources">
+          <span class="fuel_consume" style="color: green"></span>
+          <span class="arma_consume" style="color: brown"></span>
+
+        </span>
+      </span>
+      <span class="required white-text"></span>
+      <hr>
+      <span class="mission_dis">指挥官/舰队 经验</span>
+      <span class="exp_commander white-text"></span>
+      <span class="white-text">/</span>
+      <span class="exp_ship white-text"></span>
+      <br>
+      <span class="mission_dis">几率获得奖励：</span>
+      <span class="reward_a white-text"></span>
+      <br>
+      <span class="mission_dis">大成功奖励: </span>
+      <span class="reward_b white-text"></span>
+      <br>
+      <span class="mission_dis">资源奖励（每次/每小时）: </span>
+      <span class="mdl-chip">
+        <span class="mdl-chip__text resources">
+          <span class="fuel" style="color: green"></span>
+          <span class="arma" style="color: brown"></span>
+          <span class="steal" style="color: grey"></span>
+          <span class="al" style="color: orange"></span>
+        </span>
+      </span>
+    </li>
+  </div>
   <script src="../page-script/global.js"></script>
+  <script src="../page-script/expedition.js"></script>
 
   <script type="text/javascript">
     generateHeader("远征列表")

@@ -1,0 +1,45 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mdl-textfield__label{
+    color: grey;
+}
+
+.list li {
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px 20px 20px;
+  width: 46%;
+  display: inline-block;
+
+}
+
+.id, .name {
+  font-weight: 600;
+}
+
+.name_ja {
+  font-weight: 100;
+  color: grey;
+}
+
+.mission_dis {
+  font-size: 12px;
+  color: orange;
+  margin-right: 20px;
+}
+
+.mission_pre {
+  position: relative;
+  float: right;
+  display: inline-block;
+}
+
+
+.resources span {
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+}

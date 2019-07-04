@@ -13,19 +13,19 @@ def process_data(reward, require):
     ret['time'] = reward[7]
     ret['exp_commander'] = reward[9]
     ret['exp_ship'] = reward[11]
-    ret['fuel'] = reward[13]
-    ret['arma'] = reward[15]
-    ret['steal'] = reward[17]
-    ret['al'] = reward[19]
+    ret['fuel'] = reward[13] if reward[13] != "" else "0/0"
+    ret['arma'] = reward[15] if reward[15] != "" else "0/0"
+    ret['steal'] = reward[17] if reward[17] != "" else "0/0"
+    ret['al'] = reward[19] if reward[19] != "" else "0/0"
     ret['reward_a'] = reward[21]
     ret['reward_b'] = reward[23]
-    ret['fleet_level'] = require[9]
+    ret['fleet_level'] = require[9] if require[9] != "" else "-"
     ret['flag_level'] = require[11]
     ret['min_number'] = require[13]
     ret['required'] = require[15]
     ret['required_arma'] = require[17]
-    ret['fuel_consume'] = require[19]
-    ret['arma_consume'] = require[21]
+    ret['fuel_consume'] = require[19] if require[19] != "" else "0"
+    ret['arma_consume'] = require[21] if require[21] != "" else "0"
     return ret
 
 
