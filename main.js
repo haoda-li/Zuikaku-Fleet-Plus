@@ -4,6 +4,7 @@ const {
 } = require('electron');
 const DownloadManager = require("electron-download-manager");
 const fs = require('fs')
+const status = require('./electron-module/repeatedMissions.js')
 // get global variables
 global.wallpaperAuth = require('./electron-module/authManage.js').getWallpaperAuth();
 
@@ -19,6 +20,15 @@ try {
 } catch {
   fs.mkdirSync("./wallpapers");
 }
+
+try {
+  fs.readFileSync("./settings/status.json")
+} catch {
+  status.updateTime()
+}
+
+status.refreshMissions()
+status.updateTime()
 
 DownloadManager.register({
   downloadFolder: "./wallpapers"
