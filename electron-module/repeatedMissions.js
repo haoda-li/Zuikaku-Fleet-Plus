@@ -23,7 +23,7 @@ const refreshMissions = () => {
       missions[i].status = 'f'
     }
   }
-  fs.writeFileSync('data/missions.json', JSON.stringify(missions))
+  fs.writeFileSync('data/missions.json', JSON.stringify(missions, null, '\t'))
 }
 
 const updateTime = () => {
@@ -44,7 +44,7 @@ const updateTime = () => {
   if (newTime.day() == 0) {
     status.nextWeekly = moment(newTime).hour(20).minute(0).second(0).millisecond(0)
   }
-  fs.writeFileSync('settings/status.json', JSON.stringify(status))
+  fs.writeFileSync('settings/status.json', JSON.stringify(status, null, '\t'))
 }
 
 module.exports = {
