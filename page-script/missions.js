@@ -19,6 +19,7 @@ const options = {
   ]
 };
 
+let searchType = "all";
 let currentPage = 1;
 let pageNumber = 1;
 
@@ -64,7 +65,12 @@ const finishMission = (e) => {
 }
 
 const search = () => {
-  mList.search($("#search_input").val())
+  if (searchType === "all") {
+    mList.search($("#search_input").val())
+  } else {
+    mList.search($("#search_input").val(), [searchType])
+  }
+
   $("#search_input").val("")
 }
 
@@ -154,4 +160,9 @@ mList.on("updated", () => {
   $(".finishButton").click(e => {
     finishMission(e)
   })
+})
+
+$("#choose-ul").click((e) => {
+  searchType = $(e.target).attr("id").slice(1)
+  $("#choosed").text($(e.target).text())
 })

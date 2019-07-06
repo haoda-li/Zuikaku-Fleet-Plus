@@ -39,11 +39,22 @@
         </span>
 
         <div class="mdl-layout-spacer"></div>
+        搜索：
+        <span id="choosed" style="width:80px; text-align: right">所有</span>
+        <button id="choose-type" class="mdl-button mdl-js-button mdl-button--icon">
+          <i class="material-icons">more_vert</i>
+        </button>
 
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="choose-type" id="choose-ul">
+          <li class="mdl-menu__item" id="tall">所有</li>
+          <li class="mdl-menu__item" id="tid">任务编号</li>
+          <li class="mdl-menu__item" id="tprerequisite">任务前置</li>
+          <li class="mdl-menu__item" id="tdescription">出击海域</li>
+        </ul>
 
         <div class="mdl-textfield mdl-js-textfield">
           <input class="mdl-textfield__input" type="text" id="search_input">
-          <label class="mdl-textfield__label" for="search_input">Search for ...</label>
+          <label class="mdl-textfield__label" for="search_input">...</label>
         </div>
         <button onclick="search()" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
           <i class="material-icons">search</i>
