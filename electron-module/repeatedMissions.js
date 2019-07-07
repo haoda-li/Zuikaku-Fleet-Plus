@@ -13,7 +13,7 @@ const refreshMissions = () => {
 
   const newTime = moment.utc();
   for (let i = 0; i < missions.length; i++) {
-    if (newTime.isAfter(status.nextDaily) && missions[i].interval == "bubble_chart") {
+    if (newTime.isAfter(status.nextDaily) && missions[i].interval == "filter_1") {
       missions[i].status = 'f'
     } else if (newTime.isAfter(status.nextWeekly) && missions[i].interval == "filter_7") {
       missions[i].status = 'f'
