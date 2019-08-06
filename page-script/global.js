@@ -36,3 +36,8 @@ const generateToast = () => {
 const externalLink = (url) => {
   shell.openExternal(url);
 }
+
+$(document).ready(() => {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut(600);
+	});

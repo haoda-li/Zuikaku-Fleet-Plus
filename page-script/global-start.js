@@ -7,3 +7,5 @@ const updateBG = () => {
     'url(' + bg.url + ')')
 }
 updateBG();
+
+$('body').append($('<div class="se-pre-con"></div>'))
