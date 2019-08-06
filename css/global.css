@@ -73,3 +73,36 @@ body {
     margin-right: 0px;
   }
 }
+
+
+.mdl-layout__drawer>.mdl-layout-title {
+  color: white;
+  padding: 10px;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: white;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  color: black;
+}
+
+
+.mdl-textfield__label{
+    color: grey;
+}
+
+.mdl-layout__drawer-button {
+  opacity: 0;
+}
+@media screen and (max-width: 960px) {
+  .mdl-layout__drawer-button {
+    opacity: 1;
+  }
+}
+
+.mdl-layout__drawer {
+  background-color: rgba(100, 100, 100, 0.8);
+  border: 0;
+}

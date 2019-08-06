@@ -1,32 +1,6 @@
-.mdl-layout__drawer>.mdl-layout-title {
-  color: white;
-  padding: 10px;
-}
-
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-  color: white;
-}
-
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  color: black;
-}
-
 ul {
   list-style-type: none;
   padding: 0;
-}
-
-.mdl-layout__drawer-button {
-  opacity: 0;
-}
-@media screen and (max-width: 960px) {
-  .mdl-layout__drawer-button {
-    opacity: 1;
-  }
-}
-
-.mdl-textfield__label{
-    color: grey;
 }
 
 .list li {
@@ -35,11 +9,6 @@ ul {
   margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 10px 20px 20px 20px;
-}
-
-.mdl-layout__drawer {
-  background-color: rgba(100, 100, 100, 0.8);
-  border: 0;
 }
 
 .id, .name {

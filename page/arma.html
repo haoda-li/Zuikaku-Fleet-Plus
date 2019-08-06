@@ -15,16 +15,60 @@
 
 <body>
   <script src="../page-script/global-start.js"></script>
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+              mdl-layout--fixed-header">
+
+
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+
+        <div class="mdl-layout-spacer"></div>
+        搜索：
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="search_input">
+          <label class="mdl-textfield__label" for="search_input">...</label>
+        </div>
+        <button onclick="search()" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+          <i class="material-icons">search</i>
+        </button>
+
+      </div>
+    </header>
+
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">
+        <a href="./index.html" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+          <i class="material-icons">chevron_left</i>
+        </a>
+        装备列表
+      </span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" id="m_finished">
+          <i class="material-icons mdl-color-text--green-A400">done</i>
+          已完成
+        </a>
+
+
+      </nav>
+    </div>
+
     <main class="mdl-layout__content">
 
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col">
 
+        </div>
+      </div>
     </main>
   </div>
+
+  
+
   <script src="../page-script/global.js"></script>
+  <script src="../page-script/missions.js"></script>
 
   <script type="text/javascript">
-    generateHeader("装备图鉴")
     generateToast();
   </script>
 </body>
