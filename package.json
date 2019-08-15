@@ -1,6 +1,6 @@
 {
   "name": "zuikaku-fleet-plus",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Electron based KanColle Wiki app",
   "main": "main.js",
   "scripts": {
