@@ -11,6 +11,7 @@
 
   <!-- Addtional -->
   <link rel="stylesheet" href="../css/global.css" />
+  <link rel="stylesheet" href="../css/arma.css" />
 </head>
 
 <body>
@@ -57,17 +58,49 @@
 
       <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--12-col">
+          <div id="arma_ul">
+            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp list mdl-color-text--white">
+              <thead>
+                <tr>
+                  <th class="mdl-color-text--grey-400 mdl-data-table__cell--non-numeric">编号</th>
+                  <th class="mdl-color-text--grey-400 mdl-data-table__cell--non-numeric">装备名称</th>
+                  <th class="mdl-color-text--grey-400 mdl-data-table__cell--non-numeric">装备属性</th>
+                  <th class="mdl-color-text--grey-400 mdl-data-table__cell--non-numeric">开发/改修/升级/熟练</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">
+                    <span class="mdl-chip mdl-chip--contact">
+                      <img src="https://upload.kcwiki.org/commons/7/70/IcoMainLight.png" class="list_icon">
+                      <span class="mdl-chip__text">014</span>
+                    </span>
+                  </td>
+                  <td class="mdl-data-table__cell--non-numeric">
+                    <span class="mdl-color-text--amber-700"><b>61cm四連装魚雷</b></span>
+                    <br><span class="mdl-color-text--grey-400">61cm四連装魚雷</span></td>
+                  <td class="mdl-data-table__cell--non-numeric">
+                    <span class="list_tag"><img src="https://upload.kcwiki.org/commons/4/47/IcoAtk.png">1</span>
+                    <span class="list_tag"><img src="https://upload.kcwiki.org/commons/4/47/IcoAtk.png">1</span>
+                    <span class="list_tag"><img src="https://upload.kcwiki.org/commons/4/47/IcoAtk.png">1</span>
+                  </td>
+                  <td class="mdl-data-table__cell--non-numeric">
+                    <img src="https://upload.kcwiki.org/commons/4/47/IcoAtk.png">1
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
+          </div>
         </div>
       </div>
     </main>
   </div>
 
-  
+
+
 
   <script src="../page-script/global.js"></script>
-  <script src="../page-script/missions.js"></script>
-
   <script type="text/javascript">
     generateToast();
   </script>

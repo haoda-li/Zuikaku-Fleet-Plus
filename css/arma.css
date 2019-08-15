@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list_icon {
+  height: 32px;
+  width: 32px;
+}
+
+.list {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.list tbody tr:hover {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+.list_tag {
+  padding-right: 16px;
+  display: inline-block;
+}
+
+.id {
+  width: 15%;
+}
