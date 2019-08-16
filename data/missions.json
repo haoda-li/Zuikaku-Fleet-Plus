@@ -589,7 +589,7 @@
 		"reward": "开发资材*2 高速建造材*1",
 		"tips": "苍龙改二必须为旗舰",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A4",
@@ -607,7 +607,7 @@
 		"reward": "第2舰队开启",
 		"tips": "第二舰队开启后可以解锁远征",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A40",
@@ -625,7 +625,7 @@
 		"reward": "试制35.6cm三连装炮*1",
 		"tips": "要求：金刚改二，比睿改二榛名改二，雾岛改二",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A41",
@@ -643,7 +643,7 @@
 		"reward": "开发资材*2",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A42",
@@ -661,7 +661,7 @@
 		"reward": "高速修复材*2",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A43",
@@ -679,7 +679,7 @@
 		"reward": "开发资材*3",
 		"tips": "大和型，长门型，伊势型，扶桑型中只能选择3艘",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A44",
@@ -698,7 +698,7 @@
 		"reward": "开发资材*2 改修资材*3",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A45",
@@ -716,7 +716,7 @@
 		"reward": "改修资材*5, 改修工厂开启",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A46",
@@ -4198,7 +4198,7 @@
 		"reward": "开发资材*1",
 		"tips": "出击胜利一次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "Bd2",
@@ -4216,7 +4216,7 @@
 		"reward": "开发资材*1 高速修复材*1",
 		"tips": "出击胜利一次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "Bd3",
@@ -4234,7 +4234,7 @@
 		"reward": "开发资材*1",
 		"tips": "出击胜利十次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "Bd4",
@@ -4252,7 +4252,7 @@
 		"reward": "高速修复材*2",
 		"tips": "击沉敌方3艘正规空母或轻空母日期尾数为3/7/0时出现",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "Bd5",
@@ -4270,7 +4270,7 @@
 		"reward": "开发资材*1 高速修复材*1",
 		"tips": "击沉敌方3艘补给舰 新手推荐到2-2海域完成此任务",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "Bd6",
@@ -4288,7 +4288,7 @@
 		"reward": "开发资材*2",
 		"tips": "击沉敌方补给船5艘日期尾数为2或8时出现",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "Bd7",
@@ -4306,7 +4306,7 @@
 		"reward": "高速建造材*1 高速修复材*1",
 		"tips": "击破南西群岛海域任意BOSS点五次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "Bd8",
@@ -4324,7 +4324,7 @@
 		"reward": "高速修复材*1",
 		"tips": "击沉敌方6艘潜艇",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "Bm1",
@@ -5030,7 +5030,7 @@
 		"reward": "高速建造材*1",
 		"tips": "无论胜负",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "C20",
@@ -5226,7 +5226,7 @@
 		"reward": "开发资材*1",
 		"tips": "",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "C30",
@@ -5671,7 +5671,7 @@
 		"reward": "开发资材*1",
 		"tips": "远征3次成功",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "D20",
@@ -5875,7 +5875,7 @@
 		"reward": "家具箱（小）*1 家具箱（中）*1",
 		"tips": "远征10次成功",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "D30",
@@ -6071,7 +6071,7 @@
 		"reward": "高速修复材*2",
 		"tips": "入渠修复舰船5次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "E4",
@@ -6089,7 +6089,7 @@
 		"reward": "开发资材*1 高速建造材*1",
 		"tips": "为舰船补给15次注意：为舰队全体补给也只算1次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "F1",
@@ -6268,7 +6268,7 @@
 		"reward": "改修资材*1",
 		"tips": "改修装备1次失败也可达成",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "F19",
@@ -6916,7 +6916,7 @@
 		"reward": "开发资材*1 高速建造材*1",
 		"tips": "开发装备1次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "F50",
@@ -7120,7 +7120,7 @@
 		"reward": "开发资材*1 高速修复材*1",
 		"tips": "建造舰船1次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "F60",
@@ -7227,7 +7227,7 @@
 		"reward": "开发资材*1",
 		"tips": "批量拆解也可以",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "F66",
@@ -7245,7 +7245,7 @@
 		"reward": "开发资材*1, 高速修复材*1",
 		"tips": "批量拆解也可以",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "F67",
@@ -7318,7 +7318,7 @@
 		"reward": "开发资材*2",
 		"tips": "开发装备3次（不论成败）",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "F70",
@@ -7517,7 +7517,7 @@
 		"reward": "开发资材*2 高速建造材*1",
 		"tips": "建造舰船3次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "F80",
@@ -7698,7 +7698,7 @@
 		"reward": "高速修复材*1",
 		"tips": "解体舰船2次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "G1",
@@ -7730,7 +7730,7 @@
 		"reward": "高速修复材*1",
 		"tips": "近代化改修成功2次",
 		"interval": "filter_1",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "G3",

@@ -4,10 +4,10 @@ const mData = require('electron').remote
 
 const options = {
   item:
-  `<tr id="li_template">
+  `<tr class="arma-item">
     <td class="mdl-data-table__cell--non-numeric">
       <span class="mdl-chip mdl-chip--contact">
-        <img class="list_icon type">
+        <img class="type">
         <span class="mdl-chip__text id"></span>
       </span>
     </td>
@@ -36,3 +36,4 @@ const options = {
 
 const mList = new List('arma_ul', options, mData.getArma());
 mList.remove("name_cn", "template")
+mList.sort("id")

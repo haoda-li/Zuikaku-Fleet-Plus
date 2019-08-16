@@ -70,10 +70,9 @@ const search = () => {
   } else {
     mList.search($("#search_input").val(), [searchType])
   }
-
-  $("#search_input").val("")
 }
 
+$("#search_input").on('input', search)
 
 // Filters
 let filterFinished = true
