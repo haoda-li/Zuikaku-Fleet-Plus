@@ -1,372 +1,66 @@
 [
   {
-    "type": "../icons/type/鱼雷.png",
-    "id": "285",
-    "name_jp": "61cm三連装(酸素)魚雷後期型",
-    "name_cn": "61cm三连装（酸素）鱼雷后期型",
-    "data": "雷装: 9, 命中: 2, 回避: 2, 射程/航程: 短, 装甲: 1",
+    "type": "../icons/type/中口径主炮.png",
+    "id": "139",
+    "name_jp": "15.2cm連装砲改",
+    "name_cn": "15.2cm连装炮改",
+    "data": "火力: 6, 对空: 3, 命中: 4, 射程/航程: 中",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/电探.png",
-    "id": "278",
-    "name_jp": "SK レーダー",
-    "name_cn": "SK雷达",
-    "data": "对空: 8, 索敌: 10, 命中: 1, 回避: 2, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/副炮.png",
-    "id": "234",
-    "name_jp": "15.5cm三連装副砲改",
-    "name_cn": "15.5cm三连装副炮改",
-    "data": "火力: 7, 对空: 5, 命中: 4, 回避: 1, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "188",
-    "name_jp": "Re.2001 G改",
-    "name_cn": "Re.2001 G改",
-    "data": "火力: 3, 雷装: 4, 对空: 4, 回避: 2, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/上陆用舟艇.png",
-    "id": "166",
-    "name_jp": "大発動艇(八九式中戦車&陸戦隊)",
-    "name_cn": "大发动艇（八九式中战车&陆战队）",
-    "data": "射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "155",
-    "name_jp": "零戦21型(付岩本小隊)",
-    "name_cn": "零式舰战21型（附岩本小队）",
-    "data": "对空: 9, 索敌: 1, 命中: 1, 回避: 3, 射程/航程: 7",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "323",
-    "name_jp": "瑞雲改二(六三四空/熟練)",
-    "name_cn": "瑞云改二（六三四空/熟练）",
-    "data": "火力: 2, 爆装: 11, 对空: 5, 对潜: 7, 索敌: 8, 命中: 3, 回避: 3, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "004",
-    "name_jp": "14cm単装砲",
-    "name_cn": "14cm单装炮",
-    "data": "火力: 2, 命中: 1, 射程/航程: 中",
+    "id": "030",
+    "name_jp": "21号対空電探",
+    "name_cn": "21号对空电探",
+    "data": "对空: 4, 索敌: 4, 命中: 2",
     "produce": "check_box",
     "enhance": ""
   },
   {
-    "type": "../icons/type/应急修理要员.png",
-    "id": "042",
-    "name_jp": "応急修理要員",
-    "name_cn": "应急修理要员",
-    "data": "射程/航程: 无",
+    "type": "../icons/type/鱼雷.png",
+    "id": "127",
+    "name_jp": "試製FaT仕様九五式酸素魚雷改",
+    "name_cn": "试制FaT规格九五式酸素鱼雷改",
+    "data": "雷装: 14, 命中: 7, 回避: 2, 射程/航程: 短",
     "produce": "",
     "enhance": ""
   },
   {
-    "type": "../icons/type/探照灯.png",
-    "id": "074",
-    "name_jp": "探照灯",
-    "name_cn": "探照灯",
-    "data": "索敌: 2, 射程/航程: 无",
+    "type": "../icons/type/机枪.png",
+    "id": "173",
+    "name_jp": "Bofors 40mm四連装機関砲",
+    "name_cn": "博福斯（Bofors）40mm四连装机关炮",
+    "data": "火力: 1, 对空: 10, 命中: 1, 回避: 2, 装甲: 1",
     "produce": "",
     "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "246",
-    "name_jp": "38cm四連装砲改",
-    "name_cn": "38cm四连装炮改",
-    "data": "火力: 22, 对空: 2, 命中: 3, 射程/航程: 中, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "290",
-    "name_jp": "41cm三連装砲改二",
-    "name_cn": "41cm三连装炮改二",
-    "data": "火力: 23, 对空: 6, 命中: 5, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "228",
-    "name_jp": "九六式艦戦改",
-    "name_cn": "九六式舰战改",
-    "data": "对空: 4, 回避: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "190",
-    "name_jp": "38.1cm Mk.I連装砲",
-    "name_cn": "38.1cm Mk.I 连装炮",
-    "data": "火力: 18, 对空: 1, 命中: 1, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/夜间舰战机.png",
-    "id": "339",
-    "name_jp": "烈風改二戊型(一航戦/熟練)",
-    "name_cn": "烈风改二戊型（一航战/熟练）",
-    "data": "火力: 2, 对空: 12, 索敌: 1, 回避: 3, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水上飞行艇.png",
-    "id": "138",
-    "name_jp": "二式大艇",
-    "name_cn": "二式大艇",
-    "data": "对潜: 1, 索敌: 12, 命中: 1, 射程/航程: 20",
-    "produce": "",
-    "enhance": "check_box"
   },
   {
     "type": "../icons/type/对空主炮.png",
-    "id": "130",
-    "name_jp": "12.7cm高角砲+高射装置",
-    "name_cn": "12.7cm连装高角炮+94式高射装置",
-    "data": "火力: 1, 对空: 8, 命中: 1, 回避: 1, 射程/航程: 短",
+    "id": "296",
+    "name_jp": "12.7cm連装砲B型改四(戦時改修)+高射装置",
+    "name_cn": "12.7cm连装炮B型改四（战时改修）+高射装置",
+    "data": "火力: 3, 对空: 9, 命中: 1, 射程/航程: 短, 装甲: 1",
     "produce": "",
     "enhance": ""
   },
   {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "266",
-    "name_jp": "12.7cm連装砲C型改二",
-    "name_cn": "12.7cm连装炮C型改二",
-    "data": "火力: 3, 对空: 2, 命中: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "082",
-    "name_jp": "九七式艦攻(九三一空)",
-    "name_cn": "九七式舰攻（九三一空）",
-    "data": "雷装: 6, 对潜: 7, 索敌: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "218",
-    "name_jp": "四式戦 疾風",
-    "name_cn": "四式战 疾风",
-    "data": "对空: 10, 命中: 1, 回避: 1, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水上舰要员.png",
-    "id": "129",
-    "name_jp": "熟練見張員",
-    "name_cn": "熟练瞭望员",
-    "data": "对空: 1, 索敌: 2, 命中: 2, 回避: 3, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "090",
-    "name_jp": "20.3cm(2号)連装砲",
-    "name_cn": "20.3cm（2号）连装炮",
-    "data": "火力: 9, 对空: 3, 命中: 1, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "018",
-    "name_jp": "流星",
-    "name_cn": "流星",
-    "data": "雷装: 10, 对潜: 4, 索敌: 1, 射程/航程: 6",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/副炮.png",
-    "id": "012",
-    "name_jp": "15.5cm三連装副砲",
-    "name_cn": "15.5cm三连装副炮",
-    "data": "火力: 7, 对空: 3, 命中: 2, 射程/航程: 中",
+    "type": "../icons/type/对空主炮.png",
+    "id": "010",
+    "name_jp": "12.7cm連装高角砲",
+    "name_cn": "12.7cm连装高角炮",
+    "data": "火力: 2, 对空: 4, 命中: 1, 射程/航程: 短",
     "produce": "check_box",
     "enhance": ""
   },
   {
-    "type": "../icons/type/增设装甲.png",
-    "id": "268",
-    "name_jp": "北方迷彩(+北方装備)",
-    "name_cn": "北方迷彩（+北方装备）",
-    "data": "回避: 2, 射程/航程: 无, 装甲: 2",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "307",
-    "name_jp": "GFCS Mk.37",
-    "name_cn": "GFCS Mk.37",
-    "data": "火力: 2, 对空: 7, 索敌: 6, 命中: 9, 回避: 2, 射程/航程: 中, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/输送部材.png",
-    "id": "209",
-    "name_jp": "彩雲(輸送用分解済)",
-    "name_cn": "彩云（运输用拆卸版）",
-    "data": "射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "060",
-    "name_jp": "零式艦戦62型(爆戦)",
-    "name_cn": "零式舰战62型（爆战）",
-    "data": "爆装: 4, 对空: 4, 对潜: 3, 射程/航程: 4",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "114",
-    "name_jp": "38cm連装砲改",
-    "name_cn": "38cm连装炮改",
-    "data": "火力: 17, 对空: 2, 命中: 3, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "128",
-    "name_jp": "試製51cm連装砲",
-    "name_cn": "试制51cm连装炮",
-    "data": "火力: 30, 对空: 5, 命中: 1, 回避: -1, 射程/航程: 超长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "100",
-    "name_jp": "彗星(江草隊)",
-    "name_cn": "彗星（江草队）",
-    "data": "爆装: 13, 对空: 1, 对潜: 5, 索敌: 4, 命中: 4, 射程/航程: 5",
+    "type": "../icons/type/水战机.png",
+    "id": "165",
+    "name_jp": "二式水戦改",
+    "name_cn": "二式水战改",
+    "data": "对空: 3, 对潜: 1, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 4",
     "produce": "",
     "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "276",
-    "name_jp": "46cm三連装砲改",
-    "name_cn": "46cm三连装炮改",
-    "data": "火力: 27, 对空: 6, 命中: 2, 射程/航程: 超长, 装甲: 2",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "106",
-    "name_jp": "13号対空電探改",
-    "name_cn": "13号对空电探改",
-    "data": "对空: 4, 索敌: 4, 命中: 2, 回避: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "245",
-    "name_jp": "38cm四連装砲",
-    "name_cn": "38cm四连装炮",
-    "data": "火力: 21, 对空: 1, 命中: 1, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "329",
-    "name_jp": "35.6cm連装砲改二",
-    "name_cn": "35.6cm连装炮改二",
-    "data": "火力: 17, 对空: 5, 命中: 5, 回避: 2, 射程/航程: 长, 装甲: 2",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "318",
-    "name_jp": "41cm連装砲改二",
-    "name_cn": "41cm连装炮改二",
-    "data": "火力: 21, 对空: 5, 命中: 5, 回避: 1, 射程/航程: 长, 装甲: 2",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "148",
-    "name_jp": "試製南山",
-    "name_cn": "试制南山",
-    "data": "爆装: 11, 对空: 1, 对潜: 4, 索敌: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "248",
-    "name_jp": "Skua",
-    "name_cn": "贼鸥（Skua）",
-    "data": "爆装: 4, 对空: 2, 对潜: 2, 回避: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "161",
-    "name_jp": "16inch三連装砲 Mk.7",
-    "name_cn": "16inch三连装炮Mk.7",
-    "data": "火力: 24, 对空: 3, 命中: 4, 射程/航程: 长, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/对地弹.png",
-    "id": "126",
-    "name_jp": "WG42 (Wurfgerät 42)",
-    "name_cn": "WG42（Wurfgerät 42）",
-    "data": "火力: 1, 射程/航程: 短, 装甲: -1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "314",
-    "name_jp": "533mm五連装魚雷(初期型)",
-    "name_cn": "533mm五连装鱼雷（初期型）",
-    "data": "火力: 1, 雷装: 8, 回避: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
   },
   {
     "type": "../icons/type/陆上攻击机.png",
@@ -378,778 +72,22 @@
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/对舰弹.png",
-    "id": "036",
-    "name_jp": "九一式徹甲弾",
-    "name_cn": "九一式穿甲弹",
-    "data": "火力: 8, 命中: 1, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "001",
-    "name_jp": "12cm単装砲",
-    "name_cn": "12cm单装炮",
-    "data": "火力: 1, 对空: 1, 射程/航程: 短",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "089",
-    "name_jp": "21号対空電探改",
-    "name_cn": "21号对空电探改",
-    "data": "对空: 5, 索敌: 6, 命中: 3, 回避: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "020",
-    "name_jp": "零式艦戦21型",
-    "name_cn": "零式舰战21型",
-    "data": "对空: 5, 射程/航程: 7",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "102",
-    "name_jp": "九八式水上偵察機(夜偵)",
-    "name_cn": "九八式水上侦察机（夜侦）",
-    "data": "对潜: 1, 索敌: 3, 命中: 1, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/夜间舰战机.png",
-    "id": "254",
-    "name_jp": "F6F-3N",
-    "name_cn": "F6F-3N",
-    "data": "对空: 8, 对潜: 4, 索敌: 2, 命中: 2, 回避: 3, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/战斗粮食.png",
-    "id": "150",
-    "name_jp": "秋刀魚の缶詰",
-    "name_cn": "秋刀鱼罐头",
-    "data": "射程/航程: 无",
+    "type": "../icons/type/大口径主炮.png",
+    "id": "300",
+    "name_jp": "16inch Mk.I三連装砲改+FCR type284",
+    "name_cn": "16inch MK.I 三连装炮改+FCR type284",
+    "data": "火力: 23, 对空: 7, 命中: 6, 回避: 2, 射程/航程: 长, 装甲: 1",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/大口径主炮.png",
-    "id": "236",
-    "name_jp": "41cm三連装砲改",
-    "name_cn": "41cm三连装炮改",
-    "data": "火力: 22, 对空: 6, 命中: 4, 射程/航程: 长, 装甲: 1",
+    "id": "190",
+    "name_jp": "38.1cm Mk.I連装砲",
+    "name_cn": "38.1cm Mk.I 连装炮",
+    "data": "火力: 18, 对空: 1, 命中: 1, 射程/航程: 长",
     "produce": "",
     "enhance": ""
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "058",
-    "name_jp": "61cm五連装(酸素)魚雷",
-    "name_cn": "61cm五连装（酸素）鱼雷",
-    "data": "雷装: 12, 命中: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/夜间舰攻机.png",
-    "id": "257",
-    "name_jp": "TBM-3D",
-    "name_cn": "TBM-3D",
-    "data": "火力: 2, 雷装: 9, 对空: 1, 对潜: 8, 索敌: 4, 命中: 2, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "002",
-    "name_jp": "12.7cm連装砲",
-    "name_cn": "12.7cm连装炮",
-    "data": "火力: 2, 对空: 2, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "056",
-    "name_jp": "震電改",
-    "name_cn": "震电改",
-    "data": "对空: 15, 射程/航程: 2",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "162",
-    "name_jp": "203mm/53 連装砲",
-    "name_cn": "203mm/53 连装炮",
-    "data": "火力: 9, 对空: 1, 命中: -2, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "092",
-    "name_jp": "毘式40mm連装機銃",
-    "name_cn": "毗式40mm连装机枪",
-    "data": "对空: 6, 回避: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/增设装甲.png",
-    "id": "072",
-    "name_jp": "増設バルジ(中型艦)",
-    "name_cn": "增设防雷鼓包（中型舰）",
-    "data": "回避: -2, 射程/航程: 无, 装甲: 7",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰艇修理设施.png",
-    "id": "086",
-    "name_jp": "艦艇修理施設",
-    "name_cn": "舰艇修理设施",
-    "data": "射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/航空要员.png",
-    "id": "259",
-    "name_jp": "夜間作戦航空要員+熟練甲板員",
-    "name_cn": "夜间作战航空要员+熟练甲板员",
-    "data": "火力: 3, 命中: 2, 回避: 1, 射程/航程: 长, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "294",
-    "name_jp": "12.7cm連装砲A型改二",
-    "name_cn": "12.7cm连装炮A型改二",
-    "data": "火力: 2, 对空: 1, 命中: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "176",
-    "name_jp": "三式戦 飛燕",
-    "name_cn": "三式战 飞燕",
-    "data": "对空: 8, 命中: 1, 回避: 3, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "328",
-    "name_jp": "35.6cm連装砲改",
-    "name_cn": "35.6cm连装炮改",
-    "data": "火力: 16, 对空: 4, 命中: 3, 回避: 2, 射程/航程: 长, 装甲: 2",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "081",
-    "name_jp": "瑞雲12型(六三四空)",
-    "name_cn": "瑞云12型（六三四空）",
-    "data": "爆装: 9, 对空: 3, 对潜: 6, 索敌: 7, 命中: 1, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "340",
-    "name_jp": "152mm/55 三連装速射砲",
-    "name_cn": "152mm/55 三连装速射炮",
-    "data": "火力: 8, 对空: 2, 命中: 1, 射程/航程: 中, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "133",
-    "name_jp": "381mm/50 三連装砲",
-    "name_cn": "381mm/50三连装炮",
-    "data": "火力: 20, 对空: 2, 命中: -3, 回避: -1, 射程/航程: 超长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "233",
-    "name_jp": "F4U-1D",
-    "name_cn": "F4U-1D",
-    "data": "火力: 1, 爆装: 7, 对空: 7, 对潜: 1, 索敌: 1, 回避: 1, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/航空要员.png",
-    "id": "258",
-    "name_jp": "夜間作戦航空要員",
-    "name_cn": "夜间作战航空要员",
-    "data": "火力: 1, 射程/航程: 中, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/潜水艇装备.png",
-    "id": "211",
-    "name_jp": "潜水艦搭載電探&逆探(E27)",
-    "name_cn": "潜艇搭载电探 & 逆探（E27）",
-    "data": "火力: 1, 对空: 1, 索敌: 5, 命中: 3, 回避: 11, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "337",
-    "name_jp": "烈風改二(一航戦/熟練)",
-    "name_cn": "烈风改二（一航战/熟练）",
-    "data": "火力: 2, 对空: 14, 命中: 2, 回避: 1, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "322",
-    "name_jp": "瑞雲改二(六三四空)",
-    "name_cn": "瑞云改二（六三四空）",
-    "data": "火力: 2, 爆装: 10, 对空: 4, 对潜: 6, 索敌: 7, 命中: 2, 回避: 1, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "282",
-    "name_jp": "130mm B-13連装砲",
-    "name_cn": "130mm B-13连装炮",
-    "data": "火力: 4, 对空: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "112",
-    "name_jp": "天山(六〇一空)",
-    "name_cn": "天山（六〇一空）",
-    "data": "雷装: 10, 对潜: 4, 索敌: 2, 命中: 1, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "135",
-    "name_jp": "90mm単装高角砲",
-    "name_cn": "90mm单装高角炮",
-    "data": "火力: 1, 对空: 8, 命中: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "142",
-    "name_jp": "15m二重測距儀+21号電探改二",
-    "name_cn": "15m二重测距仪+21号电探改二",
-    "data": "火力: 1, 对空: 8, 索敌: 7, 命中: 9, 回避: 1, 射程/航程: 无, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "284",
-    "name_jp": "5inch単装砲 Mk.30",
-    "name_cn": "5inch单装炮 Mk.30",
-    "data": "火力: 2, 对空: 6, 命中: 1, 回避: 2, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "019",
-    "name_jp": "九六式艦戦",
-    "name_cn": "九六式舰战",
-    "data": "对空: 3, 回避: 1, 射程/航程: 3",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/陆上攻击机.png",
-    "id": "180",
-    "name_jp": "一式陸攻 二二型甲",
-    "name_cn": "一式陆攻 二二型甲",
-    "data": "雷装: 11, 爆装: 12, 对空: 3, 对潜: 2, 索敌: 4, 射程/航程: 10",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "221",
-    "name_jp": "一式戦 隼II型",
-    "name_cn": "一式战 隼II型",
-    "data": "对空: 6, 回避: 2, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "267",
-    "name_jp": "12.7cm連装砲D型改二",
-    "name_cn": "12.7cm连装炮D型改二",
-    "data": "火力: 3, 对空: 4, 命中: 2, 回避: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "277",
-    "name_jp": "FM-2",
-    "name_cn": "FM-2",
-    "data": "火力: 2, 爆装: 2, 对空: 6, 对潜: 1, 命中: 2, 回避: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对舰弹.png",
-    "id": "116",
-    "name_jp": "一式徹甲弾",
-    "name_cn": "一式穿甲弹",
-    "data": "火力: 9, 命中: 2, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "131",
-    "name_jp": "25mm三連装機銃 集中配備",
-    "name_cn": "25mm三连装机枪 集中配备",
-    "data": "对空: 9, 回避: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "024",
-    "name_jp": "彗星",
-    "name_cn": "彗星",
-    "data": "爆装: 8, 对潜: 3, 射程/航程: 4",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "229",
-    "name_jp": "12.7cm単装高角砲(後期型)",
-    "name_cn": "12.7cm单装高角炮（后期型）",
-    "data": "火力: 1, 对空: 4, 对潜: 1, 命中: 1, 回避: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "232",
-    "name_jp": "30.5cm三連装砲改",
-    "name_cn": "30.5cm三连装炮改",
-    "data": "火力: 17, 对空: 3, 命中: 3, 回避: 1, 射程/航程: 长, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "103",
-    "name_jp": "試製35.6cm三連装砲",
-    "name_cn": "试制35.6cm三连装炮",
-    "data": "火力: 18, 对空: 5, 命中: 2, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "315",
-    "name_jp": "SG レーダー(初期型)",
-    "name_cn": "SG雷达（初期型）",
-    "data": "火力: 1, 对空: 3, 对潜: 3, 索敌: 8, 命中: 8, 回避: 6, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/对空弹.png",
-    "id": "035",
-    "name_jp": "三式弾",
-    "name_cn": "三式弹",
-    "data": "对空: 5, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "238",
-    "name_jp": "零式水上偵察機11型乙",
-    "name_cn": "零式水上侦察机11型乙",
-    "data": "火力: 1, 对空: 1, 对潜: 7, 索敌: 6, 命中: 2, 射程/航程: 7",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/增设装甲.png",
-    "id": "073",
-    "name_jp": "増設バルジ(大型艦)",
-    "name_cn": "增设防雷鼓包（大型舰）",
-    "data": "回避: -3, 射程/航程: 无, 装甲: 9",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "013",
-    "name_jp": "61cm三連装魚雷",
-    "name_cn": "61cm三连装鱼雷",
-    "data": "雷装: 5, 射程/航程: 短",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "083",
-    "name_jp": "天山(九三一空)",
-    "name_cn": "天山（九三一空）",
-    "data": "雷装: 9, 对潜: 8, 索敌: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/旋翼机.png",
-    "id": "325",
-    "name_jp": "オ号観測機改二",
-    "name_cn": "Ｏ号观测机改二",
-    "data": "火力: 1, 对潜: 11, 索敌: 1, 命中: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "244",
-    "name_jp": "Swordfish Mk.III(熟練)",
-    "name_cn": "剑鱼（Swordfish） Mk.III（熟练）",
-    "data": "火力: 4, 雷装: 8, 对潜: 10, 索敌: 5, 命中: 4, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "008",
-    "name_jp": "41cm連装砲",
-    "name_cn": "41cm连装炮",
-    "data": "火力: 20, 对空: 4, 射程/航程: 长",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/爆雷.png",
-    "id": "045",
-    "name_jp": "三式爆雷投射機",
-    "name_cn": "三式爆雷投射机",
-    "data": "对潜: 8, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "009",
-    "name_jp": "46cm三連装砲",
-    "name_cn": "46cm三连装炮",
-    "data": "火力: 26, 对空: 5, 射程/航程: 超长",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "330",
-    "name_jp": "16inch Mk.I連装砲",
-    "name_cn": "16inch Mk.I 连装炮",
-    "data": "火力: 20, 命中: 1, 回避: 1, 射程/航程: 长, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "280",
-    "name_jp": "QF 4.7inch砲 Mk.XII改",
-    "name_cn": "QF 4.7inch炮 Mk.XII改",
-    "data": "火力: 3, 对空: 3, 对潜: 1, 命中: 1, 回避: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/副炮.png",
-    "id": "011",
-    "name_jp": "15.2cm単装砲",
-    "name_cn": "15.2cm单装炮",
-    "data": "火力: 2, 命中: 1, 射程/航程: 中",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "022",
-    "name_jp": "試製烈風 後期型",
-    "name_cn": "试制烈风 后期型",
-    "data": "对空: 10, 射程/航程: 5",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "076",
-    "name_jp": "38cm連装砲",
-    "name_cn": "38cm连装炮",
-    "data": "火力: 16, 对空: 1, 命中: 1, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/陆上攻击机.png",
-    "id": "187",
-    "name_jp": "銀河",
-    "name_cn": "银河",
-    "data": "雷装: 14, 爆装: 14, 对空: 3, 对潜: 3, 索敌: 3, 命中: 1, 射程/航程: 9",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "071",
-    "name_jp": "10cm連装高角砲(砲架)",
-    "name_cn": "10cm连装高角炮（炮架）",
-    "data": "火力: 1, 对空: 7, 命中: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "030",
-    "name_jp": "21号対空電探",
-    "name_cn": "21号对空电探",
-    "data": "对空: 4, 索敌: 4, 命中: 2, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "119",
-    "name_jp": "14cm連装砲",
-    "name_cn": "14cm连装炮",
-    "data": "火力: 4, 命中: 2, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/旋翼机.png",
-    "id": "069",
-    "name_jp": "カ号観測機",
-    "name_cn": "KA号观测机",
-    "data": "对潜: 9, 命中: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "032",
-    "name_jp": "42号対空電探",
-    "name_cn": "42号对空电探",
-    "data": "对空: 6, 索敌: 5, 命中: 4, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/声呐.png",
-    "id": "132",
-    "name_jp": "零式水中聴音機",
-    "name_cn": "零式水中听音机",
-    "data": "对潜: 11, 索敌: 1, 命中: 1, 回避: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "091",
-    "name_jp": "12.7cm連装高角砲(後期型)",
-    "name_cn": "12.7cm连装高角炮（后期型）",
-    "data": "火力: 2, 对空: 5, 对潜: 1, 命中: 1, 回避: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰侦机.png",
-    "id": "054",
-    "name_jp": "彩雲",
-    "name_cn": "彩云",
-    "data": "索敌: 9, 命中: 2, 射程/航程: 8",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "065",
-    "name_jp": "15.2cm連装砲",
-    "name_cn": "15.2cm连装炮",
-    "data": "火力: 5, 对空: 3, 命中: 3, 射程/航程: 中",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/对空弹.png",
-    "id": "317",
-    "name_jp": "三式弾改",
-    "name_cn": "三式弹改",
-    "data": "火力: 3, 对空: 6, 命中: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "302",
-    "name_jp": "九七式艦攻(九三一空/熟練)",
-    "name_cn": "九七式舰攻（九三一空/熟练）",
-    "data": "雷装: 8, 对潜: 9, 索敌: 3, 命中: 2, 回避: 1, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "063",
-    "name_jp": "12.7cm連装砲B型改二",
-    "name_cn": "12.7cm连装炮B型改二",
-    "data": "火力: 3, 对空: 2, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "336",
-    "name_jp": "烈風改二",
-    "name_cn": "烈风改二",
-    "data": "火力: 1, 对空: 13, 命中: 2, 回避: 1, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "048",
-    "name_jp": "12cm単装高角砲",
-    "name_cn": "12cm单装高角炮",
-    "data": "火力: 1, 对空: 3, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "173",
-    "name_jp": "Bofors 40mm四連装機関砲",
-    "name_cn": "博福斯（Bofors）40mm四连装机关炮",
-    "data": "火力: 1, 对空: 10, 命中: 1, 回避: 2, 射程/航程: 无, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰队司令部设施.png",
-    "id": "107",
-    "name_jp": "艦隊司令部施設",
-    "name_cn": "舰队司令部设施",
-    "data": "对空: 1, 索敌: 1, 命中: 1, 回避: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/机关.png",
-    "id": "033",
-    "name_jp": "改良型艦本式タービン",
-    "name_cn": "改良型舰船涡轮机",
-    "data": "回避: 6, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/夜间舰战机.png",
-    "id": "338",
-    "name_jp": "烈風改二戊型",
-    "name_cn": "烈风改二戊型",
-    "data": "火力: 2, 对空: 11, 索敌: 1, 回避: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "079",
-    "name_jp": "瑞雲(六三四空)",
-    "name_cn": "瑞云（六三四空）",
-    "data": "爆装: 6, 对空: 2, 对潜: 5, 索敌: 6, 命中: 1, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "293",
-    "name_jp": "12cm単装砲改二",
-    "name_cn": "12cm单装炮改二",
-    "data": "火力: 1, 命中: 1, 回避: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "275",
-    "name_jp": "10cm連装高角砲改+増設機銃",
-    "name_cn": "10cm连装高角炮改+增设机枪",
-    "data": "火力: 2, 对空: 9, 命中: 2, 回避: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "062",
-    "name_jp": "試製晴嵐",
-    "name_cn": "试制晴岚",
-    "data": "爆装: 11, 对潜: 6, 索敌: 6, 命中: 1, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/夜间舰攻机.png",
-    "id": "345",
-    "name_jp": "九七式艦攻改(熟練) 試製三号戊型(空六号電探改装備機)",
-    "name_cn": "九七式舰攻改（熟练） 试制三号戊型（空六号电探改装备机）",
-    "data": "雷装: 9, 对潜: 7, 索敌: 5, 命中: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰侦机.png",
-    "id": "312",
-    "name_jp": "二式陸上偵察機(熟練)",
-    "name_cn": "二式陆上侦察机（熟练）",
-    "data": "对空: 3, 索敌: 9, 命中: 3, 射程/航程: 9, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "080",
-    "name_jp": "瑞雲12型",
-    "name_cn": "瑞云12型",
-    "data": "爆装: 7, 对空: 3, 对潜: 5, 索敌: 6, 命中: 1, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
   },
   {
     "type": "../icons/type/大口径主炮.png",
@@ -1162,69 +100,6 @@
   },
   {
     "type": "../icons/type/水侦机.png",
-    "id": "171",
-    "name_jp": "OS2U",
-    "name_cn": "OS2U",
-    "data": "爆装: 1, 对空: 1, 对潜: 1, 索敌: 6, 命中: 2, 回避: 1, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "010",
-    "name_jp": "12.7cm連装高角砲",
-    "name_cn": "12.7cm连装高角炮",
-    "data": "火力: 2, 对空: 4, 命中: 1, 射程/航程: 短",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "154",
-    "name_jp": "零戦62型(爆戦/岩井隊)",
-    "name_cn": "零式舰战62型（爆战/岩井队）",
-    "data": "爆装: 4, 对空: 7, 对潜: 3, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/机关.png",
-    "id": "087",
-    "name_jp": "新型高温高圧缶",
-    "name_cn": "新型高温高压锅炉",
-    "data": "回避: 13, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/声呐.png",
-    "id": "046",
-    "name_jp": "九三式水中聴音機",
-    "name_cn": "九三式水中听音机",
-    "data": "对潜: 6, 命中: 1, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/旋翼机.png",
-    "id": "326",
-    "name_jp": "S-51J",
-    "name_cn": "S-51J",
-    "data": "火力: 2, 对潜: 12, 索敌: 3, 命中: 2, 射程/航程: 无",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "207",
-    "name_jp": "瑞雲(六三一空)",
-    "name_cn": "瑞云（六三一空）",
-    "data": "爆装: 7, 对空: 1, 对潜: 2, 索敌: 4, 命中: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水侦机.png",
     "id": "059",
     "name_jp": "零式水上観測機",
     "name_cn": "零式水上观测机",
@@ -1233,38 +108,20 @@
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/舰战机.png",
-    "id": "053",
-    "name_jp": "烈風 一一型",
-    "name_cn": "烈风 一一型",
-    "data": "对空: 12, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "196",
-    "name_jp": "TBD",
-    "name_cn": "TBD",
-    "data": "火力: 1, 雷装: 5, 对潜: 4, 索敌: 2, 射程/航程: 4",
+    "type": "../icons/type/水侦机.png",
+    "id": "118",
+    "name_jp": "紫雲",
+    "name_cn": "紫云",
+    "data": "爆装: 1, 对潜: 2, 索敌: 8, 命中: 1, 射程/航程: 4",
     "produce": "",
     "enhance": "check_box"
   },
   {
     "type": "../icons/type/舰战机.png",
-    "id": "205",
-    "name_jp": "F6F-3",
-    "name_cn": "F6F-3",
-    "data": "火力: 1, 对空: 8, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/局地战斗机.png",
-    "id": "201",
-    "name_jp": "紫電一一型",
-    "name_cn": "紫电一一型",
-    "data": "对空: 8, 命中: 1, 回避: 1, 射程/航程: 3, 装甲: 1",
+    "id": "056",
+    "name_jp": "震電改",
+    "name_cn": "震电改",
+    "data": "对空: 15, 射程/航程: 2",
     "produce": "",
     "enhance": "check_box"
   },
@@ -1278,29 +135,65 @@
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "105",
-    "name_jp": "試製41cm三連装砲",
-    "name_cn": "试制41cm三连装炮",
-    "data": "火力: 22, 对空: 5, 命中: 2, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
     "type": "../icons/type/电探.png",
-    "id": "088",
-    "name_jp": "22号対水上電探改四",
-    "name_cn": "22号对水上电探改四",
-    "data": "对潜: 2, 索敌: 5, 命中: 8, 射程/航程: 无",
+    "id": "307",
+    "name_jp": "GFCS Mk.37",
+    "name_cn": "GFCS Mk.37",
+    "data": "火力: 2, 对空: 7, 索敌: 6, 命中: 9, 回避: 2, 射程/航程: 中, 装甲: 1",
     "produce": "",
     "enhance": ""
   },
   {
-    "type": "../icons/type/爆雷.png",
-    "id": "347",
-    "name_jp": "二式12cm迫撃砲改 集中配備",
-    "name_cn": "二式12cm迫击炮改 集中配备",
-    "data": "对潜: 7, 回避: 1, 射程/航程: 无, 装甲: -1",
+    "type": "../icons/type/潜水艇装备.png",
+    "id": "211",
+    "name_jp": "潜水艦搭載電探&逆探(E27)",
+    "name_cn": "潜艇搭载电探 & 逆探（E27）",
+    "data": "火力: 1, 对空: 1, 索敌: 5, 命中: 3, 回避: 11",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/上陆用舟艇.png",
+    "id": "068",
+    "name_jp": "大発動艇",
+    "name_cn": "大发动艇",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/输送部材.png",
+    "id": "209",
+    "name_jp": "彩雲(輸送用分解済)",
+    "name_cn": "彩云（运输用拆卸版）",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "237",
+    "name_jp": "瑞雲(六三四空/熟練)",
+    "name_cn": "瑞云（六三四空/熟练）",
+    "data": "爆装: 9, 对空: 4, 对潜: 6, 索敌: 7, 命中: 1, 回避: 1, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/夜间舰攻机.png",
+    "id": "257",
+    "name_jp": "TBM-3D",
+    "name_cn": "TBM-3D",
+    "data": "火力: 2, 雷装: 9, 对空: 1, 对潜: 8, 索敌: 4, 命中: 2, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/潜水艇装备.png",
+    "id": "210",
+    "name_jp": "潜水艦搭載電探&水防式望遠鏡",
+    "name_cn": "潜艇搭载电探 & 水防式望远镜",
+    "data": "火力: 1, 对空: 1, 索敌: 4, 命中: 2, 回避: 8",
     "produce": "",
     "enhance": ""
   },
@@ -1309,403 +202,7 @@
     "id": "085",
     "name_jp": "3.7cm FlaK M42",
     "name_cn": "3.7cm FlaK M42",
-    "data": "火力: 1, 对空: 8, 命中: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "113",
-    "name_jp": "流星(六〇一空)",
-    "name_cn": "流星（六〇一空）",
-    "data": "雷装: 13, 对潜: 5, 索敌: 3, 命中: 1, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/高射装置.png",
-    "id": "121",
-    "name_jp": "94式高射装置",
-    "name_cn": "94式高射装置",
-    "data": "对空: 3, 回避: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "125",
-    "name_jp": "61cm三連装(酸素)魚雷",
-    "name_cn": "61cm三连装（酸素）鱼雷",
-    "data": "雷装: 8, 回避: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "208",
-    "name_jp": "晴嵐(六三一空)",
-    "name_cn": "晴岚（六三一空）",
-    "data": "爆装: 12, 对潜: 3, 索敌: 6, 命中: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "184",
-    "name_jp": "Re.2001 OR改",
-    "name_cn": "Re.2001 OR改",
-    "data": "火力: 3, 对空: 6, 回避: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "097",
-    "name_jp": "九九式艦爆(熟練)",
-    "name_cn": "九九式舰爆（熟练）",
-    "data": "爆装: 7, 对空: 1, 对潜: 4, 索敌: 2, 命中: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "295",
-    "name_jp": "12.7cm連装砲A型改三(戦時改修)+高射装置",
-    "name_cn": "12.7cm连装炮A型改三（战时改修）+高射装置",
-    "data": "火力: 2, 对空: 8, 命中: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "007",
-    "name_jp": "35.6cm連装砲",
-    "name_cn": "35.6cm连装炮",
-    "data": "火力: 15, 对空: 4, 射程/航程: 长",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "292",
-    "name_jp": "彗星二二型(六三四空/熟練)",
-    "name_cn": "彗星二二型（六三四空/熟练）",
-    "data": "爆装: 12, 对空: 2, 对潜: 5, 索敌: 2, 命中: 3, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "298",
-    "name_jp": "16inch Mk.I三連装砲",
-    "name_cn": "16inch MK.I 三连装炮",
-    "data": "火力: 21, 命中: 2, 射程/航程: 长, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "220",
-    "name_jp": "8cm高角砲改+増設機銃",
-    "name_cn": "8cm高角炮改+增设机枪",
-    "data": "火力: 1, 对空: 7, 命中: 2, 回避: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/爆雷.png",
-    "id": "227",
-    "name_jp": "二式爆雷",
-    "name_cn": "二式爆雷",
-    "data": "对潜: 7, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "025",
-    "name_jp": "零式水上偵察機",
-    "name_cn": "零式水上侦察机",
-    "data": "爆装: 1, 对空: 1, 对潜: 2, 索敌: 5, 命中: 1, 射程/航程: 7",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "198",
-    "name_jp": "F4F-4",
-    "name_cn": "F4F-4",
-    "data": "火力: 1, 对空: 5, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "160",
-    "name_jp": "10.5cm連装砲",
-    "name_cn": "10.5cm连装炮",
-    "data": "火力: 3, 对空: 6, 命中: 2, 回避: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "189",
-    "name_jp": "Re.2005 改",
-    "name_cn": "Re.2005 改",
-    "data": "火力: 1, 对空: 11, 回避: 3, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "147",
-    "name_jp": "120mm連装砲",
-    "name_cn": "120mm连装炮",
-    "data": "火力: 3, 对空: 2, 命中: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "252",
-    "name_jp": "Seafire Mk.III改",
-    "name_cn": "海喷火（Seafire） Mk.III 改",
-    "data": "火力: 1, 对空: 9, 命中: 1, 回避: 2, 射程/航程: 4, 装甲: 1",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "159",
-    "name_jp": "Fw190T改",
-    "name_cn": "Fw190T改",
-    "data": "火力: 2, 对空: 10, 回避: 2, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "223",
-    "name_jp": "一式戦 隼III型甲(54戦隊)",
-    "name_cn": "一式战 隼III型甲（54战队）",
-    "data": "火力: 2, 对空: 8, 索敌: 1, 命中: 1, 回避: 3, 射程/航程: 7",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "040",
-    "name_jp": "25mm三連装機銃",
-    "name_cn": "25mm三连装机枪",
-    "data": "对空: 6, 回避: 1, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/声呐.png",
-    "id": "149",
-    "name_jp": "四式水中聴音機",
-    "name_cn": "四式水中听音机",
-    "data": "对潜: 12, 命中: 1, 射程/航程: 无, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "197",
-    "name_jp": "F4F-3",
-    "name_cn": "F4F-3",
-    "data": "火力: 1, 对空: 4, 回避: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "225",
-    "name_jp": "一式戦 隼II型(64戦隊)",
-    "name_cn": "一式战 隼II型（64战队）",
-    "data": "火力: 1, 对空: 11, 索敌: 1, 命中: 1, 回避: 5, 射程/航程: 7",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/副炮.png",
-    "id": "077",
-    "name_jp": "15cm連装副砲",
-    "name_cn": "15cm连装副炮",
-    "data": "火力: 4, 对空: 2, 命中: 2, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "038",
-    "name_jp": "12.7mm単装機銃",
-    "name_cn": "12.7mm单装机枪",
-    "data": "对空: 3, 回避: 1, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "191",
-    "name_jp": "QF 2ポンド8連装ポンポン砲",
-    "name_cn": "QF 2镑8连装砰砰炮",
-    "data": "火力: 1, 对空: 10, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "306",
-    "name_jp": "Ju87C改二(KMX搭載機/熟練)",
-    "name_cn": "Ju87C改二（KMX搭载机/熟练）",
-    "data": "爆装: 10, 对潜: 10, 索敌: 2, 命中: 3, 回避: 1, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "332",
-    "name_jp": "16inch Mk.VIII連装砲改",
-    "name_cn": "16inch Mk.VIII 连装炮改",
-    "data": "火力: 21, 对空: 6, 命中: 4, 回避: 2, 射程/航程: 长, 装甲: 2",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "037",
-    "name_jp": "7.7mm機銃",
-    "name_cn": "7.7mm机枪",
-    "data": "对空: 2, 回避: 1, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/潜水艇装备.png",
-    "id": "210",
-    "name_jp": "潜水艦搭載電探&水防式望遠鏡",
-    "name_cn": "潜艇搭载电探 & 水防式望远镜",
-    "data": "火力: 1, 对空: 1, 索敌: 4, 命中: 2, 回避: 8, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水战机.png",
-    "id": "216",
-    "name_jp": "二式水戦改(熟練)",
-    "name_cn": "二式水战改（熟练）",
-    "data": "对空: 5, 对潜: 1, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "127",
-    "name_jp": "試製FaT仕様九五式酸素魚雷改",
-    "name_cn": "试制FaT规格九五式酸素鱼雷改",
-    "data": "雷装: 14, 命中: 7, 回避: 2, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰队司令部设施.png",
-    "id": "272",
-    "name_jp": "遊撃部隊 艦隊司令部",
-    "name_cn": "游击部队 舰队司令部",
-    "data": "索敌: 1, 命中: 1, 回避: 1, 射程/航程: 无, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "304",
-    "name_jp": "S9 Osprey",
-    "name_cn": "S9鹗（Osprey）",
-    "data": "对空: 1, 对潜: 2, 索敌: 4, 命中: 2, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "296",
-    "name_jp": "12.7cm連装砲B型改四(戦時改修)+高射装置",
-    "name_cn": "12.7cm连装炮B型改四（战时改修）+高射装置",
-    "data": "火力: 3, 对空: 9, 命中: 1, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "052",
-    "name_jp": "流星改",
-    "name_cn": "流星改",
-    "data": "雷装: 13, 对潜: 3, 索敌: 2, 射程/航程: 6",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "174",
-    "name_jp": "53cm連装魚雷",
-    "name_cn": "53cm连装鱼雷",
-    "data": "雷装: 3, 回避: 2, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "239",
-    "name_jp": "零式水上偵察機11型乙(熟練)",
-    "name_cn": "零式水上侦察机11型乙（熟练）",
-    "data": "火力: 2, 对空: 1, 对潜: 8, 索敌: 8, 命中: 3, 射程/航程: 7",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "231",
-    "name_jp": "30.5cm三連装砲",
-    "name_cn": "30.5cm三连装炮",
-    "data": "火力: 16, 命中: 1, 射程/航程: 长, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水战机.png",
-    "id": "164",
-    "name_jp": "Ro.44水上戦闘機",
-    "name_cn": "Ro.44水上战斗机",
-    "data": "对空: 2, 对潜: 1, 索敌: 2, 命中: 1, 回避: 2, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/增设装甲.png",
-    "id": "204",
-    "name_jp": "艦本新設計 増設バルジ(大型艦)",
-    "name_cn": "舰本新设计 增设防雷鼓包（大型舰）",
-    "data": "回避: -2, 射程/航程: 无, 装甲: 10",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/声呐.png",
-    "id": "260",
-    "name_jp": "Type124 ASDIC",
-    "name_cn": "Type124 ASDIC",
-    "data": "对潜: 11, 命中: 2, 回避: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "117",
-    "name_jp": "試製46cm連装砲",
-    "name_cn": "试制46cm连装炮",
-    "data": "火力: 23, 对空: 4, 命中: 1, 射程/航程: 超长",
+    "data": "火力: 1, 对空: 8, 命中: 1",
     "produce": "",
     "enhance": ""
   },
@@ -1719,283 +216,238 @@
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/高射装置.png",
-    "id": "120",
-    "name_jp": "91式高射装置",
-    "name_cn": "91式高射装置",
-    "data": "对空: 2, 回避: 1, 射程/航程: 无",
+    "type": "../icons/type/旋翼机.png",
+    "id": "326",
+    "name_jp": "S-51J",
+    "name_cn": "S-51J",
+    "data": "火力: 2, 对潜: 12, 索敌: 3, 命中: 2",
     "produce": "",
-    "enhance": ""
+    "enhance": "check_box"
   },
   {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "005",
-    "name_jp": "15.5cm三連装砲",
-    "name_cn": "15.5cm三连装炮",
-    "data": "火力: 7, 对空: 4, 命中: 1, 射程/航程: 中",
+    "type": "../icons/type/爆雷.png",
+    "id": "045",
+    "name_jp": "三式爆雷投射機",
+    "name_cn": "三式爆雷投射机",
+    "data": "对潜: 8",
     "produce": "check_box",
     "enhance": ""
   },
   {
-    "type": "../icons/type/上陆用舟艇.png",
-    "id": "230",
-    "name_jp": "特大発動艇+戦車第11連隊",
-    "name_cn": "特大发动艇+战车第11连队",
-    "data": "射程/航程: 无",
+    "type": "../icons/type/舰队司令部设施.png",
+    "id": "107",
+    "name_jp": "艦隊司令部施設",
+    "name_cn": "舰队司令部设施",
+    "data": "对空: 1, 索敌: 1, 命中: 1, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "282",
+    "name_jp": "130mm B-13連装砲",
+    "name_cn": "130mm B-13连装炮",
+    "data": "火力: 4, 对空: 1, 射程/航程: 短, 装甲: 1",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/舰战机.png",
-    "id": "021",
-    "name_jp": "零式艦戦52型",
-    "name_cn": "零式舰战52型",
-    "data": "对空: 6, 射程/航程: 6",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对地弹.png",
-    "id": "348",
-    "name_jp": "艦載型 四式20cm対地噴進砲",
-    "name_cn": "舰载型 四式20cm对地喷进炮",
-    "data": "射程/航程: 无, 装甲: -2",
+    "id": "110",
+    "name_jp": "烈風(六〇一空)",
+    "name_cn": "烈风（六〇一空）",
+    "data": "对空: 11, 命中: 1, 回避: 2, 射程/航程: 5",
     "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "192",
-    "name_jp": "38.1cm Mk.I/N連装砲改",
-    "name_cn": "38.1cm Mk.I/N 连装炮改",
-    "data": "火力: 19, 对空: 3, 命中: 2, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "214",
-    "name_jp": "熟練聴音員+後期型艦首魚雷(6門)",
-    "name_cn": "熟练听音员+后期型舰首鱼雷（6门）",
-    "data": "雷装: 15, 索敌: 1, 命中: 5, 回避: 4, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "039",
-    "name_jp": "25mm連装機銃",
-    "name_cn": "25mm连装机枪",
-    "data": "对空: 5, 回避: 1, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/探照灯.png",
-    "id": "140",
-    "name_jp": "96式150cm探照灯",
-    "name_cn": "96式150cm探照灯",
-    "data": "对空: 1, 索敌: 3, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/陆上攻击机.png",
-    "id": "169",
-    "name_jp": "一式陸攻",
-    "name_cn": "一式陆攻",
-    "data": "雷装: 10, 爆装: 12, 对空: 2, 对潜: 2, 索敌: 3, 射程/航程: 9",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "222",
-    "name_jp": "一式戦 隼III型甲",
-    "name_cn": "一式战 隼III型甲",
-    "data": "火力: 1, 对空: 7, 命中: 1, 回避: 3, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "343",
-    "name_jp": "流星改(一航戦/熟練)",
-    "name_cn": "流星改（一航战/熟练）",
-    "data": "雷装: 15, 对空: 3, 对潜: 7, 索敌: 6, 命中: 2, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水上飞行艇.png",
-    "id": "178",
-    "name_jp": "PBY-5A Catalina",
-    "name_cn": "PBY-5A Catalina",
-    "data": "对潜: 2, 索敌: 9, 命中: 2, 射程/航程: 10",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/声呐.png",
-    "id": "261",
-    "name_jp": "Type144/147 ASDIC",
-    "name_cn": "Type144/147 ASDIC",
-    "data": "对潜: 13, 命中: 3, 回避: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/陆上攻击机.png",
-    "id": "170",
-    "name_jp": "一式陸攻(野中隊)",
-    "name_cn": "一式陆攻（野中队）",
-    "data": "雷装: 12, 爆装: 13, 对空: 3, 对潜: 2, 索敌: 4, 命中: 1, 射程/航程: 9",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰侦机.png",
-    "id": "061",
-    "name_jp": "二式艦上偵察機",
-    "name_cn": "二式舰上侦察机",
-    "data": "对空: 1, 索敌: 7, 命中: 3, 射程/航程: 5",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/上陆用舟艇.png",
-    "id": "068",
-    "name_jp": "大発動艇",
-    "name_cn": "大发动艇",
-    "data": "射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "182",
-    "name_jp": "零式艦戦32型(熟練)",
-    "name_cn": "零式舰战32型（熟练）",
-    "data": "对空: 8, 命中: 1, 回避: 4, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "139",
-    "name_jp": "15.2cm連装砲改",
-    "name_cn": "15.2cm连装炮改",
-    "data": "火力: 6, 对空: 3, 命中: 4, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "123",
-    "name_jp": "SKC34 20.3cm連装砲",
-    "name_cn": "SKC34 20.3cm连装炮",
-    "data": "火力: 10, 对空: 2, 命中: 3, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "015",
-    "name_jp": "61cm四連装(酸素)魚雷",
-    "name_cn": "61cm四连装（酸素）鱼雷",
-    "data": "雷装: 10, 射程/航程: 短",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "023",
-    "name_jp": "九九式艦爆",
-    "name_cn": "九九式舰爆",
-    "data": "爆装: 5, 对潜: 3, 射程/航程: 4",
-    "produce": "check_box",
     "enhance": "check_box"
   },
   {
     "type": "../icons/type/电探.png",
-    "id": "029",
-    "name_jp": "33号対水上電探",
-    "name_cn": "33号对水上电探",
-    "data": "索敌: 7, 命中: 5, 射程/航程: 无",
+    "id": "028",
+    "name_jp": "22号対水上電探",
+    "name_cn": "22号对水上电探",
+    "data": "索敌: 5, 命中: 3",
     "produce": "check_box",
     "enhance": ""
   },
   {
-    "type": "../icons/type/副炮.png",
-    "id": "247",
-    "name_jp": "15.2cm三連装砲",
-    "name_cn": "15.2cm三连装炮",
-    "data": "火力: 6, 对空: 1, 命中: 3, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "305",
-    "name_jp": "Ju87C改二(KMX搭載機)",
-    "name_cn": "Ju87C改二（KMX搭载机）",
-    "data": "爆装: 9, 对潜: 9, 索敌: 2, 命中: 2, 回避: 1, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/照明弹.png",
-    "id": "101",
-    "name_jp": "照明弾",
-    "name_cn": "照明弹",
-    "data": "射程/航程: 无",
+    "type": "../icons/type/对空主炮.png",
+    "id": "275",
+    "name_jp": "10cm連装高角砲改+増設機銃",
+    "name_cn": "10cm连装高角炮改+增设机枪",
+    "data": "火力: 2, 对空: 9, 命中: 2, 回避: 1, 射程/航程: 短, 装甲: 1",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/对空主炮.png",
-    "id": "172",
-    "name_jp": "5inch連装砲 Mk.28 mod.2",
-    "name_cn": "5inch连装炮 Mk.28 mod.2",
-    "data": "火力: 4, 对空: 9, 命中: 2, 回避: 1, 射程/航程: 短, 装甲: 1",
+    "id": "091",
+    "name_jp": "12.7cm連装高角砲(後期型)",
+    "name_cn": "12.7cm连装高角炮（后期型）",
+    "data": "火力: 2, 对空: 5, 对潜: 1, 命中: 1, 回避: 1, 射程/航程: 短",
     "produce": "",
     "enhance": ""
+  },
+  {
+    "type": "../icons/type/对空弹.png",
+    "id": "035",
+    "name_jp": "三式弾",
+    "name_cn": "三式弹",
+    "data": "对空: 5",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "181",
+    "name_jp": "零式艦戦32型",
+    "name_cn": "零式舰战32型",
+    "data": "对空: 5, 回避: 2, 射程/航程: 5",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "109",
+    "name_jp": "零戦52型丙(六〇一空)",
+    "name_cn": "零式舰战52型丙（六〇一空）",
+    "data": "对空: 9, 命中: 1, 回避: 1, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
   },
   {
     "type": "../icons/type/声呐.png",
     "id": "262",
     "name_jp": "HF/DF + Type144/147 ASDIC",
     "name_cn": "HF/DF + Type144/147 ASDIC",
-    "data": "对潜: 15, 索敌: 2, 命中: 3, 回避: 2, 射程/航程: 无",
+    "data": "对潜: 15, 索敌: 2, 命中: 3, 回避: 2",
     "produce": "",
     "enhance": ""
   },
   {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "281",
-    "name_jp": "51cm連装砲",
-    "name_cn": "51cm连装炮",
-    "data": "火力: 32, 对空: 5, 命中: 1, 回避: -1, 射程/航程: 超长, 装甲: 2",
+    "type": "../icons/type/应急修理要员.png",
+    "id": "042",
+    "name_jp": "応急修理要員",
+    "name_cn": "应急修理要员",
+    "data": "",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/舰攻机.png",
-    "id": "256",
-    "name_jp": "TBF",
-    "name_cn": "TBF",
-    "data": "火力: 2, 雷装: 9, 对空: 1, 对潜: 6, 索敌: 2, 射程/航程: 6",
+    "id": "143",
+    "name_jp": "九七式艦攻(村田隊)",
+    "name_cn": "九七式舰攻（村田队）",
+    "data": "雷装: 12, 对空: 1, 对潜: 5, 索敌: 4, 命中: 2, 射程/航程: 4",
     "produce": "",
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "224",
-    "name_jp": "爆装一式戦 隼III型改(65戦隊)",
-    "name_cn": "爆装一式战 隼III型改（65战队）",
-    "data": "火力: 3, 爆装: 8, 对空: 6, 索敌: 1, 命中: 3, 回避: 2, 射程/航程: 5",
+    "type": "../icons/type/航空要员.png",
+    "id": "108",
+    "name_jp": "熟練艦載機整備員",
+    "name_cn": "熟练舰载机整备员",
+    "data": "火力: 10, 对空: 1, 索敌: 1, 命中: 1, 射程/航程: 长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "306",
+    "name_jp": "Ju87C改二(KMX搭載機/熟練)",
+    "name_cn": "Ju87C改二（KMX搭载机/熟练）",
+    "data": "爆装: 10, 对潜: 10, 索敌: 2, 命中: 3, 回避: 1, 射程/航程: 4",
     "produce": "",
     "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "319",
+    "name_jp": "彗星一二型(六三四空/三号爆弾搭載機)",
+    "name_cn": "彗星一二型（六三四空/三号爆弹搭载机）",
+    "data": "爆装: 12, 对空: 3, 对潜: 2, 命中: 1, 回避: 1, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "022",
+    "name_jp": "試製烈風 後期型",
+    "name_cn": "试制烈风 后期型",
+    "data": "对空: 10, 射程/航程: 5",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "135",
+    "name_jp": "90mm単装高角砲",
+    "name_cn": "90mm单装高角炮",
+    "data": "火力: 1, 对空: 8, 命中: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "078",
+    "name_jp": "12.7cm単装砲",
+    "name_cn": "12.7cm单装炮",
+    "data": "火力: 2, 命中: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "130",
+    "name_jp": "12.7cm高角砲+高射装置",
+    "name_cn": "12.7cm连装高角炮+94式高射装置",
+    "data": "火力: 1, 对空: 8, 命中: 1, 回避: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/声呐.png",
+    "id": "047",
+    "name_jp": "三式水中探信儀",
+    "name_cn": "三式水中探信仪",
+    "data": "对潜: 10, 命中: 2",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "016",
+    "name_jp": "九七式艦攻",
+    "name_cn": "九七式舰攻",
+    "data": "雷装: 5, 对潜: 4, 索敌: 1, 射程/航程: 4",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "052",
+    "name_jp": "流星改",
+    "name_cn": "流星改",
+    "data": "雷装: 13, 对潜: 3, 索敌: 2, 射程/航程: 6",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "299",
+    "name_jp": "16inch Mk.I三連装砲+AFCT改",
+    "name_cn": "16inch MK.I 三连装炮+AFCT改",
+    "data": "火力: 22, 命中: 4, 射程/航程: 长, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/高射装置.png",
+    "id": "120",
+    "name_jp": "91式高射装置",
+    "name_cn": "91式高射装置",
+    "data": "对空: 2, 回避: 1",
+    "produce": "",
+    "enhance": ""
   },
   {
     "type": "../icons/type/大口径主炮.png",
@@ -2007,101 +459,83 @@
     "enhance": ""
   },
   {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "251",
-    "name_jp": "Spitfire Mk.V",
-    "name_cn": "喷火（Spitfire） Mk.V",
-    "data": "火力: 1, 对空: 9, 命中: 3, 回避: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
+    "type": "../icons/type/电探.png",
+    "id": "027",
+    "name_jp": "13号対空電探",
+    "name_cn": "13号对空电探",
+    "data": "对空: 2, 索敌: 3, 命中: 1",
+    "produce": "check_box",
+    "enhance": ""
   },
   {
-    "type": "../icons/type/夜间舰攻机.png",
-    "id": "344",
-    "name_jp": "九七式艦攻改 試製三号戊型(空六号電探改装備機)",
-    "name_cn": "九七式舰攻改 试制三号戊型（空六号电探改装备机）",
-    "data": "雷装: 7, 对潜: 6, 索敌: 4, 命中: 1, 射程/航程: 4",
+    "type": "../icons/type/电探.png",
+    "id": "088",
+    "name_jp": "22号対水上電探改四",
+    "name_cn": "22号对水上电探改四",
+    "data": "对潜: 2, 索敌: 5, 命中: 8",
     "produce": "",
-    "enhance": "check_box"
+    "enhance": ""
   },
   {
     "type": "../icons/type/大口径主炮.png",
-    "id": "104",
-    "name_jp": "35.6cm連装砲(ダズル迷彩)",
-    "name_cn": "35.6cm连装炮（炫光迷彩）",
-    "data": "火力: 15, 对空: 5, 命中: 1, 回避: 1, 射程/航程: 长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "098",
-    "name_jp": "九七式艦攻(熟練)",
-    "name_cn": "九七式舰攻（熟练）",
-    "data": "雷装: 8, 对潜: 5, 索敌: 2, 命中: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "057",
-    "name_jp": "彗星一二型甲",
-    "name_cn": "彗星一二型甲",
-    "data": "爆装: 10, 对潜: 3, 索敌: 1, 射程/航程: 5",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "286",
-    "name_jp": "61cm四連装(酸素)魚雷後期型",
-    "name_cn": "61cm四连装（酸素）鱼雷后期型",
-    "data": "雷装: 11, 命中: 2, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "179",
-    "name_jp": "試製61cm六連装(酸素)魚雷",
-    "name_cn": "试制61cm六连装（酸素）鱼雷",
-    "data": "雷装: 14, 命中: 2, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/增设装甲.png",
-    "id": "203",
-    "name_jp": "艦本新設計 増設バルジ(中型艦)",
-    "name_cn": "舰本新设计 增设防雷鼓包（中型舰）",
-    "data": "回避: -1, 射程/航程: 无, 装甲: 8",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "297",
-    "name_jp": "12.7cm連装砲A型",
-    "name_cn": "12.7cm连装炮A型",
-    "data": "火力: 2, 对空: 1, 射程/航程: 短",
+    "id": "328",
+    "name_jp": "35.6cm連装砲改",
+    "name_cn": "35.6cm连装炮改",
+    "data": "火力: 16, 对空: 4, 命中: 3, 回避: 2, 射程/航程: 长, 装甲: 2",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/舰战机.png",
-    "id": "206",
-    "name_jp": "F6F-5",
-    "name_cn": "F6F-5",
-    "data": "火力: 1, 对空: 10, 索敌: 1, 命中: 1, 回避: 3, 射程/航程: 5",
+    "id": "189",
+    "name_jp": "Re.2005 改",
+    "name_cn": "Re.2005 改",
+    "data": "火力: 1, 对空: 11, 回避: 3, 射程/航程: 3",
     "produce": "",
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/战斗粮食.png",
-    "id": "241",
-    "name_jp": "戦闘糧食(特別なおにぎり)",
-    "name_cn": "战斗粮食（特别饭团）",
-    "data": "射程/航程: 无",
+    "type": "../icons/type/陆上攻击机.png",
+    "id": "186",
+    "name_jp": "一式陸攻 三四型",
+    "name_cn": "一式陆攻 三四型",
+    "data": "雷装: 11, 爆装: 12, 对空: 4, 对潜: 2, 索敌: 4, 命中: 1, 射程/航程: 8",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "232",
+    "name_jp": "30.5cm三連装砲改",
+    "name_cn": "30.5cm三连装炮改",
+    "data": "火力: 17, 对空: 3, 命中: 3, 回避: 1, 射程/航程: 长, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/电探.png",
+    "id": "240",
+    "name_jp": "22号対水上電探改四(後期調整型)",
+    "name_cn": "22号对水上电探改四（后期调整型）",
+    "data": "火力: 1, 对潜: 2, 索敌: 7, 命中: 9",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/对舰弹.png",
+    "id": "116",
+    "name_jp": "一式徹甲弾",
+    "name_cn": "一式穿甲弹",
+    "data": "火力: 9, 命中: 2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "191",
+    "name_jp": "QF 2ポンド8連装ポンポン砲",
+    "name_cn": "QF 2镑8连装砰砰炮",
+    "data": "火力: 1, 对空: 10",
     "produce": "",
     "enhance": ""
   },
@@ -2115,229 +549,67 @@
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/舰战机.png",
-    "id": "181",
-    "name_jp": "零式艦戦32型",
-    "name_cn": "零式舰战32型",
-    "data": "对空: 5, 回避: 2, 射程/航程: 5",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "144",
-    "name_jp": "天山一二型(村田隊)",
-    "name_cn": "天山一二型（村田队）",
-    "data": "雷装: 15, 对空: 1, 对潜: 6, 索敌: 4, 命中: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "143",
-    "name_jp": "九七式艦攻(村田隊)",
-    "name_cn": "九七式舰攻（村田队）",
-    "data": "雷装: 12, 对空: 1, 对潜: 5, 索敌: 4, 命中: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "291",
-    "name_jp": "彗星二二型(六三四空)",
-    "name_cn": "彗星二二型（六三四空）",
-    "data": "爆装: 11, 对空: 1, 对潜: 4, 命中: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "016",
-    "name_jp": "九七式艦攻",
-    "name_cn": "九七式舰攻",
-    "data": "雷装: 5, 对潜: 4, 索敌: 1, 射程/航程: 4",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "049",
-    "name_jp": "25mm単装機銃",
-    "name_cn": "25mm单装机枪",
-    "data": "对空: 4, 回避: 1, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "050",
-    "name_jp": "20.3cm(3号)連装砲",
-    "name_cn": "20.3cm（3号）连装炮",
-    "data": "火力: 10, 对空: 4, 命中: 1, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "153",
-    "name_jp": "零戦52型丙(付岩井小隊)",
-    "name_cn": "零式舰战52型丙（附岩井小队）",
-    "data": "对空: 10, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/输送部材.png",
-    "id": "075",
-    "name_jp": "ドラム缶(輸送用)",
-    "name_cn": "鼓筒（运输用）",
-    "data": "射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "235",
-    "name_jp": "15.5cm三連装砲改",
-    "name_cn": "15.5cm三连装炮改",
-    "data": "火力: 7, 对空: 5, 命中: 3, 回避: 1, 射程/航程: 中, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "109",
-    "name_jp": "零戦52型丙(六〇一空)",
-    "name_cn": "零式舰战52型丙（六〇一空）",
-    "data": "对空: 9, 命中: 1, 回避: 1, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对潜哨戒机.png",
-    "id": "269",
-    "name_jp": "試製東海",
-    "name_cn": "试制东海",
-    "data": "爆装: 2, 对潜: 10, 索敌: 5, 射程/航程: 8",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/局地战斗机.png",
-    "id": "263",
-    "name_jp": "紫電改(三四三空) 戦闘301",
-    "name_cn": "紫电改（三四三空）战斗301",
-    "data": "对空: 11, 命中: 2, 回避: 4, 射程/航程: 4, 装甲: 2",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "041",
-    "name_jp": "甲標的 甲型",
-    "name_cn": "甲标的 甲型",
-    "data": "雷装: 12, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "240",
-    "name_jp": "22号対水上電探改四(後期調整型)",
-    "name_cn": "22号对水上电探改四（后期调整型）",
-    "data": "火力: 1, 对潜: 2, 索敌: 7, 命中: 9, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "006",
-    "name_jp": "20.3cm連装砲",
-    "name_cn": "20.3cm连装炮",
-    "data": "火力: 8, 对空: 3, 射程/航程: 中",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/陆上攻击机.png",
-    "id": "186",
-    "name_jp": "一式陸攻 三四型",
-    "name_cn": "一式陆攻 三四型",
-    "data": "雷装: 11, 爆装: 12, 对空: 4, 对潜: 2, 索敌: 4, 命中: 1, 射程/航程: 8",
+    "type": "../icons/type/水侦机.png",
+    "id": "239",
+    "name_jp": "零式水上偵察機11型乙(熟練)",
+    "name_cn": "零式水上侦察机11型乙（熟练）",
+    "data": "火力: 2, 对空: 1, 对潜: 8, 索敌: 8, 命中: 3, 射程/航程: 7",
     "produce": "",
     "enhance": "check_box"
   },
   {
     "type": "../icons/type/电探.png",
-    "id": "279",
-    "name_jp": "SK+SG レーダー",
-    "name_cn": "SK&SG雷达",
-    "data": "火力: 1, 对空: 9, 索敌: 12, 命中: 4, 回避: 4, 射程/航程: 中",
+    "id": "089",
+    "name_jp": "21号対空電探改",
+    "name_cn": "21号对空电探改",
+    "data": "对空: 5, 索敌: 6, 命中: 3, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/声呐.png",
+    "id": "260",
+    "name_jp": "Type124 ASDIC",
+    "name_cn": "Type124 ASDIC",
+    "data": "对潜: 11, 命中: 2, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/爆雷.png",
+    "id": "346",
+    "name_jp": "二式12cm迫撃砲改",
+    "name_cn": "二式12cm迫击炮改",
+    "data": "对潜: 3, 回避: 1",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/舰侦机.png",
-    "id": "273",
-    "name_jp": "彩雲(偵四)",
-    "name_cn": "彩云（侦四）",
-    "data": "对空: 2, 索敌: 10, 命中: 2, 射程/航程: 7",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "017",
-    "name_jp": "天山",
-    "name_cn": "天山",
-    "data": "雷装: 7, 对潜: 3, 索敌: 1, 射程/航程: 5",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "122",
-    "name_jp": "10cm連装高角砲+高射装置",
-    "name_cn": "10cm连装高角炮+94式高射装置",
-    "data": "火力: 3, 对空: 10, 命中: 1, 回避: 1, 射程/航程: 短",
+    "id": "312",
+    "name_jp": "二式陸上偵察機(熟練)",
+    "name_cn": "二式陆上侦察机（熟练）",
+    "data": "对空: 3, 索敌: 9, 命中: 3, 射程/航程: 9, 装甲: 1",
     "produce": "",
     "enhance": ""
   },
   {
-    "type": "../icons/type/副炮.png",
-    "id": "134",
-    "name_jp": "OTO 152mm三連装速射砲",
-    "name_cn": "OTO 152mm三连装速射炮",
-    "data": "火力: 8, 对空: 2, 命中: 1, 射程/航程: 中, 装甲: 1",
+    "type": "../icons/type/增设装甲.png",
+    "id": "203",
+    "name_jp": "艦本新設計 増設バルジ(中型艦)",
+    "name_cn": "舰本新设计 增设防雷鼓包（中型舰）",
+    "data": "回避: -1, 装甲: 8",
     "produce": "",
     "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "342",
-    "name_jp": "流星改(一航戦)",
-    "name_cn": "流星改（一航战）",
-    "data": "雷装: 14, 对空: 2, 对潜: 6, 索敌: 4, 命中: 1, 射程/航程: 6",
-    "produce": "",
-    "enhance": "check_box"
   },
   {
     "type": "../icons/type/鱼雷.png",
-    "id": "309",
-    "name_jp": "甲標的 丙型",
-    "name_cn": "甲标的 丙型",
-    "data": "雷装: 14, 命中: 1, 回避: 1, 射程/航程: 无",
-    "produce": "",
+    "id": "014",
+    "name_jp": "61cm四連装魚雷",
+    "name_cn": "61cm四连装鱼雷",
+    "data": "雷装: 7, 射程/航程: 短",
+    "produce": "check_box",
     "enhance": ""
-  },
-  {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "177",
-    "name_jp": "三式戦 飛燕(飛行第244戦隊)",
-    "name_cn": "三式战 飞燕（飞行第244战队）",
-    "data": "对空: 9, 命中: 3, 回避: 4, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
   },
   {
     "type": "../icons/type/舰战机.png",
@@ -2349,83 +621,74 @@
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/舰战机.png",
-    "id": "156",
-    "name_jp": "零戦52型甲(付岩本小隊)",
-    "name_cn": "零式舰战52型甲（附岩本小队）",
-    "data": "对空: 11, 索敌: 1, 命中: 1, 回避: 3, 射程/航程: 6",
+    "type": "../icons/type/大口径主炮.png",
+    "id": "231",
+    "name_jp": "30.5cm三連装砲",
+    "name_cn": "30.5cm三连装炮",
+    "data": "火力: 16, 命中: 1, 射程/航程: 长, 装甲: 1",
     "produce": "",
-    "enhance": "check_box"
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰队司令部设施.png",
+    "id": "272",
+    "name_jp": "遊撃部隊 艦隊司令部",
+    "name_cn": "游击部队 舰队司令部",
+    "data": "索敌: 1, 命中: 1, 回避: 1, 装甲: 1",
+    "produce": "",
+    "enhance": ""
   },
   {
     "type": "../icons/type/机枪.png",
-    "id": "084",
-    "name_jp": "2cm 四連装FlaK 38",
-    "name_cn": "2cm四连装FlaK 38",
-    "data": "对空: 7, 命中: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "300",
-    "name_jp": "16inch Mk.I三連装砲改+FCR type284",
-    "name_cn": "16inch MK.I 三连装炮改+FCR type284",
-    "data": "火力: 23, 对空: 7, 命中: 6, 回避: 2, 射程/航程: 长, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "031",
-    "name_jp": "32号対水上電探",
-    "name_cn": "32号对水上电探",
-    "data": "索敌: 10, 命中: 8, 射程/航程: 无",
+    "id": "038",
+    "name_jp": "12.7mm単装機銃",
+    "name_cn": "12.7mm单装机枪",
+    "data": "对空: 3, 回避: 1",
     "produce": "check_box",
     "enhance": ""
   },
   {
-    "type": "../icons/type/舰攻机.png",
-    "id": "242",
-    "name_jp": "Swordfish",
-    "name_cn": "剑鱼（Swordfish）",
-    "data": "火力: 2, 雷装: 3, 对潜: 4, 索敌: 1, 命中: 1, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "301",
-    "name_jp": "20連装7inch UP Rocket Launchers",
-    "name_cn": "20连装7inch UP火箭发射器",
-    "data": "对空: 7, 回避: 2, 射程/航程: 无",
+    "type": "../icons/type/大口径主炮.png",
+    "id": "105",
+    "name_jp": "試製41cm三連装砲",
+    "name_cn": "试制41cm三连装炮",
+    "data": "火力: 22, 对空: 5, 命中: 2, 射程/航程: 长",
     "produce": "",
     "enhance": ""
   },
   {
-    "type": "../icons/type/水侦机.png",
-    "id": "118",
-    "name_jp": "紫雲",
-    "name_cn": "紫云",
-    "data": "爆装: 1, 对潜: 2, 索敌: 8, 命中: 1, 射程/航程: 4",
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "253",
+    "name_jp": "Spitfire Mk.IX(熟練)",
+    "name_cn": "喷火（Spitfire） Mk.IX（熟练）",
+    "data": "火力: 1, 对空: 10, 命中: 2, 回避: 4, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "343",
+    "name_jp": "流星改(一航戦/熟練)",
+    "name_cn": "流星改（一航战/熟练）",
+    "data": "雷装: 15, 对空: 3, 对潜: 7, 索敌: 6, 命中: 2, 射程/航程: 6",
     "produce": "",
     "enhance": "check_box"
   },
   {
     "type": "../icons/type/鱼雷.png",
-    "id": "067",
-    "name_jp": "53cm艦首(酸素)魚雷",
-    "name_cn": "53cm舰首（酸素）鱼雷",
-    "data": "雷装: 15, 命中: 2, 射程/航程: 短",
-    "produce": "",
+    "id": "013",
+    "name_jp": "61cm三連装魚雷",
+    "name_cn": "61cm三连装鱼雷",
+    "data": "雷装: 5, 射程/航程: 短",
+    "produce": "check_box",
     "enhance": ""
   },
   {
-    "type": "../icons/type/舰侦机.png",
-    "id": "311",
-    "name_jp": "二式陸上偵察機",
-    "name_cn": "二式陆上侦察机",
-    "data": "对空: 3, 索敌: 8, 命中: 2, 射程/航程: 8",
+    "type": "../icons/type/对空主炮.png",
+    "id": "172",
+    "name_jp": "5inch連装砲 Mk.28 mod.2",
+    "name_cn": "5inch连装炮 Mk.28 mod.2",
+    "data": "火力: 4, 对空: 9, 命中: 2, 回避: 1, 射程/航程: 短, 装甲: 1",
     "produce": "",
     "enhance": ""
   },
@@ -2440,264 +703,102 @@
   },
   {
     "type": "../icons/type/对空主炮.png",
-    "id": "313",
-    "name_jp": "5inch単装砲 Mk.30改",
-    "name_cn": "5inch单装炮 Mk.30改",
-    "data": "火力: 3, 对空: 7, 命中: 2, 回避: 2, 射程/航程: 短, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "095",
-    "name_jp": "潜水艦53cm艦首魚雷(8門)",
-    "name_cn": "潜艇53cm舰首鱼雷（8门）",
-    "data": "雷装: 16, 命中: 3, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "219",
-    "name_jp": "零式艦戦63型(爆戦)",
-    "name_cn": "零式舰战63型（爆战）",
-    "data": "爆装: 5, 对空: 5, 对潜: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/应急修理要员.png",
-    "id": "043",
-    "name_jp": "応急修理女神",
-    "name_cn": "应急修理女神",
-    "data": "射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "099",
-    "name_jp": "九九式艦爆(江草隊)",
-    "name_cn": "九九式舰爆（江草队）",
-    "data": "爆装: 10, 对潜: 5, 索敌: 3, 命中: 4, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/上陆用舟艇.png",
-    "id": "193",
-    "name_jp": "特大発動艇",
-    "name_cn": "特大发动艇",
-    "data": "射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/旋翼机.png",
-    "id": "324",
-    "name_jp": "オ号観測機改",
-    "name_cn": "Ｏ号观测机改",
-    "data": "火力: 1, 对潜: 10, 命中: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "014",
-    "name_jp": "61cm四連装魚雷",
-    "name_cn": "61cm四连装鱼雷",
-    "data": "雷装: 7, 射程/航程: 短",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "110",
-    "name_jp": "烈風(六〇一空)",
-    "name_cn": "烈风（六〇一空）",
-    "data": "对空: 11, 命中: 1, 回避: 2, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰战机.png",
-    "id": "158",
-    "name_jp": "Bf109T改",
-    "name_cn": "Bf109T改",
-    "data": "火力: 1, 对空: 8, 回避: 4, 射程/航程: 2",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "051",
-    "name_jp": "12cm30連装噴進砲",
-    "name_cn": "12cm30连装喷进炮",
-    "data": "对空: 8, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/水战机.png",
-    "id": "165",
-    "name_jp": "二式水戦改",
-    "name_cn": "二式水战改",
-    "data": "对空: 3, 对潜: 1, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "194",
-    "name_jp": "Laté 298B",
-    "name_cn": "Laté 298B",
-    "data": "火力: 2, 雷装: 4, 爆装: 5, 对空: 1, 对潜: 2, 索敌: 4, 回避: 1, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "243",
-    "name_jp": "Swordfish Mk.II(熟練)",
-    "name_cn": "剑鱼（Swordfish） Mk.II（熟练）",
-    "data": "火力: 3, 雷装: 5, 对潜: 6, 索敌: 2, 命中: 3, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/增设装甲.png",
-    "id": "136",
-    "name_jp": "プリエーゼ式水中防御隔壁",
-    "name_cn": "普列塞（Pugliese）水下防御舱壁",
-    "data": "回避: -1, 射程/航程: 无, 装甲: 7",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "319",
-    "name_jp": "彗星一二型(六三四空/三号爆弾搭載機)",
-    "name_cn": "彗星一二型（六三四空/三号爆弹搭载机）",
-    "data": "爆装: 12, 对空: 3, 对潜: 2, 命中: 1, 回避: 1, 射程/航程: 5",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/战斗粮食.png",
-    "id": "145",
-    "name_jp": "戦闘糧食",
-    "name_cn": "战斗粮食",
-    "data": "射程/航程: 无",
+    "id": "308",
+    "name_jp": "5inch単装砲 Mk.30改+GFCS Mk.37",
+    "name_cn": "5inch单装炮 Mk.30改+GFCS Mk.37",
+    "data": "火力: 3, 对空: 11, 索敌: 3, 命中: 6, 回避: 2, 射程/航程: 中, 装甲: 1",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/陆军战斗机.png",
-    "id": "185",
-    "name_jp": "三式戦 飛燕一型丁",
-    "name_cn": "三式战 飞燕一型丁",
-    "data": "对空: 9, 命中: 2, 回避: 3, 射程/航程: 4",
+    "id": "177",
+    "name_jp": "三式戦 飛燕(飛行第244戦隊)",
+    "name_cn": "三式战 飞燕（飞行第244战队）",
+    "data": "对空: 9, 命中: 3, 回避: 4, 射程/航程: 4",
     "produce": "",
     "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/爆雷.png",
-    "id": "287",
-    "name_jp": "三式爆雷投射機 集中配備",
-    "name_cn": "三式爆雷投射机 集中配备",
-    "data": "对潜: 12, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/机枪.png",
-    "id": "274",
-    "name_jp": "12cm30連装噴進砲改二",
-    "name_cn": "12cm30连装喷进炮改二",
-    "data": "对空: 8, 命中: 1, 回避: 3, 射程/航程: 无, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/声呐.png",
-    "id": "047",
-    "name_jp": "三式水中探信儀",
-    "name_cn": "三式水中探信仪",
-    "data": "对潜: 10, 命中: 2, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
   },
   {
     "type": "../icons/type/爆雷.png",
     "id": "226",
     "name_jp": "九五式爆雷",
     "name_cn": "九五式爆雷",
-    "data": "对潜: 4, 射程/航程: 无",
+    "data": "对潜: 4",
     "produce": "",
     "enhance": ""
   },
   {
-    "type": "../icons/type/水战机.png",
-    "id": "215",
-    "name_jp": "Ro.44水上戦闘機bis",
-    "name_cn": "Ro.44水上战斗机bis",
-    "data": "对空: 3, 对潜: 1, 索敌: 3, 命中: 2, 回避: 2, 射程/航程: 3",
+    "type": "../icons/type/中口径主炮.png",
+    "id": "119",
+    "name_jp": "14cm連装砲",
+    "name_cn": "14cm连装炮",
+    "data": "火力: 4, 命中: 2, 射程/航程: 中",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/夜间舰战机.png",
+    "id": "254",
+    "name_jp": "F6F-3N",
+    "name_cn": "F6F-3N",
+    "data": "对空: 8, 对潜: 4, 索敌: 2, 命中: 2, 回避: 3, 射程/航程: 5",
     "produce": "",
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/舰侦机.png",
-    "id": "151",
-    "name_jp": "試製景雲(艦偵型)",
-    "name_cn": "试制景云（舰侦型）",
-    "data": "火力: 2, 索敌: 11, 命中: 2, 射程/航程: 8",
+    "type": "../icons/type/水侦机.png",
+    "id": "025",
+    "name_jp": "零式水上偵察機",
+    "name_cn": "零式水上侦察机",
+    "data": "爆装: 1, 对空: 1, 对潜: 2, 索敌: 5, 命中: 1, 射程/航程: 7",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "037",
+    "name_jp": "7.7mm機銃",
+    "name_cn": "7.7mm机枪",
+    "data": "对空: 2, 回避: 1",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "156",
+    "name_jp": "零戦52型甲(付岩本小隊)",
+    "name_cn": "零式舰战52型甲（附岩本小队）",
+    "data": "对空: 11, 索敌: 1, 命中: 1, 回避: 3, 射程/航程: 6",
     "produce": "",
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/爆雷.png",
-    "id": "346",
-    "name_jp": "二式12cm迫撃砲改",
-    "name_cn": "二式12cm迫击炮改",
-    "data": "对潜: 3, 回避: 1",
+    "type": "../icons/type/大口径主炮.png",
+    "id": "281",
+    "name_jp": "51cm連装砲",
+    "name_cn": "51cm连装炮",
+    "data": "火力: 32, 对空: 5, 命中: 1, 回避: -1, 射程/航程: 超长, 装甲: 2",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/舰爆机.png",
-    "id": "111",
-    "name_jp": "彗星(六〇一空)",
-    "name_cn": "彗星（六〇一空）",
-    "data": "爆装: 11, 对潜: 4, 索敌: 1, 命中: 1, 射程/航程: 5",
+    "id": "097",
+    "name_jp": "九九式艦爆(熟練)",
+    "name_cn": "九九式舰爆（熟练）",
+    "data": "爆装: 7, 对空: 1, 对潜: 4, 索敌: 2, 命中: 2, 射程/航程: 4",
     "produce": "",
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/洋上补给.png",
-    "id": "146",
-    "name_jp": "洋上補給",
-    "name_cn": "洋上补给",
-    "data": "射程/航程: 无, 装甲: -2",
+    "type": "../icons/type/大口径主炮.png",
+    "id": "128",
+    "name_jp": "試製51cm連装砲",
+    "name_cn": "试制51cm连装炮",
+    "data": "火力: 30, 对空: 5, 命中: 1, 回避: -1, 射程/航程: 超长",
     "produce": "",
     "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰攻机.png",
-    "id": "093",
-    "name_jp": "九七式艦攻(友永隊)",
-    "name_cn": "九七式舰攻（友永队）",
-    "data": "雷装: 11, 对空: 1, 对潜: 5, 索敌: 4, 命中: 3, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "253",
-    "name_jp": "Spitfire Mk.IX(熟練)",
-    "name_cn": "喷火（Spitfire） Mk.IX（熟练）",
-    "data": "火力: 1, 对空: 10, 命中: 2, 回避: 4, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
   },
   {
     "type": "../icons/type/局地战斗机.png",
@@ -2710,109 +811,217 @@
   },
   {
     "type": "../icons/type/电探.png",
-    "id": "028",
-    "name_jp": "22号対水上電探",
-    "name_cn": "22号对水上电探",
-    "data": "索敌: 5, 命中: 3, 射程/航程: 无",
+    "id": "032",
+    "name_jp": "42号対空電探",
+    "name_cn": "42号对空电探",
+    "data": "对空: 6, 索敌: 5, 命中: 4",
     "produce": "check_box",
     "enhance": ""
   },
   {
-    "type": "../icons/type/夜间舰战机.png",
-    "id": "255",
-    "name_jp": "F6F-5N",
-    "name_cn": "F6F-5N",
-    "data": "对空: 10, 对潜: 5, 索敌: 3, 命中: 3, 回避: 3, 射程/航程: 5",
+    "type": "../icons/type/对空主炮.png",
+    "id": "071",
+    "name_jp": "10cm連装高角砲(砲架)",
+    "name_cn": "10cm连装高角炮（炮架）",
+    "data": "火力: 1, 对空: 7, 命中: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "309",
+    "name_jp": "甲標的 丙型",
+    "name_cn": "甲标的 丙型",
+    "data": "雷装: 14, 命中: 1, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "064",
+    "name_jp": "Ju87C改",
+    "name_cn": "Ju87C改",
+    "data": "爆装: 9, 对潜: 5, 命中: 1, 射程/航程: 4",
     "produce": "",
     "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "266",
+    "name_jp": "12.7cm連装砲C型改二",
+    "name_cn": "12.7cm连装炮C型改二",
+    "data": "火力: 3, 对空: 2, 命中: 1, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/陆上攻击机.png",
+    "id": "187",
+    "name_jp": "銀河",
+    "name_cn": "银河",
+    "data": "雷装: 14, 爆装: 14, 对空: 3, 对潜: 3, 索敌: 3, 命中: 1, 射程/航程: 9",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "293",
+    "name_jp": "12cm単装砲改二",
+    "name_cn": "12cm单装炮改二",
+    "data": "火力: 1, 命中: 1, 回避: 1, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
   },
   {
     "type": "../icons/type/舰战机.png",
-    "id": "249",
-    "name_jp": "Fulmar",
-    "name_cn": "管鼻鹱（Fulmar）",
-    "data": "火力: 1, 对空: 3, 对潜: 2, 索敌: 1, 命中: 2, 回避: 1, 射程/航程: 4",
+    "id": "336",
+    "name_jp": "烈風改二",
+    "name_cn": "烈风改二",
+    "data": "火力: 1, 对空: 13, 命中: 2, 回避: 1, 射程/航程: 5",
     "produce": "",
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/局地战斗机.png",
-    "id": "175",
-    "name_jp": "雷電",
-    "name_cn": "雷电",
-    "data": "对空: 6, 命中: 5, 回避: 2, 射程/航程: 2",
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "221",
+    "name_jp": "一式戦 隼II型",
+    "name_cn": "一式战 隼II型",
+    "data": "对空: 6, 回避: 2, 射程/航程: 6",
     "produce": "",
     "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "098",
+    "name_jp": "九七式艦攻(熟練)",
+    "name_cn": "九七式舰攻（熟练）",
+    "data": "雷装: 8, 对潜: 5, 索敌: 2, 命中: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "242",
+    "name_jp": "Swordfish",
+    "name_cn": "剑鱼（Swordfish）",
+    "data": "火力: 2, 雷装: 3, 对潜: 4, 索敌: 1, 命中: 1, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "017",
+    "name_jp": "天山",
+    "name_cn": "天山",
+    "data": "雷装: 7, 对潜: 3, 索敌: 1, 射程/航程: 5",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "192",
+    "name_jp": "38.1cm Mk.I/N連装砲改",
+    "name_cn": "38.1cm Mk.I/N 连装炮改",
+    "data": "火力: 19, 对空: 3, 命中: 2, 射程/航程: 长",
+    "produce": "",
+    "enhance": ""
   },
   {
     "type": "../icons/type/电探.png",
-    "id": "124",
-    "name_jp": "FuMO25 レーダー",
-    "name_cn": "FuMO25雷达",
-    "data": "火力: 3, 对空: 7, 索敌: 9, 命中: 10, 射程/航程: 无",
+    "id": "315",
+    "name_jp": "SG レーダー(初期型)",
+    "name_cn": "SG雷达（初期型）",
+    "data": "火力: 1, 对空: 3, 对潜: 3, 索敌: 8, 命中: 8, 回避: 6, 射程/航程: 中",
     "produce": "",
     "enhance": ""
   },
   {
-    "type": "../icons/type/水侦机.png",
-    "id": "026",
-    "name_jp": "瑞雲",
-    "name_cn": "瑞云",
-    "data": "爆装: 4, 对空: 2, 对潜: 4, 索敌: 6, 命中: 1, 射程/航程: 5",
-    "produce": "check_box",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/水侦机.png",
-    "id": "237",
-    "name_jp": "瑞雲(六三四空/熟練)",
-    "name_cn": "瑞云（六三四空/熟练）",
-    "data": "爆装: 9, 对空: 4, 对潜: 6, 索敌: 7, 命中: 1, 回避: 1, 射程/航程: 5",
+    "type": "../icons/type/中口径主炮.png",
+    "id": "123",
+    "name_jp": "SKC34 20.3cm連装砲",
+    "name_cn": "SKC34 20.3cm连装炮",
+    "data": "火力: 10, 对空: 2, 命中: 3, 射程/航程: 中",
     "produce": "",
-    "enhance": "check_box"
+    "enhance": ""
   },
   {
-    "type": "../icons/type/舰战机.png",
-    "id": "335",
-    "name_jp": "烈風改(試製艦載型)",
-    "name_cn": "烈风改（试制舰战型）",
-    "data": "火力: 1, 对空: 10, 命中: 2, 回避: 3, 射程/航程: 4, 装甲: 1",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/航空要员.png",
-    "id": "108",
-    "name_jp": "熟練艦載機整備員",
-    "name_cn": "熟练舰载机整备员",
-    "data": "火力: 10, 对空: 1, 索敌: 1, 命中: 1, 射程/航程: 长",
+    "type": "../icons/type/对潜哨戒机.png",
+    "id": "269",
+    "name_jp": "試製東海",
+    "name_cn": "试制东海",
+    "data": "爆装: 2, 对潜: 10, 索敌: 5, 射程/航程: 8",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/舰战机.png",
-    "id": "055",
-    "name_jp": "紫電改二",
-    "name_cn": "紫电改二",
-    "data": "对空: 9, 回避: 3, 射程/航程: 3",
-    "produce": "check_box",
+    "id": "158",
+    "name_jp": "Bf109T改",
+    "name_cn": "Bf109T改",
+    "data": "火力: 1, 对空: 8, 回避: 4, 射程/航程: 2",
+    "produce": "",
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/电探.png",
-    "id": "141",
-    "name_jp": "32号対水上電探改",
-    "name_cn": "32号对水上电探改",
-    "data": "索敌: 11, 命中: 9, 射程/航程: 无",
+    "type": "../icons/type/对空主炮.png",
+    "id": "160",
+    "name_jp": "10.5cm連装砲",
+    "name_cn": "10.5cm连装炮",
+    "data": "火力: 3, 对空: 6, 命中: 2, 回避: 1, 射程/航程: 短",
     "produce": "",
     "enhance": ""
   },
   {
-    "type": "../icons/type/喷气式战斗轰炸机.png",
-    "id": "199",
-    "name_jp": "噴式景雲改",
-    "name_cn": "喷气式景云改",
-    "data": "爆装: 15, 对空: 6, 索敌: 3, 命中: 1, 射程/航程: 3",
+    "type": "../icons/type/大口径主炮.png",
+    "id": "246",
+    "name_jp": "38cm四連装砲改",
+    "name_cn": "38cm四连装炮改",
+    "data": "火力: 22, 对空: 2, 命中: 3, 射程/航程: 中, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "229",
+    "name_jp": "12.7cm単装高角砲(後期型)",
+    "name_cn": "12.7cm单装高角炮（后期型）",
+    "data": "火力: 1, 对空: 4, 对潜: 1, 命中: 1, 回避: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "184",
+    "name_jp": "Re.2001 OR改",
+    "name_cn": "Re.2001 OR改",
+    "data": "火力: 3, 对空: 6, 回避: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "062",
+    "name_jp": "試製晴嵐",
+    "name_cn": "试制晴岚",
+    "data": "爆装: 11, 对潜: 6, 索敌: 6, 命中: 1, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "323",
+    "name_jp": "瑞雲改二(六三四空/熟練)",
+    "name_cn": "瑞云改二（六三四空/熟练）",
+    "data": "火力: 2, 爆装: 11, 对空: 5, 对潜: 7, 索敌: 8, 命中: 3, 回避: 3, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/对潜哨戒机.png",
+    "id": "070",
+    "name_jp": "三式指揮連絡機(対潜)",
+    "name_cn": "三式指挥联络机（对潜）",
+    "data": "对潜: 7, 索敌: 1, 命中: 2",
     "produce": "",
     "enhance": "check_box"
   },
@@ -2826,173 +1035,11 @@
     "enhance": ""
   },
   {
-    "type": "../icons/type/舰侦机.png",
-    "id": "212",
-    "name_jp": "彩雲(東カロリン空)",
-    "name_cn": "彩云（东加罗林空）",
-    "data": "火力: 1, 索敌: 10, 命中: 2, 射程/航程: 8",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "183",
-    "name_jp": "16inch三連装砲 Mk.7+GFCS",
-    "name_cn": "16inch三连装炮Mk.7+GFCS",
-    "data": "火力: 24, 对空: 3, 命中: 7, 回避: 1, 射程/航程: 长, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "316",
-    "name_jp": "Re.2001 CB改",
-    "name_cn": "Re.2001 CB改",
-    "data": "火力: 3, 爆装: 6, 对空: 4, 对潜: 3, 命中: 1, 回避: 2, 射程/航程: 3",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/陆军战斗机.png",
-    "id": "250",
-    "name_jp": "Spitfire Mk.I",
-    "name_cn": "喷火（Spitfire） Mk.I",
-    "data": "火力: 1, 对空: 7, 命中: 2, 回避: 1, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/机关.png",
-    "id": "034",
-    "name_jp": "強化型艦本式缶",
-    "name_cn": "强化型舰船锅炉",
-    "data": "回避: 10, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "303",
-    "name_jp": "Bofors 15.2cm連装砲 Model 1930",
-    "name_cn": "博福斯（Bofors）15.2cm连装炮 Model 1930",
-    "data": "火力: 5, 对空: 4, 命中: 3, 回避: 1, 射程/航程: 中",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/局地战斗机.png",
-    "id": "333",
-    "name_jp": "烈風改",
-    "name_cn": "烈风改",
-    "data": "对空: 10, 命中: 6, 回避: 2, 射程/航程: 4, 装甲: 1",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "308",
-    "name_jp": "5inch単装砲 Mk.30改+GFCS Mk.37",
-    "name_cn": "5inch单装炮 Mk.30改+GFCS Mk.37",
-    "data": "火力: 3, 对空: 11, 索敌: 3, 命中: 6, 回避: 2, 射程/航程: 中, 装甲: 1",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/电探.png",
-    "id": "027",
-    "name_jp": "13号対空電探",
-    "name_cn": "13号对空电探",
-    "data": "对空: 2, 索敌: 3, 命中: 1, 射程/航程: 无",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
     "type": "../icons/type/鱼雷.png",
-    "id": "213",
-    "name_jp": "後期型艦首魚雷(6門)",
-    "name_cn": "后期型舰首鱼雷（6门）",
-    "data": "雷装: 15, 命中: 3, 回避: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/特型内火艇.png",
-    "id": "167",
-    "name_jp": "特二式内火艇",
-    "name_cn": "特二式内火艇",
-    "data": "射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/爆雷.png",
-    "id": "288",
-    "name_jp": "試製15cm9連装対潜噴進砲",
-    "name_cn": "试制15cm9连装对潜喷进炮",
-    "data": "对潜: 15, 命中: 1, 射程/航程: 无",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/对空主炮.png",
-    "id": "066",
-    "name_jp": "8cm高角砲",
-    "name_cn": "8cm高角炮",
-    "data": "火力: 1, 对空: 6, 命中: 2, 射程/航程: 短",
-    "produce": "check_box",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/鱼雷.png",
-    "id": "283",
-    "name_jp": "533mm 三連装魚雷",
-    "name_cn": "533mm三连装鱼雷",
-    "data": "火力: 1, 雷装: 5, 回避: 1, 射程/航程: 短",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/旋翼机.png",
-    "id": "327",
-    "name_jp": "S-51J改",
-    "name_cn": "S-51J改",
-    "data": "火力: 2, 对潜: 13, 索敌: 4, 命中: 3, 射程/航程: 无",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "137",
-    "name_jp": "381mm/50 三連装砲改",
-    "name_cn": "381mm/50三连装炮改",
-    "data": "火力: 21, 对空: 4, 命中: -1, 回避: -1, 射程/航程: 超长",
-    "produce": "",
-    "enhance": ""
-  },
-  {
-    "type": "../icons/type/对潜哨戒机.png",
-    "id": "070",
-    "name_jp": "三式指揮連絡機(対潜)",
-    "name_cn": "三式指挥联络机（对潜）",
-    "data": "对潜: 7, 索敌: 1, 命中: 2, 射程/航程: 无",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/舰爆机.png",
-    "id": "195",
-    "name_jp": "SBD",
-    "name_cn": "SBD",
-    "data": "火力: 1, 爆装: 6, 对空: 2, 对潜: 3, 索敌: 2, 命中: 1, 回避: 2, 射程/航程: 4",
-    "produce": "",
-    "enhance": "check_box"
-  },
-  {
-    "type": "../icons/type/小口径主炮.png",
-    "id": "078",
-    "name_jp": "12.7cm単装砲",
-    "name_cn": "12.7cm单装炮",
-    "data": "火力: 2, 命中: 1, 射程/航程: 短",
+    "id": "058",
+    "name_jp": "61cm五連装(酸素)魚雷",
+    "name_cn": "61cm五连装（酸素）鱼雷",
+    "data": "雷装: 12, 命中: 1, 射程/航程: 短",
     "produce": "",
     "enhance": ""
   },
@@ -3006,13 +1053,643 @@
     "enhance": ""
   },
   {
-    "type": "../icons/type/大口径主炮.png",
-    "id": "299",
-    "name_jp": "16inch Mk.I三連装砲+AFCT改",
-    "name_cn": "16inch MK.I 三连装炮+AFCT改",
-    "data": "火力: 22, 命中: 4, 射程/航程: 长, 装甲: 1",
+    "type": "../icons/type/中口径主炮.png",
+    "id": "065",
+    "name_jp": "15.2cm連装砲",
+    "name_cn": "15.2cm连装炮",
+    "data": "火力: 5, 对空: 3, 命中: 3, 射程/航程: 中",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/机关.png",
+    "id": "034",
+    "name_jp": "強化型艦本式缶",
+    "name_cn": "强化型舰船锅炉",
+    "data": "回避: 10",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "218",
+    "name_jp": "四式戦 疾風",
+    "name_cn": "四式战 疾风",
+    "data": "对空: 10, 命中: 1, 回避: 1, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "162",
+    "name_jp": "203mm/53 連装砲",
+    "name_cn": "203mm/53 连装炮",
+    "data": "火力: 9, 对空: 1, 命中: -2, 射程/航程: 长",
     "produce": "",
     "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰侦机.png",
+    "id": "311",
+    "name_jp": "二式陸上偵察機",
+    "name_cn": "二式陆上侦察机",
+    "data": "对空: 3, 索敌: 8, 命中: 2, 射程/航程: 8",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/夜间舰攻机.png",
+    "id": "345",
+    "name_jp": "九七式艦攻改(熟練) 試製三号戊型(空六号電探改装備機)",
+    "name_cn": "九七式舰攻改（熟练） 试制三号戊型（空六号电探改装备机）",
+    "data": "雷装: 9, 对潜: 7, 索敌: 5, 命中: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/喷气式战斗轰炸机.png",
+    "id": "199",
+    "name_jp": "噴式景雲改",
+    "name_cn": "喷气式景云改",
+    "data": "爆装: 15, 对空: 6, 索敌: 3, 命中: 1, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "223",
+    "name_jp": "一式戦 隼III型甲(54戦隊)",
+    "name_cn": "一式战 隼III型甲（54战队）",
+    "data": "火力: 2, 对空: 8, 索敌: 1, 命中: 1, 回避: 3, 射程/航程: 7",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "082",
+    "name_jp": "九七式艦攻(九三一空)",
+    "name_cn": "九七式舰攻（九三一空）",
+    "data": "雷装: 6, 对潜: 7, 索敌: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "313",
+    "name_jp": "5inch単装砲 Mk.30改",
+    "name_cn": "5inch单装炮 Mk.30改",
+    "data": "火力: 3, 对空: 7, 命中: 2, 回避: 2, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "176",
+    "name_jp": "三式戦 飛燕",
+    "name_cn": "三式战 飞燕",
+    "data": "对空: 8, 命中: 1, 回避: 3, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "316",
+    "name_jp": "Re.2001 CB改",
+    "name_cn": "Re.2001 CB改",
+    "data": "火力: 3, 爆装: 6, 对空: 4, 对潜: 3, 命中: 1, 回避: 2, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "048",
+    "name_jp": "12cm単装高角砲",
+    "name_cn": "12cm单装高角炮",
+    "data": "火力: 1, 对空: 3, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "020",
+    "name_jp": "零式艦戦21型",
+    "name_cn": "零式舰战21型",
+    "data": "对空: 5, 射程/航程: 7",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "206",
+    "name_jp": "F6F-5",
+    "name_cn": "F6F-5",
+    "data": "火力: 1, 对空: 10, 索敌: 1, 命中: 1, 回避: 3, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "099",
+    "name_jp": "九九式艦爆(江草隊)",
+    "name_cn": "九九式舰爆（江草队）",
+    "data": "爆装: 10, 对潜: 5, 索敌: 3, 命中: 4, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "274",
+    "name_jp": "12cm30連装噴進砲改二",
+    "name_cn": "12cm30连装喷进炮改二",
+    "data": "对空: 8, 命中: 1, 回避: 3, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "214",
+    "name_jp": "熟練聴音員+後期型艦首魚雷(6門)",
+    "name_cn": "熟练听音员+后期型舰首鱼雷（6门）",
+    "data": "雷装: 15, 索敌: 1, 命中: 5, 回避: 4, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "297",
+    "name_jp": "12.7cm連装砲A型",
+    "name_cn": "12.7cm连装炮A型",
+    "data": "火力: 2, 对空: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰艇修理设施.png",
+    "id": "086",
+    "name_jp": "艦艇修理施設",
+    "name_cn": "舰艇修理设施",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "298",
+    "name_jp": "16inch Mk.I三連装砲",
+    "name_cn": "16inch MK.I 三连装炮",
+    "data": "火力: 21, 命中: 2, 射程/航程: 长, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "197",
+    "name_jp": "F4F-3",
+    "name_cn": "F4F-3",
+    "data": "火力: 1, 对空: 4, 回避: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/喷气式战斗轰炸机.png",
+    "id": "200",
+    "name_jp": "橘花改",
+    "name_cn": "橘花改",
+    "data": "爆装: 11, 对空: 12, 回避: 1, 射程/航程: 2",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "183",
+    "name_jp": "16inch三連装砲 Mk.7+GFCS",
+    "name_cn": "16inch三连装炮Mk.7+GFCS",
+    "data": "火力: 24, 对空: 3, 命中: 7, 回避: 1, 射程/航程: 长, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/爆雷.png",
+    "id": "044",
+    "name_jp": "九四式爆雷投射機",
+    "name_cn": "九四式爆雷投射机",
+    "data": "对潜: 5",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/洋上补给.png",
+    "id": "146",
+    "name_jp": "洋上補給",
+    "name_cn": "洋上补给",
+    "data": "装甲: -2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "040",
+    "name_jp": "25mm三連装機銃",
+    "name_cn": "25mm三连装机枪",
+    "data": "对空: 6, 回避: 1",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "023",
+    "name_jp": "九九式艦爆",
+    "name_cn": "九九式舰爆",
+    "data": "爆装: 5, 对潜: 3, 射程/航程: 4",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/水上飞行艇.png",
+    "id": "138",
+    "name_jp": "二式大艇",
+    "name_cn": "二式大艇",
+    "data": "对潜: 1, 索敌: 12, 命中: 1, 射程/航程: 20",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "318",
+    "name_jp": "41cm連装砲改二",
+    "name_cn": "41cm连装炮改二",
+    "data": "火力: 21, 对空: 5, 命中: 5, 回避: 1, 射程/航程: 长, 装甲: 2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "248",
+    "name_jp": "Skua",
+    "name_cn": "贼鸥（Skua）",
+    "data": "爆装: 4, 对空: 2, 对潜: 2, 回避: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "008",
+    "name_jp": "41cm連装砲",
+    "name_cn": "41cm连装炮",
+    "data": "火力: 20, 对空: 4, 射程/航程: 长",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "295",
+    "name_jp": "12.7cm連装砲A型改三(戦時改修)+高射装置",
+    "name_cn": "12.7cm连装炮A型改三（战时改修）+高射装置",
+    "data": "火力: 2, 对空: 8, 命中: 1, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "144",
+    "name_jp": "天山一二型(村田隊)",
+    "name_cn": "天山一二型（村田队）",
+    "data": "雷装: 15, 对空: 1, 对潜: 6, 索敌: 4, 命中: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "280",
+    "name_jp": "QF 4.7inch砲 Mk.XII改",
+    "name_cn": "QF 4.7inch炮 Mk.XII改",
+    "data": "火力: 3, 对空: 3, 对潜: 1, 命中: 1, 回避: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水战机.png",
+    "id": "215",
+    "name_jp": "Ro.44水上戦闘機bis",
+    "name_cn": "Ro.44水上战斗机bis",
+    "data": "对空: 3, 对潜: 1, 索敌: 3, 命中: 2, 回避: 2, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/夜间舰战机.png",
+    "id": "255",
+    "name_jp": "F6F-5N",
+    "name_cn": "F6F-5N",
+    "data": "对空: 10, 对潜: 5, 索敌: 3, 命中: 3, 回避: 3, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "283",
+    "name_jp": "533mm 三連装魚雷",
+    "name_cn": "533mm三连装鱼雷",
+    "data": "火力: 1, 雷装: 5, 回避: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "009",
+    "name_jp": "46cm三連装砲",
+    "name_cn": "46cm三连装炮",
+    "data": "火力: 26, 对空: 5, 射程/航程: 超长",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "090",
+    "name_jp": "20.3cm(2号)連装砲",
+    "name_cn": "20.3cm（2号）连装炮",
+    "data": "火力: 9, 对空: 3, 命中: 1, 射程/航程: 中",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "286",
+    "name_jp": "61cm四連装(酸素)魚雷後期型",
+    "name_cn": "61cm四连装（酸素）鱼雷后期型",
+    "data": "雷装: 11, 命中: 2, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "131",
+    "name_jp": "25mm三連装機銃 集中配備",
+    "name_cn": "25mm三连装机枪 集中配备",
+    "data": "对空: 9, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "050",
+    "name_jp": "20.3cm(3号)連装砲",
+    "name_cn": "20.3cm（3号）连装炮",
+    "data": "火力: 10, 对空: 4, 命中: 1, 射程/航程: 中",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/电探.png",
+    "id": "106",
+    "name_jp": "13号対空電探改",
+    "name_cn": "13号对空电探改",
+    "data": "对空: 4, 索敌: 4, 命中: 2, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/电探.png",
+    "id": "031",
+    "name_jp": "32号対水上電探",
+    "name_cn": "32号对水上电探",
+    "data": "索敌: 10, 命中: 8",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/输送部材.png",
+    "id": "075",
+    "name_jp": "ドラム缶(輸送用)",
+    "name_cn": "鼓筒（运输用）",
+    "data": "",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "060",
+    "name_jp": "零式艦戦62型(爆戦)",
+    "name_cn": "零式舰战62型（爆战）",
+    "data": "爆装: 4, 对空: 4, 对潜: 3, 射程/航程: 4",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "301",
+    "name_jp": "20連装7inch UP Rocket Launchers",
+    "name_cn": "20连装7inch UP火箭发射器",
+    "data": "对空: 7, 回避: 2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/机关.png",
+    "id": "033",
+    "name_jp": "改良型艦本式タービン",
+    "name_cn": "改良型舰船涡轮机",
+    "data": "回避: 6",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "147",
+    "name_jp": "120mm連装砲",
+    "name_cn": "120mm连装炮",
+    "data": "火力: 3, 对空: 2, 命中: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/上陆用舟艇.png",
+    "id": "193",
+    "name_jp": "特大発動艇",
+    "name_cn": "特大发动艇",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/夜间舰战机.png",
+    "id": "338",
+    "name_jp": "烈風改二戊型",
+    "name_cn": "烈风改二戊型",
+    "data": "火力: 2, 对空: 11, 索敌: 1, 回避: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/声呐.png",
+    "id": "261",
+    "name_jp": "Type144/147 ASDIC",
+    "name_cn": "Type144/147 ASDIC",
+    "data": "对潜: 13, 命中: 3, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "080",
+    "name_jp": "瑞雲12型",
+    "name_cn": "瑞云12型",
+    "data": "爆装: 7, 对空: 3, 对潜: 5, 索敌: 6, 命中: 1, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "163",
+    "name_jp": "Ro.43水偵",
+    "name_cn": "Ro.43水侦",
+    "data": "火力: 1, 对空: 1, 对潜: 2, 索敌: 4, 命中: 2, 回避: 1, 射程/航程: 3",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/爆雷.png",
+    "id": "227",
+    "name_jp": "二式爆雷",
+    "name_cn": "二式爆雷",
+    "data": "对潜: 7",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "342",
+    "name_jp": "流星改(一航戦)",
+    "name_cn": "流星改（一航战）",
+    "data": "雷装: 14, 对空: 2, 对潜: 6, 索敌: 4, 命中: 1, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/副炮.png",
+    "id": "234",
+    "name_jp": "15.5cm三連装副砲改",
+    "name_cn": "15.5cm三连装副炮改",
+    "data": "火力: 7, 对空: 5, 命中: 4, 回避: 1, 射程/航程: 中",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/增设装甲.png",
+    "id": "072",
+    "name_jp": "増設バルジ(中型艦)",
+    "name_cn": "增设防雷鼓包（中型舰）",
+    "data": "回避: -2, 装甲: 7",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/增设装甲.png",
+    "id": "268",
+    "name_jp": "北方迷彩(+北方装備)",
+    "name_cn": "北方迷彩（+北方装备）",
+    "data": "回避: 2, 装甲: 2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "335",
+    "name_jp": "烈風改(試製艦載型)",
+    "name_cn": "烈风改（试制舰战型）",
+    "data": "火力: 1, 对空: 10, 命中: 2, 回避: 3, 射程/航程: 4, 装甲: 1",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "111",
+    "name_jp": "彗星(六〇一空)",
+    "name_cn": "彗星（六〇一空）",
+    "data": "爆装: 11, 对潜: 4, 索敌: 1, 命中: 1, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "182",
+    "name_jp": "零式艦戦32型(熟練)",
+    "name_cn": "零式舰战32型（熟练）",
+    "data": "对空: 8, 命中: 1, 回避: 4, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "026",
+    "name_jp": "瑞雲",
+    "name_cn": "瑞云",
+    "data": "爆装: 4, 对空: 2, 对潜: 4, 索敌: 6, 命中: 1, 射程/航程: 5",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "079",
+    "name_jp": "瑞雲(六三四空)",
+    "name_cn": "瑞云（六三四空）",
+    "data": "爆装: 6, 对空: 2, 对潜: 5, 索敌: 6, 命中: 1, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/副炮.png",
+    "id": "011",
+    "name_jp": "15.2cm単装砲",
+    "name_cn": "15.2cm单装炮",
+    "data": "火力: 2, 命中: 1, 射程/航程: 中",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水上舰要员.png",
+    "id": "129",
+    "name_jp": "熟練見張員",
+    "name_cn": "熟练瞭望员",
+    "data": "对空: 1, 索敌: 2, 命中: 2, 回避: 3",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/增设装甲.png",
+    "id": "136",
+    "name_jp": "プリエーゼ式水中防御隔壁",
+    "name_cn": "普列塞（Pugliese）水下防御舱壁",
+    "data": "回避: -1, 装甲: 7",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "018",
+    "name_jp": "流星",
+    "name_cn": "流星",
+    "data": "雷装: 10, 对潜: 4, 索敌: 1, 射程/航程: 6",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/应急修理要员.png",
+    "id": "043",
+    "name_jp": "応急修理女神",
+    "name_cn": "应急修理女神",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水战机.png",
+    "id": "164",
+    "name_jp": "Ro.44水上戦闘機",
+    "name_cn": "Ro.44水上战斗机",
+    "data": "对空: 2, 对潜: 1, 索敌: 2, 命中: 1, 回避: 2, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
   },
   {
     "type": "../icons/type/舰攻机.png",
@@ -3024,39 +1701,111 @@
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/局地战斗机.png",
-    "id": "202",
-    "name_jp": "紫電二一型 紫電改",
-    "name_cn": "紫电二一型 紫电改",
-    "data": "对空: 9, 命中: 1, 回避: 3, 射程/航程: 4, 装甲: 2",
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "224",
+    "name_jp": "爆装一式戦 隼III型改(65戦隊)",
+    "name_cn": "爆装一式战 隼III型改（65战队）",
+    "data": "火力: 3, 爆装: 8, 对空: 6, 索敌: 1, 命中: 3, 回避: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "019",
+    "name_jp": "九六式艦戦",
+    "name_cn": "九六式舰战",
+    "data": "对空: 3, 回避: 1, 射程/航程: 3",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/电探.png",
+    "id": "142",
+    "name_jp": "15m二重測距儀+21号電探改二",
+    "name_cn": "15m二重测距仪+21号电探改二",
+    "data": "火力: 1, 对空: 8, 索敌: 7, 命中: 9, 回避: 1, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/陆上攻击机.png",
+    "id": "170",
+    "name_jp": "一式陸攻(野中隊)",
+    "name_cn": "一式陆攻（野中队）",
+    "data": "雷装: 12, 爆装: 13, 对空: 3, 对潜: 2, 索敌: 4, 命中: 1, 射程/航程: 9",
     "produce": "",
     "enhance": "check_box"
   },
   {
     "type": "../icons/type/舰爆机.png",
-    "id": "064",
-    "name_jp": "Ju87C改",
-    "name_cn": "Ju87C改",
-    "data": "爆装: 9, 对潜: 5, 命中: 1, 射程/航程: 4",
+    "id": "320",
+    "name_jp": "彗星一二型(三一号光電管爆弾搭載機)",
+    "name_cn": "彗星一二型（三一号光电管爆弹搭载机）",
+    "data": "爆装: 11, 命中: 5, 射程/航程: 5",
     "produce": "",
     "enhance": "check_box"
   },
   {
-    "type": "../icons/type/中口径主炮.png",
-    "id": "341",
-    "name_jp": "152mm/55 三連装速射砲改",
-    "name_cn": "152mm/55 三连装速射炮改",
-    "data": "火力: 9, 对空: 3, 命中: 2, 回避: 1, 射程/航程: 中, 装甲: 1",
+    "type": "../icons/type/爆雷.png",
+    "id": "287",
+    "name_jp": "三式爆雷投射機 集中配備",
+    "name_cn": "三式爆雷投射机 集中配备",
+    "data": "对潜: 12",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/电探.png",
+    "id": "279",
+    "name_jp": "SK+SG レーダー",
+    "name_cn": "SK&SG雷达",
+    "data": "火力: 1, 对空: 9, 索敌: 12, 命中: 4, 回避: 4, 射程/航程: 中",
     "produce": "",
     "enhance": ""
   },
   {
     "type": "../icons/type/水侦机.png",
-    "id": "163",
-    "name_jp": "Ro.43水偵",
-    "name_cn": "Ro.43水侦",
-    "data": "火力: 1, 对空: 1, 对潜: 2, 索敌: 4, 命中: 2, 回避: 1, 射程/航程: 3",
+    "id": "238",
+    "name_jp": "零式水上偵察機11型乙",
+    "name_cn": "零式水上侦察机11型乙",
+    "data": "火力: 1, 对空: 1, 对潜: 7, 索敌: 6, 命中: 2, 射程/航程: 7",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "332",
+    "name_jp": "16inch Mk.VIII連装砲改",
+    "name_cn": "16inch Mk.VIII 连装炮改",
+    "data": "火力: 21, 对空: 6, 命中: 4, 回避: 2, 射程/航程: 长, 装甲: 2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "001",
+    "name_jp": "12cm単装砲",
+    "name_cn": "12cm单装炮",
+    "data": "火力: 1, 对空: 1, 射程/航程: 短",
     "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/机关.png",
+    "id": "087",
+    "name_jp": "新型高温高圧缶",
+    "name_cn": "新型高温高压锅炉",
+    "data": "回避: 13",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/旋翼机.png",
+    "id": "325",
+    "name_jp": "オ号観測機改二",
+    "name_cn": "Ｏ号观测机改二",
+    "data": "火力: 1, 对潜: 11, 索敌: 1, 命中: 1",
+    "produce": "",
     "enhance": "check_box"
   },
   {
@@ -3070,28 +1819,1279 @@
   },
   {
     "type": "../icons/type/舰爆机.png",
-    "id": "320",
-    "name_jp": "彗星一二型(三一号光電管爆弾搭載機)",
-    "name_cn": "彗星一二型（三一号光电管爆弹搭载机）",
-    "data": "爆装: 11, 命中: 5, 射程/航程: 5",
+    "id": "154",
+    "name_jp": "零戦62型(爆戦/岩井隊)",
+    "name_cn": "零式舰战62型（爆战/岩井队）",
+    "data": "爆装: 4, 对空: 7, 对潜: 3, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "207",
+    "name_jp": "瑞雲(六三一空)",
+    "name_cn": "瑞云（六三一空）",
+    "data": "爆装: 7, 对空: 1, 对潜: 2, 索敌: 4, 命中: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/电探.png",
+    "id": "124",
+    "name_jp": "FuMO25 レーダー",
+    "name_cn": "FuMO25雷达",
+    "data": "火力: 3, 对空: 7, 索敌: 9, 命中: 10",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "225",
+    "name_jp": "一式戦 隼II型(64戦隊)",
+    "name_cn": "一式战 隼II型（64战队）",
+    "data": "火力: 1, 对空: 11, 索敌: 1, 命中: 1, 回避: 5, 射程/航程: 7",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "039",
+    "name_jp": "25mm連装機銃",
+    "name_cn": "25mm连装机枪",
+    "data": "对空: 5, 回避: 1",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/夜间舰战机.png",
+    "id": "339",
+    "name_jp": "烈風改二戊型(一航戦/熟練)",
+    "name_cn": "烈风改二戊型（一航战/熟练）",
+    "data": "火力: 2, 对空: 12, 索敌: 1, 回避: 3, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "051",
+    "name_jp": "12cm30連装噴進砲",
+    "name_cn": "12cm30连装喷进炮",
+    "data": "对空: 8",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "066",
+    "name_jp": "8cm高角砲",
+    "name_cn": "8cm高角炮",
+    "data": "火力: 1, 对空: 6, 命中: 2, 射程/航程: 短",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "171",
+    "name_jp": "OS2U",
+    "name_cn": "OS2U",
+    "data": "爆装: 1, 对空: 1, 对潜: 1, 索敌: 6, 命中: 2, 回避: 1, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "302",
+    "name_jp": "九七式艦攻(九三一空/熟練)",
+    "name_cn": "九七式舰攻（九三一空/熟练）",
+    "data": "雷装: 8, 对潜: 9, 索敌: 3, 命中: 2, 回避: 1, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/副炮.png",
+    "id": "077",
+    "name_jp": "15cm連装副砲",
+    "name_cn": "15cm连装副炮",
+    "data": "火力: 4, 对空: 2, 命中: 2, 射程/航程: 中",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "303",
+    "name_jp": "Bofors 15.2cm連装砲 Model 1930",
+    "name_cn": "博福斯（Bofors）15.2cm连装炮 Model 1930",
+    "data": "火力: 5, 对空: 4, 命中: 3, 回避: 1, 射程/航程: 中",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/声呐.png",
+    "id": "132",
+    "name_jp": "零式水中聴音機",
+    "name_cn": "零式水中听音机",
+    "data": "对潜: 11, 索敌: 1, 命中: 1, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "198",
+    "name_jp": "F4F-4",
+    "name_cn": "F4F-4",
+    "data": "火力: 1, 对空: 5, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "024",
+    "name_jp": "彗星",
+    "name_cn": "彗星",
+    "data": "爆装: 8, 对潜: 3, 射程/航程: 4",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/增设装甲.png",
+    "id": "204",
+    "name_jp": "艦本新設計 増設バルジ(大型艦)",
+    "name_cn": "舰本新设计 增设防雷鼓包（大型舰）",
+    "data": "回避: -2, 装甲: 10",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "081",
+    "name_jp": "瑞雲12型(六三四空)",
+    "name_cn": "瑞云12型（六三四空）",
+    "data": "爆装: 9, 对空: 3, 对潜: 6, 索敌: 7, 命中: 1, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "330",
+    "name_jp": "16inch Mk.I連装砲",
+    "name_cn": "16inch Mk.I 连装炮",
+    "data": "火力: 20, 命中: 1, 回避: 1, 射程/航程: 长, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "103",
+    "name_jp": "試製35.6cm三連装砲",
+    "name_cn": "试制35.6cm三连装炮",
+    "data": "火力: 18, 对空: 5, 命中: 2, 射程/航程: 长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "076",
+    "name_jp": "38cm連装砲",
+    "name_cn": "38cm连装炮",
+    "data": "火力: 16, 对空: 1, 命中: 1, 射程/航程: 长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "245",
+    "name_jp": "38cm四連装砲",
+    "name_cn": "38cm四连装炮",
+    "data": "火力: 21, 对空: 1, 命中: 1, 射程/航程: 长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/特型内火艇.png",
+    "id": "167",
+    "name_jp": "特二式内火艇",
+    "name_cn": "特二式内火艇",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "252",
+    "name_jp": "Seafire Mk.III改",
+    "name_cn": "海喷火（Seafire） Mk.III 改",
+    "data": "火力: 1, 对空: 9, 命中: 1, 回避: 2, 射程/航程: 4, 装甲: 1",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/旋翼机.png",
+    "id": "069",
+    "name_jp": "カ号観測機",
+    "name_cn": "KA号观测机",
+    "data": "对潜: 9, 命中: 1",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "244",
+    "name_jp": "Swordfish Mk.III(熟練)",
+    "name_cn": "剑鱼（Swordfish） Mk.III（熟练）",
+    "data": "火力: 4, 雷装: 8, 对潜: 10, 索敌: 5, 命中: 4, 射程/航程: 3",
     "produce": "",
     "enhance": "check_box"
   },
   {
     "type": "../icons/type/爆雷.png",
-    "id": "044",
-    "name_jp": "九四式爆雷投射機",
-    "name_cn": "九四式爆雷投射机",
-    "data": "对潜: 5, 射程/航程: 无",
+    "id": "288",
+    "name_jp": "試製15cm9連装対潜噴進砲",
+    "name_cn": "试制15cm9连装对潜喷进炮",
+    "data": "对潜: 15, 命中: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "249",
+    "name_jp": "Fulmar",
+    "name_cn": "管鼻鹱（Fulmar）",
+    "data": "火力: 1, 对空: 3, 对潜: 2, 索敌: 1, 命中: 2, 回避: 1, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/对舰弹.png",
+    "id": "036",
+    "name_jp": "九一式徹甲弾",
+    "name_cn": "九一式穿甲弹",
+    "data": "火力: 8, 命中: 1",
     "produce": "check_box",
     "enhance": ""
   },
   {
-    "type": "../icons/type/喷气式战斗轰炸机.png",
-    "id": "200",
-    "name_jp": "橘花改",
-    "name_cn": "橘花改",
-    "data": "爆装: 11, 对空: 12, 回避: 1, 射程/航程: 2",
+    "type": "../icons/type/舰攻机.png",
+    "id": "243",
+    "name_jp": "Swordfish Mk.II(熟練)",
+    "name_cn": "剑鱼（Swordfish） Mk.II（熟练）",
+    "data": "火力: 3, 雷装: 5, 对潜: 6, 索敌: 2, 命中: 3, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/电探.png",
+    "id": "029",
+    "name_jp": "33号対水上電探",
+    "name_cn": "33号对水上电探",
+    "data": "索敌: 7, 命中: 5",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "137",
+    "name_jp": "381mm/50 三連装砲改",
+    "name_cn": "381mm/50三连装炮改",
+    "data": "火力: 21, 对空: 4, 命中: -1, 回避: -1, 射程/航程: 超长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "284",
+    "name_jp": "5inch単装砲 Mk.30",
+    "name_cn": "5inch单装炮 Mk.30",
+    "data": "火力: 2, 对空: 6, 命中: 1, 回避: 2, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/战斗粮食.png",
+    "id": "241",
+    "name_jp": "戦闘糧食(特別なおにぎり)",
+    "name_cn": "战斗粮食（特别饭团）",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "113",
+    "name_jp": "流星(六〇一空)",
+    "name_cn": "流星（六〇一空）",
+    "data": "雷装: 13, 对潜: 5, 索敌: 3, 命中: 1, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "155",
+    "name_jp": "零戦21型(付岩本小隊)",
+    "name_cn": "零式舰战21型（附岩本小队）",
+    "data": "对空: 9, 索敌: 1, 命中: 1, 回避: 3, 射程/航程: 7",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "340",
+    "name_jp": "152mm/55 三連装速射砲",
+    "name_cn": "152mm/55 三连装速射炮",
+    "data": "火力: 8, 对空: 2, 命中: 1, 射程/航程: 中, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/增设装甲.png",
+    "id": "073",
+    "name_jp": "増設バルジ(大型艦)",
+    "name_cn": "增设防雷鼓包（大型舰）",
+    "data": "回避: -3, 装甲: 9",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "196",
+    "name_jp": "TBD",
+    "name_cn": "TBD",
+    "data": "火力: 1, 雷装: 5, 对潜: 4, 索敌: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "251",
+    "name_jp": "Spitfire Mk.V",
+    "name_cn": "喷火（Spitfire） Mk.V",
+    "data": "火力: 1, 对空: 9, 命中: 3, 回避: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "305",
+    "name_jp": "Ju87C改二(KMX搭載機)",
+    "name_cn": "Ju87C改二（KMX搭载机）",
+    "data": "爆装: 9, 对潜: 9, 索敌: 2, 命中: 2, 回避: 1, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "093",
+    "name_jp": "九七式艦攻(友永隊)",
+    "name_cn": "九七式舰攻（友永队）",
+    "data": "雷装: 11, 对空: 1, 对潜: 5, 索敌: 4, 命中: 3, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "185",
+    "name_jp": "三式戦 飛燕一型丁",
+    "name_cn": "三式战 飞燕一型丁",
+    "data": "对空: 9, 命中: 2, 回避: 3, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "285",
+    "name_jp": "61cm三連装(酸素)魚雷後期型",
+    "name_cn": "61cm三连装（酸素）鱼雷后期型",
+    "data": "雷装: 9, 命中: 2, 回避: 2, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "213",
+    "name_jp": "後期型艦首魚雷(6門)",
+    "name_cn": "后期型舰首鱼雷（6门）",
+    "data": "雷装: 15, 命中: 3, 回避: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "084",
+    "name_jp": "2cm 四連装FlaK 38",
+    "name_cn": "2cm四连装FlaK 38",
+    "data": "对空: 7, 命中: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "015",
+    "name_jp": "61cm四連装(酸素)魚雷",
+    "name_cn": "61cm四连装（酸素）鱼雷",
+    "data": "雷装: 10, 射程/航程: 短",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "112",
+    "name_jp": "天山(六〇一空)",
+    "name_cn": "天山（六〇一空）",
+    "data": "雷装: 10, 对潜: 4, 索敌: 2, 命中: 1, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/局地战斗机.png",
+    "id": "201",
+    "name_jp": "紫電一一型",
+    "name_cn": "紫电一一型",
+    "data": "对空: 8, 命中: 1, 回避: 1, 射程/航程: 3, 装甲: 1",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/战斗粮食.png",
+    "id": "150",
+    "name_jp": "秋刀魚の缶詰",
+    "name_cn": "秋刀鱼罐头",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/局地战斗机.png",
+    "id": "202",
+    "name_jp": "紫電二一型 紫電改",
+    "name_cn": "紫电二一型 紫电改",
+    "data": "对空: 9, 命中: 1, 回避: 3, 射程/航程: 4, 装甲: 2",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "148",
+    "name_jp": "試製南山",
+    "name_cn": "试制南山",
+    "data": "爆装: 11, 对空: 1, 对潜: 4, 索敌: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "049",
+    "name_jp": "25mm単装機銃",
+    "name_cn": "25mm单装机枪",
+    "data": "对空: 4, 回避: 1",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰侦机.png",
+    "id": "061",
+    "name_jp": "二式艦上偵察機",
+    "name_cn": "二式舰上侦察机",
+    "data": "对空: 1, 索敌: 7, 命中: 3, 射程/航程: 5",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/航空要员.png",
+    "id": "259",
+    "name_jp": "夜間作戦航空要員+熟練甲板員",
+    "name_cn": "夜间作战航空要员+熟练甲板员",
+    "data": "火力: 3, 命中: 2, 回避: 1, 射程/航程: 长, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "290",
+    "name_jp": "41cm三連装砲改二",
+    "name_cn": "41cm三连装炮改二",
+    "data": "火力: 23, 对空: 6, 命中: 5, 射程/航程: 长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/上陆用舟艇.png",
+    "id": "230",
+    "name_jp": "特大発動艇+戦車第11連隊",
+    "name_cn": "特大发动艇+战车第11连队",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "117",
+    "name_jp": "試製46cm連装砲",
+    "name_cn": "试制46cm连装炮",
+    "data": "火力: 23, 对空: 4, 命中: 1, 射程/航程: 超长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/副炮.png",
+    "id": "134",
+    "name_jp": "OTO 152mm三連装速射砲",
+    "name_cn": "OTO 152mm三连装速射炮",
+    "data": "火力: 8, 对空: 2, 命中: 1, 射程/航程: 中, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/局地战斗机.png",
+    "id": "333",
+    "name_jp": "烈風改",
+    "name_cn": "烈风改",
+    "data": "对空: 10, 命中: 6, 回避: 2, 射程/航程: 4, 装甲: 1",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "114",
+    "name_jp": "38cm連装砲改",
+    "name_cn": "38cm连装炮改",
+    "data": "火力: 17, 对空: 2, 命中: 3, 射程/航程: 长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "291",
+    "name_jp": "彗星二二型(六三四空)",
+    "name_cn": "彗星二二型（六三四空）",
+    "data": "爆装: 11, 对空: 1, 对潜: 4, 命中: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "159",
+    "name_jp": "Fw190T改",
+    "name_cn": "Fw190T改",
+    "data": "火力: 2, 对空: 10, 回避: 2, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "314",
+    "name_jp": "533mm五連装魚雷(初期型)",
+    "name_cn": "533mm五连装鱼雷（初期型）",
+    "data": "火力: 1, 雷装: 8, 回避: 1, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/电探.png",
+    "id": "278",
+    "name_jp": "SK レーダー",
+    "name_cn": "SK雷达",
+    "data": "对空: 8, 索敌: 10, 命中: 1, 回避: 2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰侦机.png",
+    "id": "273",
+    "name_jp": "彩雲(偵四)",
+    "name_cn": "彩云（侦四）",
+    "data": "对空: 2, 索敌: 10, 命中: 2, 射程/航程: 7",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "250",
+    "name_jp": "Spitfire Mk.I",
+    "name_cn": "喷火（Spitfire） Mk.I",
+    "data": "火力: 1, 对空: 7, 命中: 2, 回避: 1, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "205",
+    "name_jp": "F6F-3",
+    "name_cn": "F6F-3",
+    "data": "火力: 1, 对空: 8, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "256",
+    "name_jp": "TBF",
+    "name_cn": "TBF",
+    "data": "火力: 2, 雷装: 9, 对空: 1, 对潜: 6, 索敌: 2, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "063",
+    "name_jp": "12.7cm連装砲B型改二",
+    "name_cn": "12.7cm连装炮B型改二",
+    "data": "火力: 3, 对空: 2, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "161",
+    "name_jp": "16inch三連装砲 Mk.7",
+    "name_cn": "16inch三连装炮Mk.7",
+    "data": "火力: 24, 对空: 3, 命中: 4, 射程/航程: 长, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/声呐.png",
+    "id": "046",
+    "name_jp": "九三式水中聴音機",
+    "name_cn": "九三式水中听音机",
+    "data": "对潜: 6, 命中: 1",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "174",
+    "name_jp": "53cm連装魚雷",
+    "name_cn": "53cm连装鱼雷",
+    "data": "雷装: 3, 回避: 2, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "277",
+    "name_jp": "FM-2",
+    "name_cn": "FM-2",
+    "data": "火力: 2, 爆装: 2, 对空: 6, 对潜: 1, 命中: 2, 回避: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/旋翼机.png",
+    "id": "327",
+    "name_jp": "S-51J改",
+    "name_cn": "S-51J改",
+    "data": "火力: 2, 对潜: 13, 索敌: 4, 命中: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "122",
+    "name_jp": "10cm連装高角砲+高射装置",
+    "name_cn": "10cm连装高角炮+94式高射装置",
+    "data": "火力: 3, 对空: 10, 命中: 1, 回避: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "208",
+    "name_jp": "晴嵐(六三一空)",
+    "name_cn": "晴岚（六三一空）",
+    "data": "爆装: 12, 对潜: 3, 索敌: 6, 命中: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "341",
+    "name_jp": "152mm/55 三連装速射砲改",
+    "name_cn": "152mm/55 三连装速射炮改",
+    "data": "火力: 9, 对空: 3, 命中: 2, 回避: 1, 射程/航程: 中, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/夜间舰攻机.png",
+    "id": "344",
+    "name_jp": "九七式艦攻改 試製三号戊型(空六号電探改装備機)",
+    "name_cn": "九七式舰攻改 试制三号戊型（空六号电探改装备机）",
+    "data": "雷装: 7, 对潜: 6, 索敌: 4, 命中: 1, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "006",
+    "name_jp": "20.3cm連装砲",
+    "name_cn": "20.3cm连装炮",
+    "data": "火力: 8, 对空: 3, 射程/航程: 中",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/探照灯.png",
+    "id": "140",
+    "name_jp": "96式150cm探照灯",
+    "name_cn": "96式150cm探照灯",
+    "data": "对空: 1, 索敌: 3",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "153",
+    "name_jp": "零戦52型丙(付岩井小隊)",
+    "name_cn": "零式舰战52型丙（附岩井小队）",
+    "data": "对空: 10, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "236",
+    "name_jp": "41cm三連装砲改",
+    "name_cn": "41cm三连装炮改",
+    "data": "火力: 22, 对空: 6, 命中: 4, 射程/航程: 长, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/局地战斗机.png",
+    "id": "263",
+    "name_jp": "紫電改(三四三空) 戦闘301",
+    "name_cn": "紫电改（三四三空）战斗301",
+    "data": "对空: 11, 命中: 2, 回避: 4, 射程/航程: 4, 装甲: 2",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/上陆用舟艇.png",
+    "id": "166",
+    "name_jp": "大発動艇(八九式中戦車&陸戦隊)",
+    "name_cn": "大发动艇（八九式中战车&陆战队）",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "228",
+    "name_jp": "九六式艦戦改",
+    "name_cn": "九六式舰战改",
+    "data": "对空: 4, 回避: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "057",
+    "name_jp": "彗星一二型甲",
+    "name_cn": "彗星一二型甲",
+    "data": "爆装: 10, 对潜: 3, 索敌: 1, 射程/航程: 5",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/陆上攻击机.png",
+    "id": "180",
+    "name_jp": "一式陸攻 二二型甲",
+    "name_cn": "一式陆攻 二二型甲",
+    "data": "雷装: 11, 爆装: 12, 对空: 3, 对潜: 2, 索敌: 4, 射程/航程: 10",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "292",
+    "name_jp": "彗星二二型(六三四空/熟練)",
+    "name_cn": "彗星二二型（六三四空/熟练）",
+    "data": "爆装: 12, 对空: 2, 对潜: 5, 索敌: 2, 命中: 3, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/照明弹.png",
+    "id": "101",
+    "name_jp": "照明弾",
+    "name_cn": "照明弹",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰侦机.png",
+    "id": "212",
+    "name_jp": "彩雲(東カロリン空)",
+    "name_cn": "彩云（东加罗林空）",
+    "data": "火力: 1, 索敌: 10, 命中: 2, 射程/航程: 8",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/机枪.png",
+    "id": "092",
+    "name_jp": "毘式40mm連装機銃",
+    "name_cn": "毗式40mm连装机枪",
+    "data": "对空: 6, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "276",
+    "name_jp": "46cm三連装砲改",
+    "name_cn": "46cm三连装炮改",
+    "data": "火力: 27, 对空: 6, 命中: 2, 射程/航程: 超长, 装甲: 2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/陆军战斗机.png",
+    "id": "222",
+    "name_jp": "一式戦 隼III型甲",
+    "name_cn": "一式战 隼III型甲",
+    "data": "火力: 1, 对空: 7, 命中: 1, 回避: 3, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "294",
+    "name_jp": "12.7cm連装砲A型改二",
+    "name_cn": "12.7cm连装炮A型改二",
+    "data": "火力: 2, 对空: 1, 命中: 1, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "004",
+    "name_jp": "14cm単装砲",
+    "name_cn": "14cm单装炮",
+    "data": "火力: 2, 命中: 1, 射程/航程: 中",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/副炮.png",
+    "id": "012",
+    "name_jp": "15.5cm三連装副砲",
+    "name_cn": "15.5cm三连装副炮",
+    "data": "火力: 7, 对空: 3, 命中: 2, 射程/航程: 中",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "329",
+    "name_jp": "35.6cm連装砲改二",
+    "name_cn": "35.6cm连装炮改二",
+    "data": "火力: 17, 对空: 5, 命中: 5, 回避: 2, 射程/航程: 长, 装甲: 2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/声呐.png",
+    "id": "149",
+    "name_jp": "四式水中聴音機",
+    "name_cn": "四式水中听音机",
+    "data": "对潜: 12, 命中: 1, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水战机.png",
+    "id": "216",
+    "name_jp": "二式水戦改(熟練)",
+    "name_cn": "二式水战改（熟练）",
+    "data": "对空: 5, 对潜: 1, 索敌: 1, 命中: 1, 回避: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "021",
+    "name_jp": "零式艦戦52型",
+    "name_cn": "零式舰战52型",
+    "data": "对空: 6, 射程/航程: 6",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "219",
+    "name_jp": "零式艦戦63型(爆戦)",
+    "name_cn": "零式舰战63型（爆战）",
+    "data": "爆装: 5, 对空: 5, 对潜: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "125",
+    "name_jp": "61cm三連装(酸素)魚雷",
+    "name_cn": "61cm三连装（酸素）鱼雷",
+    "data": "雷装: 8, 回避: 1, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "104",
+    "name_jp": "35.6cm連装砲(ダズル迷彩)",
+    "name_cn": "35.6cm连装炮（炫光迷彩）",
+    "data": "火力: 15, 对空: 5, 命中: 1, 回避: 1, 射程/航程: 长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/探照灯.png",
+    "id": "074",
+    "name_jp": "探照灯",
+    "name_cn": "探照灯",
+    "data": "索敌: 2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "179",
+    "name_jp": "試製61cm六連装(酸素)魚雷",
+    "name_cn": "试制61cm六连装（酸素）鱼雷",
+    "data": "雷装: 14, 命中: 2, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/对空主炮.png",
+    "id": "220",
+    "name_jp": "8cm高角砲改+増設機銃",
+    "name_cn": "8cm高角炮改+增设机枪",
+    "data": "火力: 1, 对空: 7, 命中: 2, 回避: 1, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "235",
+    "name_jp": "15.5cm三連装砲改",
+    "name_cn": "15.5cm三连装炮改",
+    "data": "火力: 7, 对空: 5, 命中: 3, 回避: 1, 射程/航程: 中, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "067",
+    "name_jp": "53cm艦首(酸素)魚雷",
+    "name_cn": "53cm舰首（酸素）鱼雷",
+    "data": "雷装: 15, 命中: 2, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "304",
+    "name_jp": "S9 Osprey",
+    "name_cn": "S9鹗（Osprey）",
+    "data": "对空: 1, 对潜: 2, 索敌: 4, 命中: 2, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/高射装置.png",
+    "id": "121",
+    "name_jp": "94式高射装置",
+    "name_cn": "94式高射装置",
+    "data": "对空: 3, 回避: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰侦机.png",
+    "id": "054",
+    "name_jp": "彩雲",
+    "name_cn": "彩云",
+    "data": "索敌: 9, 命中: 2, 射程/航程: 8",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "041",
+    "name_jp": "甲標的 甲型",
+    "name_cn": "甲标的 甲型",
+    "data": "雷装: 12",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/陆上攻击机.png",
+    "id": "169",
+    "name_jp": "一式陸攻",
+    "name_cn": "一式陆攻",
+    "data": "雷装: 10, 爆装: 12, 对空: 2, 对潜: 2, 索敌: 3, 射程/航程: 9",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/对地弹.png",
+    "id": "126",
+    "name_jp": "WG42 (Wurfgerät 42)",
+    "name_cn": "WG42（Wurfgerät 42）",
+    "data": "火力: 1, 射程/航程: 短, 装甲: -1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "188",
+    "name_jp": "Re.2001 G改",
+    "name_cn": "Re.2001 G改",
+    "data": "火力: 3, 雷装: 4, 对空: 4, 回避: 2, 射程/航程: 3",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/中口径主炮.png",
+    "id": "005",
+    "name_jp": "15.5cm三連装砲",
+    "name_cn": "15.5cm三连装炮",
+    "data": "火力: 7, 对空: 4, 命中: 1, 射程/航程: 中",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/爆雷.png",
+    "id": "347",
+    "name_jp": "二式12cm迫撃砲改 集中配備",
+    "name_cn": "二式12cm迫击炮改 集中配备",
+    "data": "对潜: 7, 回避: 1, 装甲: -1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水上飞行艇.png",
+    "id": "178",
+    "name_jp": "PBY-5A Catalina",
+    "name_cn": "PBY-5A Catalina",
+    "data": "对潜: 2, 索敌: 9, 命中: 2, 射程/航程: 10",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/航空要员.png",
+    "id": "258",
+    "name_jp": "夜間作戦航空要員",
+    "name_cn": "夜间作战航空要员",
+    "data": "火力: 1, 射程/航程: 中, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "322",
+    "name_jp": "瑞雲改二(六三四空)",
+    "name_cn": "瑞云改二（六三四空）",
+    "data": "火力: 2, 爆装: 10, 对空: 4, 对潜: 6, 索敌: 7, 命中: 2, 回避: 1, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "007",
+    "name_jp": "35.6cm連装砲",
+    "name_cn": "35.6cm连装炮",
+    "data": "火力: 15, 对空: 4, 射程/航程: 长",
+    "produce": "check_box",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/对空弹.png",
+    "id": "317",
+    "name_jp": "三式弾改",
+    "name_cn": "三式弹改",
+    "data": "火力: 3, 对空: 6, 命中: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "337",
+    "name_jp": "烈風改二(一航戦/熟練)",
+    "name_cn": "烈风改二（一航战/熟练）",
+    "data": "火力: 2, 对空: 14, 命中: 2, 回避: 1, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/旋翼机.png",
+    "id": "324",
+    "name_jp": "オ号観測機改",
+    "name_cn": "Ｏ号观测机改",
+    "data": "火力: 1, 对潜: 10, 命中: 1",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "194",
+    "name_jp": "Laté 298B",
+    "name_cn": "Laté 298B",
+    "data": "火力: 2, 雷装: 4, 爆装: 5, 对空: 1, 对潜: 2, 索敌: 4, 回避: 1, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "233",
+    "name_jp": "F4U-1D",
+    "name_cn": "F4U-1D",
+    "data": "火力: 1, 爆装: 7, 对空: 7, 对潜: 1, 索敌: 1, 回避: 1, 射程/航程: 6",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "267",
+    "name_jp": "12.7cm連装砲D型改二",
+    "name_cn": "12.7cm连装炮D型改二",
+    "data": "火力: 3, 对空: 4, 命中: 2, 回避: 1, 射程/航程: 短, 装甲: 1",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/战斗粮食.png",
+    "id": "145",
+    "name_jp": "戦闘糧食",
+    "name_cn": "战斗粮食",
+    "data": "",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/副炮.png",
+    "id": "247",
+    "name_jp": "15.2cm三連装砲",
+    "name_cn": "15.2cm三连装炮",
+    "data": "火力: 6, 对空: 1, 命中: 3, 射程/航程: 中",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/鱼雷.png",
+    "id": "095",
+    "name_jp": "潜水艦53cm艦首魚雷(8門)",
+    "name_cn": "潜艇53cm舰首鱼雷（8门）",
+    "data": "雷装: 16, 命中: 3, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "053",
+    "name_jp": "烈風 一一型",
+    "name_cn": "烈风 一一型",
+    "data": "对空: 12, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/电探.png",
+    "id": "141",
+    "name_jp": "32号対水上電探改",
+    "name_cn": "32号对水上电探改",
+    "data": "索敌: 11, 命中: 9",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰攻机.png",
+    "id": "083",
+    "name_jp": "天山(九三一空)",
+    "name_cn": "天山（九三一空）",
+    "data": "雷装: 9, 对潜: 8, 索敌: 2, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/局地战斗机.png",
+    "id": "175",
+    "name_jp": "雷電",
+    "name_cn": "雷电",
+    "data": "对空: 6, 命中: 5, 回避: 2, 射程/航程: 2",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "195",
+    "name_jp": "SBD",
+    "name_cn": "SBD",
+    "data": "火力: 1, 爆装: 6, 对空: 2, 对潜: 3, 索敌: 2, 命中: 1, 回避: 2, 射程/航程: 4",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰战机.png",
+    "id": "055",
+    "name_jp": "紫電改二",
+    "name_cn": "紫电改二",
+    "data": "对空: 9, 回避: 3, 射程/航程: 3",
+    "produce": "check_box",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/小口径主炮.png",
+    "id": "002",
+    "name_jp": "12.7cm連装砲",
+    "name_cn": "12.7cm连装炮",
+    "data": "火力: 2, 对空: 2, 射程/航程: 短",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/对地弹.png",
+    "id": "348",
+    "name_jp": "艦載型 四式20cm対地噴進砲",
+    "name_cn": "舰载型 四式20cm对地喷进炮",
+    "data": "装甲: -2",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/大口径主炮.png",
+    "id": "133",
+    "name_jp": "381mm/50 三連装砲",
+    "name_cn": "381mm/50三连装炮",
+    "data": "火力: 20, 对空: 2, 命中: -3, 回避: -1, 射程/航程: 超长",
+    "produce": "",
+    "enhance": ""
+  },
+  {
+    "type": "../icons/type/舰侦机.png",
+    "id": "151",
+    "name_jp": "試製景雲(艦偵型)",
+    "name_cn": "试制景云（舰侦型）",
+    "data": "火力: 2, 索敌: 11, 命中: 2, 射程/航程: 8",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/舰爆机.png",
+    "id": "100",
+    "name_jp": "彗星(江草隊)",
+    "name_cn": "彗星（江草队）",
+    "data": "爆装: 13, 对空: 1, 对潜: 5, 索敌: 4, 命中: 4, 射程/航程: 5",
+    "produce": "",
+    "enhance": "check_box"
+  },
+  {
+    "type": "../icons/type/水侦机.png",
+    "id": "102",
+    "name_jp": "九八式水上偵察機(夜偵)",
+    "name_cn": "九八式水上侦察机（夜侦）",
+    "data": "对潜: 1, 索敌: 3, 命中: 1, 射程/航程: 6",
     "produce": "",
     "enhance": "check_box"
   }
