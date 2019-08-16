@@ -17,7 +17,16 @@ const getMissions = () => {
   }
 }
 
+const getArma = () => {
+  try {
+    return JSON.parse(fs.readFileSync("./data/arma_s.json"));
+  } catch (error) {
+    return {};
+  }
+}
+
 module.exports = {
   updateMissions,
-  getMissions
+  getMissions,
+  getArma
 }

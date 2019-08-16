@@ -1,5 +1,5 @@
-const mEdit = require('electron').remote
-  .require('./electron-module/missionEdit.js');
+const mData = require('electron').remote
+  .require('./electron-module/dataEdit.js');
 
 // Lists
 const options = {
@@ -37,7 +37,7 @@ const page = (next) => {
 }
 
 
-const mList = new List('mission_ul', options, mEdit.getMissions());
+const mList = new List('mission_ul', options, mData.getMissions());
 
 mList.filter((i) => {
   return i.values().status != 't'
@@ -56,7 +56,7 @@ const finishMission = (e) => {
     targetButton = targetButton.parent()
   }
   const id = targetButton.parent().find($('.id')).text()
-  mEdit.updateMissions(id, 'status', 't');
+  mData.updateMissions(id, 'status', 't');
   targetButton.attr("data-status", "t");
   const updating = mList.get('id', id)[0]
   updating._values.status = "t"
