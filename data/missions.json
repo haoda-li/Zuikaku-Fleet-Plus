@@ -1918,7 +1918,7 @@
 		"reward": "礼物箱*1, 以下奖励三选一*2改修资材*4新型航空兵装资材*1",
 		"tips": "3-5boss点S胜两次阵容：1cl+1cvl+1av+3任意舰娘。",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "B111",
@@ -2838,7 +2838,7 @@
 		"reward": "开发资材*2, 一式撤甲弹*1",
 		"tips": "击破BOSS交战（S胜利）可以携带其他舰娘正规空母1只以上/战舰3只以上/轻空母2只以上，投入任务将不能完成。航空战舰也会导致任务不能完成。战舰/空母大于4只会导致航向偏离。",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "B33",
@@ -3519,7 +3519,7 @@
 		"reward": "战斗粮食*1改修资材*3",
 		"tips": "3-5BossS胜即可大潮改二为旗舰其他可任意搭配",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "B67",
