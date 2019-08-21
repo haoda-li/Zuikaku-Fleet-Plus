@@ -1,7 +1,12 @@
 const fs = require("fs")
 
 const updateMissions = (mid, field, newValue) => {
-  const missions = getMissions();
+  try {
+    fs.readFileSync("./data/missions.json")
+  } catch (error) {
+    return;
+  }
+  const missions = getFile("./data/missions.json");
   const index = missions.findIndex((m) => {
     return m.id === mid
   })
@@ -9,24 +14,14 @@ const updateMissions = (mid, field, newValue) => {
   fs.writeFileSync("./data/missions.json", JSON.stringify(missions, null, "\t"));
 }
 
-const getMissions = () => {
+const getFile = (f) => {
   try {
-    return JSON.parse(fs.readFileSync("./data/missions.json"));
+    return JSON.parse(fs.readFileSync(f));
   } catch (error) {
     return {};
   }
 }
-
-const getArma = () => {
-  try {
-    return JSON.parse(fs.readFileSync("./data/arma_s.json"));
-  } catch (error) {
-    return {};
-  }
-}
-
 module.exports = {
   updateMissions,
-  getMissions,
-  getArma
+  getFile
 }

@@ -37,7 +37,7 @@ const page = (next) => {
 }
 
 
-const mList = new List('mission_ul', options, mData.getMissions());
+const mList = new List('mission_ul', options, mData.getFile("./data/missions.json"));
 
 mList.filter((i) => {
   return i.values().status != 't'

@@ -1,5 +1,5 @@
 const eEdit = require('electron').remote
-  .require('./electron-module/expeditionEdit.js');
+  .require('./electron-module/dataEdit.js');
 
 // Lists
 const options = {
@@ -19,7 +19,7 @@ const options = {
 };
 
 
-const mList = new List('expd_list', options, eEdit.getExpeditions());
+const mList = new List('expd_list', options, eEdit.getFile("./data/expeditions.json"));
 
 const search = () => {
   mList.search($("#search_input").val())

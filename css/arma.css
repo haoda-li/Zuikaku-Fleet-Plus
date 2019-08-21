@@ -7,12 +7,12 @@ ul {
   height: 32px;
 }
 
-.list {
+.table-list {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.2);
 }
 .arma-item:hover {
-  background-color: orange;
+  background-color: rgba(245, 144, 66, 0.5) !important;
 }
 
 .arma-item:hover .name_cn{

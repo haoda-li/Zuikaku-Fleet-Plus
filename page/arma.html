@@ -24,9 +24,11 @@
 
     <header class="mdl-layout__header mdl-layout__header--transparent">
       <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">
+        </span>
 
         <div class="mdl-layout-spacer"></div>
-        搜索：
+
         <div class="mdl-textfield mdl-js-textfield">
           <input class="mdl-textfield__input" type="text" id="search_input">
           <label class="mdl-textfield__label" for="search_input">...</label>
@@ -46,12 +48,43 @@
         装备列表
       </span>
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" id="m_finished">
-          <i class="material-icons mdl-color-text--green-A400">done</i>
-          已完成
+        <a class="mdl-navigation__link" id="main">
+          <img class="material-icons mdl-color-text--green-A400" src="../icons/type/大口径主炮.png">
+          主炮/对舰弹
+        </a>
+        <a class="mdl-navigation__link" id="torpedo">
+          <img class="material-icons mdl-color-text--green-A400" src="../icons/type/鱼雷.png">
+          鱼雷
+        </a>
+        <a class="mdl-navigation__link" id="dive">
+          <img class="material-icons mdl-color-text--green-A400" src="../icons/type/声呐.png">
+          对潜装备
+        </a>
+        <a class="mdl-navigation__link" id="land">
+          <img class="material-icons mdl-color-text--green-A400" src="../icons/type/上陆用舟艇.png">
+          对陆装备
+        </a>
+        <a class="mdl-navigation__link" id="air">
+          <img class="material-icons mdl-color-text--green-A400" src="../icons/type/机枪.png">
+          对空装备
+        </a>
+        <a class="mdl-navigation__link" id="fwater">
+          <img class="material-icons mdl-color-text--green-A400" src="../icons/type/水侦机.png">
+          水上飞机
+        </a>
+        <a class="mdl-navigation__link" id="fcv">
+          <img class="material-icons mdl-color-text--green-A400" src="../icons/type/舰战机.png">
+          舰载飞机
+        </a>
+        <a class="mdl-navigation__link" id="fland">
+          <img class="material-icons mdl-color-text--green-A400" src="../icons/type/陆上攻击机.png">
+          陆上飞机
         </a>
 
-
+        <a class="mdl-navigation__link" id="other">
+          <img class="material-icons mdl-color-text--green-A400" src="../icons/type/机关.png">
+          其他
+        </a>
       </nav>
     </div>
 
@@ -60,7 +93,7 @@
       <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--12-col">
           <div id="arma_ul">
-            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp list mdl-color-text--white">
+            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp table-list mdl-color-text--white">
               <thead>
                 <tr>
                   <th class="mdl-color-text--grey-400 mdl-data-table__cell--non-numeric" style="width: 10%">编号</th>

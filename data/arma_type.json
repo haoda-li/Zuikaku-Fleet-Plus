@@ -1,0 +1,69 @@
+{
+  "main": [
+    "../icons/type/中口径主炮.png",
+    "../icons/type/副炮.png",
+    "../icons/type/大口径主炮.png",
+    "../icons/type/对空主炮.png",
+    "../icons/type/对舰弹.png",
+    "../icons/type/小口径主炮.png"
+  ],
+  "torpedo": [
+    "../icons/type/鱼雷.png"
+  ],
+  "radar": [
+    "../icons/type/电探.png",
+    "../icons/type/潜水艇装备.png"
+  ],
+  "dive": [
+    "../icons/type/声呐.png",
+    "../icons/type/对潜哨戒机.png",
+    "../icons/type/旋翼机.png",
+    "../icons/type/爆雷.png"
+  ],
+  "land": [
+    "../icons/type/上陆用舟艇.png",
+    "../icons/type/特型内火艇.png",
+    "../icons/type/对地弹.png",
+    "../icons/type/对空弹.png"
+  ],
+  "air": [
+    "../icons/type/对空主炮.png",
+    "../icons/type/对空弹.png",
+    "../icons/type/机枪.png",
+    "../icons/type/高射装置.png"
+  ],
+  "fwater": [
+    "../icons/type/旋翼机.png",
+    "../icons/type/水上飞行艇.png",
+    "../icons/type/水侦机.png",
+    "../icons/type/水战机.png"
+  ],
+  "fcv": [
+    "../icons/type/喷气式战斗轰炸机.png",
+    "../icons/type/夜间舰战机.png",
+    "../icons/type/夜间舰攻机.png",
+    "../icons/type/舰侦机.png",
+    "../icons/type/舰战机.png",
+    "../icons/type/舰攻机.png",
+    "../icons/type/舰爆机.png"
+  ],
+  "fland": [
+    "../icons/type/局地战斗机.png",
+    "../icons/type/陆上攻击机.png",
+    "../icons/type/陆军战斗机.png"
+  ],
+  "other": [
+    "../icons/type/增设装甲.png",
+    "../icons/type/应急修理要员.png",
+    "../icons/type/战斗粮食.png",
+    "../icons/type/探照灯.png",
+    "../icons/type/机关.png",
+    "../icons/type/水上舰要员.png",
+    "../icons/type/洋上补给.png",
+    "../icons/type/潜水艇装备.png",
+    "../icons/type/照明弹.png",
+    "../icons/type/舰艇修理设施.png",
+    "../icons/type/舰队司令部设施.png",
+    "../icons/type/输送部材.png../icons/type/航空要员.png"
+  ]
+}

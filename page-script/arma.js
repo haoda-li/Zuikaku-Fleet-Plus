@@ -27,13 +27,28 @@ const options = {
   </tr>`,
   valueNames: [{
       name: 'type',
-      attr: "src"
+      attr: "src",
     },
     'id', 'name_cn',
     'name_jp', 'data', 'produce', 'enhance'
   ]
 };
 
-const mList = new List('arma_ul', options, mData.getArma());
-mList.remove("name_cn", "template")
+
+const mList = new List('arma_ul', options, mData.getFile("./data/arma_s.json"));
+const mType = mData.getFile("./data/arma_type.json");
 mList.sort("id")
+
+
+
+
+$("#search_input").on("input", () => {
+  mList.search($("#search_input").val())
+})
+
+$(".mdl-navigation__link").click((e) => {
+  mList.filter((item) => {
+    return mType[e.target.id].includes(item.values().type);
+  })
+  mList.sort("type")
+})
