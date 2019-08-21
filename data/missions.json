@@ -788,7 +788,7 @@
 		"reward": "开发资材*2 高速修复材*2",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A5",
@@ -806,7 +806,7 @@
 		"reward": "开发资材*1",
 		"tips": "",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A50",
@@ -825,7 +825,7 @@
 		"reward": "高速修复材*2",
 		"tips": "鸟海改二作为旗舰，古鹰/加古/青叶/衣笠/夕張/天龙之中任意选择选5艘",
 		"interval": "bubble_chart",
-		"status": "f"
+		"status": "t"
 	},
 	{
 		"id": "A51",

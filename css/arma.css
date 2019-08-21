@@ -24,3 +24,8 @@ ul {
 .arma-item:hover .data{
   color: black !important;
 }
+
+th {
+  position: sticky;
+  top: 0;
+}
